@@ -1,0 +1,53 @@
+\documentclass[openany,fontset=none]{intromech}
+
+
+\begin{document}
+
+
+% 封面
+\includepdf{body/0.01-frontpage.pdf}
+
+% 标题页
+\includepdf{body/0.02-titlepage.pdf}
+
+% 出版信息页
+\input{body/0.03-publishinfo}
+
+% 内容提要
+\input{body/0.04-abstract}
+
+% 序言
+\input{body/0.05-foreword}
+
+% 目录
+\clearpage
+\setcounter{page}{1}
+\tableofcontents
+
+% 正文
+\clearpage
+\pagestyle{heading}
+\setcounter{page}{1}
+% 公式与上下文本距离调整
+\setlength\abovedisplayskip{1pt plus 3pt minus 7pt}
+\setlength\belowdisplayskip{1pt plus 3pt minus 7pt}
+
+% 绪论
+\input{body/1.00.00-Introduction.tex}
+
+% 第一章
+\input{body/1.01.00-Time, Space and Kinematics.tex}
+\input{body/1.01.01-Time, Space and Kinematics.tex}
+\input{body/1.01.02-Time, Space and Kinematics.tex}
+\input{body/1.01.03-Time, Space and Kinematics.tex}
+\input{body/1.01.04-Time, Space and Kinematics.tex}
+
+% 校注
+\cleardoublepage
+\setcounter{page}{1}
+\pagestyle{plain}
+\blfootnote{原书为人工铅字排版，明显错字、误字在所难免，如：“$\pi$”误作汉字“兀”、“于”误作“子”或“予”等，直接改正，不再一一列举。}
+\vspace{-2.5em}
+\theendnotes
+
+\end{document}
