@@ -1,4 +1,5 @@
 \section{芝诺佯谬和时间的度量}
+\label{sec:01.02}
 古希腊哲学家芝诺有一个很著名的论证：跑得最快的神话英
 雄阿基里斯是永远追不上跑得最慢的东西(例如一只龟)的。他的
 论证如下：因为开始时阿基里斯是在龟的后面，所以，阿基里斯
@@ -19,16 +20,16 @@ $t$，还利用了一种很特别的钟，该钟使用的重复性过程是。�
 \begin{figure}[!h]
     \centering
     \vspace{-0.5em}
-    \import{figure}{1.01-fig02.pdf_tex}
+    \import{figure}{fig01.02.pdf_tex}
     \caption{芝诺时的定义}
-    \label{fig:1.01-02}
+    \label{fig:01.02}
     \vspace{-1.2em}
 \end{figure}
-如图\ref{fig:1.01-02}，阿基里斯和龟在开始时相距为$L$，速度分别为$v_1$及
+如图\ref{fig:01.02}，阿基里斯和龟在开始时相距为$L$，速度分别为$v_1$及
 $v_2$，并且$v_1>v_2$。如果用普通的钟，则阿基里斯将在
 \begin{equation}
     t=L/(v_1-v_2)
-    \label{equ:1.01.02-01}
+    \label{equ:01.02.01}
 \end{equation}
 时，赶上龟；当$t>L/(v_1-v_2)$时，阿基里斯就超过龟了。
 
@@ -42,24 +43,24 @@ $t'$，阿基里斯总是落在龟的后面。这就是芝诺的结论。
 远”的含意是$t'\rightarrow\infty$。，即芝诺时间的无限。
 
 现在我们来讨论普通时$t$与芝诺时$t'$之间的变换关系。不难
-验证表\ref{tab:1.01-02}~给出的两种时间的对应。因此，一般有
+验证表\ref{tab:01.02}~给出的两种时间的对应。因此，一般有
 \begin{equation}
     t=\sum_{n=0}^{t^{\prime}-1} \frac{L}{v_{1}}\left(\frac{v_{2}}{v_{1}}\right)^{n}=\frac{L}{v_{1}-v_{2}}\left[1-\left(\frac{v_{2}}{v_{1}}\right)^{t'}\right]
-    \label{equ:1.01.02-02}
+    \label{equ:01.02.02}
 \end{equation}%
 或者\vspace{-1.2em}
 \begin{equation}
     t^{\prime}=\frac{1}{\ln \left(v_{2} / v_{1}\right)} \ln \left[1-\left(\frac{v_{1}-v_{2}}{L}\right) t\right]
-    \label{equ:1.01.02-03}
+    \label{equ:01.02.03}
 \end{equation}%
-式（\ref{equ:1.01.02-02}）或式（\ref{equ:1.01.02-03}）称为芝诺变换。它给出的$t'$与t的关系。在
-图1·3中画出。
+式\eqref{equ:01.02.02}或式\eqref{equ:01.02.03}称为芝诺变换。它给出的$t'$与t的关系。在
+图\ref{fig:01.03}~中画出。
 
 \begin{table}[!h]
     \centering
     \vspace{-0.5em}
     \caption{普通时与芝诺时的关系}
-    \label{tab:1.01-02}
+    \label{tab:01.02}
     \begin{tabular}{c|l}
         \toprule
         芝诺时（$t'$）& \hspace{7em}普通时（$t$）\\
@@ -78,13 +79,13 @@ $t'$，阿基里斯总是落在龟的后面。这就是芝诺的结论。
     \end{tabular}
     \vspace{-1.2em}
 \end{table}
-由图\ref{fig:1.01-03}~看到，芝诺变换是有奇性的，即当$t=L/(v_1-v_2)$时，
+由图\ref{fig:01.03}~看到，芝诺变换是有奇性的，即当$t=L/(v_1-v_2)$时，
 $t'\rightarrow\infty$。所以，当芝诺时$t'$从零变化到无限时，它只覆盖了普通时
 $t$上的一个有限范围，即从零到$ L/(v_1-v_2) $。
 
 因此，芝诺佯谬之“佯”，是由于芝诺把永远理解为$t'\rightarrow\infty$。
 他认为$t'\rightarrow\infty$之后就没有时间了，故$t'\rightarrow\infty$相当于永远。实际上，
-从图\ref{fig:1.01-03}看到，在芝诺时$ t' $到达无限之后。还是有时间的。但是，
+从图\ref{fig:01.03}~看到，在芝诺时$ t' $到达无限之后。还是有时间的。但是，
 在该范围，即$ t>L/(v_1-v_2) $，用芝诺钟已经无法度量它们了。简
 言之，芝诺的佯谬，来源于芝诺时的局限性，芝诺时不可能度量
 阿基里斯追上龟之后的现象。
@@ -92,9 +93,9 @@ $t$上的一个有限范围，即从零到$ L/(v_1-v_2) $。
 芝诺佯谬给我们的启示是，时间与时间的度量不同，一种时\clearpage
 \begin{wrapfigure}[10]{10}{48mm}
 %    \vspace{-0.5em}
-    \import{figure}{1.01-fig03.pdf_tex}
+    \import{figure}{fig01.03.pdf_tex}
     \caption{芝诺时的定义}
-    \label{fig:1.01-03}
+    \label{fig:01.03}
     %\vspace{-1.2em}
 \end{wrapfigure}
 \noindent 间的度量达到无限之后，还是可以有时间的；反之，一种时

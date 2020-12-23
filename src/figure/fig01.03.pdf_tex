@@ -20,7 +20,7 @@
 %%   \import{<path to file>}{<filename>.pdf_tex}
 %% Alternatively, one can specify
 %%   \graphicspath{{<path to file>/}}
-%% 
+%%
 %% For more information, please see info/svg-inkscape on CTAN:
 %%   http://tug.ctan.org/tex-archive/info/svg-inkscape
 %%
@@ -53,9 +53,9 @@
   \begin{picture}(1,0.76919845)%
     \lineheight{1}%
     \setlength\tabcolsep{0pt}%
-    \put(0,0){\includegraphics[width=\unitlength,page=1]{1.01-fig03.pdf}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{fig01.03.pdf}}%
     \put(0.01883084,0.02578487){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\zihao{-5}$O$\end{tabular}}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=2]{1.01-fig03.pdf}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{fig01.03.pdf}}%
     \put(-0,0.70363502){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\zihao{-5}$t'$\end{tabular}}}}%
     \put(0.73227147,0.09239899){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\zihao{-5}$t$\end{tabular}}}}%
     \put(0.49927214,0.01116366){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\zihao{-5}$L/(v1-v2)$\end{tabular}}}}%

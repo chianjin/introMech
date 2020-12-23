@@ -53,12 +53,12 @@
   \begin{picture}(1,0.62553773)%
     \lineheight{1}%
     \setlength\tabcolsep{0pt}%
-    \put(0,0){\includegraphics[width=\unitlength,page=1]{1.01-fig02.pdf}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{fig01.02.pdf}}%
     \put(0.33069994,0.40856725){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\zihao{-5}$L$\end{tabular}}}}%
     \put(0.20905513,0.57484865){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\zihao{-5}$v_1$\end{tabular}}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=2]{1.01-fig02.pdf}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{fig01.02.pdf}}%
     \put(0.66478152,0.51564848){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\zihao{-5}$v_2$\end{tabular}}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=3]{1.01-fig02.pdf}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{fig01.02.pdf}}%
     \put(0.00044014,0.4487435){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\zihao{-5}0\end{tabular}}}}%
     \put(0.00044014,0.22923917){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\zihao{-5}1\end{tabular}}}}%
     \put(0.00044014,0.0089985){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\zihao{-5}2\end{tabular}}}}%

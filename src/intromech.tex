@@ -1,23 +1,24 @@
 \documentclass[openany,fontset=none]{intromech}
 
+\usepackage{showkeys}
 
 \begin{document}
 
 
 % 封面
-\includepdf{body/0.01-frontpage.pdf}
+\includepdf{body/F00-frontpage.pdf}
 
 % 标题页
-\includepdf{body/0.02-titlepage.pdf}
+\includepdf{body/F01-titlepage.pdf}
 
 % 出版信息页
-\input{body/0.03-publishinfo}
+\input{body/F02-publishinfo}
 
 % 内容提要
-\input{body/0.04-abstract}
+\input{body/F03-abstract}
 
 % 序言
-\input{body/0.05-foreword}
+\input{body/F04-foreword}
 
 % 目录
 \clearpage
@@ -33,19 +34,20 @@
 \setlength\belowdisplayskip{1pt plus 3pt minus 1pt}
 
 % 绪论
-\input{body/1.00.00-Introduction.tex}
+\input{body/M00.00-Introduction.tex}
 
 % 第一章
-\input{body/1.01.00-Time, Space and Kinematics.tex}
-\input{body/1.01.01-Time, Space and Kinematics.tex}
-\input{body/1.01.02-Time, Space and Kinematics.tex}
-\input{body/1.01.03-Time, Space and Kinematics.tex}
-\input{body/1.01.04-Time, Space and Kinematics.tex}
-\input{body/1.01.05-Time, Space and Kinematics.tex}
-\input{body/1.01.06-Time, Space and Kinematics.tex}
+\input{body/M01.00-Time, Space and Kinematics.tex}
+\input{body/M01.01-Time, Space and Kinematics.tex}
+\input{body/M01.02-Time, Space and Kinematics.tex}
+\input{body/M01.03-Time, Space and Kinematics.tex}
+\input{body/M01.04-Time, Space and Kinematics.tex}
+\input{body/M01.05-Time, Space and Kinematics.tex}
+\input{body/M01.06-Time, Space and Kinematics.tex}
+
+\clearpage{\pagestyle{empty}\cleardoublepage}
 
 % 校注
-\cleardoublepage
 \setcounter{page}{1}
 \pagestyle{plain}
 \blfootnote{原书为人工铅字排版，明显错字、误字在所难免，如：“$\pi$”误作汉字“兀”、“于”误作“子”或“予”等，直接改正，不再一一列举。}

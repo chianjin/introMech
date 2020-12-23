@@ -99,6 +99,7 @@
 \RequirePackage{ulem}
 % 强制间距
 \newcommand{\hsp}{}
+
 % ----------------------------------------------------------
 % 版式
 % ----------------------------------------------------------
@@ -126,6 +127,12 @@
     \renewcommand{\headrulewidth}{0pt}
     \renewcommand{\footrulewidth}{0pt}
 }
+%
+%% 空白页取消页眉页脚
+%\newcommand{\clearemptydoublepage}{%
+%    \clearpage {\pagestyle{empty}
+%    \origdoublepage}%
+%}
 
 % ----------------------------------------------------------
 % 标题格式
@@ -141,7 +148,7 @@
         afterskip=6.5mm,
     },
     section={
-        number={\arabic{chapter}$\cdot$\arabic{section}},
+        %number={\arabic{chapter}$\cdot$\arabic{section}},
         format=\zihao{4}\kaishu,
         afterskip=3mm,
         beforeskip=3mm,
