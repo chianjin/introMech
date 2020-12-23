@@ -13,8 +13,8 @@
 均加速度：
 \begin{equation*}
     \begin{aligned}
-    \langle a\rangle_{t\rightarrow t+\Delta t} &= \frac{9.8(t+\Delta t)-9.8t}{\Delta t} \\
-    &= 9.8\text{米/秒}^2
+        \langle a\rangle_{t\rightarrow t+\Delta t} & = \frac{9.8(t+\Delta t)-9.8t}{\Delta t} \\
+                                                   & = 9.8\text{米/秒}^2
     \end{aligned}
 \end{equation*}
 这个结果中不含$t$和$\Delta t$，也就是说，对任何一段时间间隔，自由落
@@ -32,21 +32,21 @@
     \setlength{\tabcolsep}{7mm}{
         \begin{tabular}{l|l|S}
             \toprule
-            地  点              &    纬  度    &    $g$（米/秒）  \\
+            地  点             & 纬  度       & $g$（米/秒） \\
             \midrule
-            北  极              &    北纬\ang{90}  &    9.83245  \\
-            戈拉雅克(格陵兰)    &    北纬\ang{70}  &    9.8253   \\
-            雷克雅未克(冰岛)    &    北纬\ang{64}  &    9.8227  \\
-            列宁格勒            &    北纬\ang{60}  &    9.8193    \\
-            巴  黎              &    北纬\ang{49}  &    9.8094    \\
-            北  京              &    北纬\ang{40}  &    9.8012    \\
-            汉  口              &    北纬\ang{30}  &    9.7936    \\
-            广  州              &    北纬\ang{23}  &    9.7883    \\
-            蒙罗维亚(利比里亚)  &    北纬\ang{6}   &    9.7816  \\
-            雅加达              &    南纬\ang{6}   &    9.7813    \\
-            墨尔本              &    南纬\ang{38}  &    9.7999   \\
+            北  极             & 北纬\ang{90} & 9.83245      \\
+            戈拉雅克(格陵兰)   & 北纬\ang{70} & 9.8253       \\
+            雷克雅未克(冰岛)   & 北纬\ang{64} & 9.8227       \\
+            列宁格勒           & 北纬\ang{60} & 9.8193       \\
+            巴  黎             & 北纬\ang{49} & 9.8094       \\
+            北  京             & 北纬\ang{40} & 9.8012       \\
+            汉  口             & 北纬\ang{30} & 9.7936       \\
+            广  州             & 北纬\ang{23} & 9.7883       \\
+            蒙罗维亚(利比里亚) & 北纬\ang{6}  & 9.7816       \\
+            雅加达             & 南纬\ang{6}  & 9.7813       \\
+            墨尔本             & 南纬\ang{38} & 9.7999       \\
             \bottomrule
-    \end{tabular}}
+        \end{tabular}}
     \vspace{-1.2em}
 \end{table}
 \clearpage
@@ -58,8 +58,8 @@
 动的瞬时性质的物理量。瞬时加速度定义为:
 \begin{equation*}
     \begin{aligned}
-        a(t) &=\lim _{\Delta t \rightarrow 0} \frac{v(t+\Delta t)-v(t)}{\Delta t} \\
-        &=\frac{dv(t)}{dt}=\frac{d^2 x(t)}{d t^2}
+        a(t) & =\lim _{\Delta t \rightarrow 0} \frac{v(t+\Delta t)-v(t)}{\Delta t} \\
+             & =\frac{dv(t)}{dt}=\frac{d^2 x(t)}{d t^2}
     \end{aligned}
 \end{equation*}
 它的意义是质点在时刻t的无限小时间间隔中的平均加速度。以
@@ -72,9 +72,9 @@
 \end{equation}
 \begin{equation}\label{01.08.03}
     \begin{aligned}
-        \vq{a}(t) &=\lim _{\Delta t \rightarrow 0} \frac{\vq{v}(t+\Delta t)-\vq{v}(t)}{\Delta t} \\
-        &=\lim_{\Delta t \rightarrow 0}\frac{\Delta \vq{v}}{\Delta t} \\
-        &=\frac{d\vq{v}(t)}{dt}=\frac{d^2 \vq{r}(t)}{d t^2}
+        \vq{a}(t) & =\lim _{\Delta t \rightarrow 0} \frac{\vq{v}(t+\Delta t)-\vq{v}(t)}{\Delta t} \\
+                  & =\lim_{\Delta t \rightarrow 0}\frac{\Delta \vq{v}}{\Delta t}                  \\
+                  & =\frac{d\vq{v}(t)}{dt}=\frac{d^2 \vq{r}(t)}{d t^2}
     \end{aligned}
 \end{equation}
 在曲线运动情况下，速度方向是变化的。$v(t)$，$v(t+\Delta t)$及$\Delta v$，
@@ -128,40 +128,40 @@ $Z$三个方向上的直线运动，这三个运动同时进行，我们可以�
     \caption{}
     \label{tab:01.07}
     \centering
-        \begin{tabular}{l|c|c|c|c|c|c|c|c|c}
-            \toprule
-            时~~~~间（秒）        &  0  &  1  &  2  &   3  &   4  &   5  &   6  &   7 &   8 \\
-            \midrule
-            \makecell{与参考点的距离\\（米）}  &  3  &  4  &  9  &  18  &  31  &  48  &  69  &  94 & 123 \\
-            \bottomrule
+    \begin{tabular}{l|c|c|c|c|c|c|c|c|c}
+        \toprule
+        时~~~~间（秒） & 0 & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 \\
+        \midrule
+        \makecell{与参考点的距离                           \\（米）}  &  3  &  4  &  9  &  18  &  31  &  48  &  69  &  94 & 123 \\
+        \bottomrule
     \end{tabular}
     \vspace{-1.2em}
 \end{table}
 
 \heiti 解~\normalfont 因为时间间隔都是1秒，即$\Delta t=1$秒。所以从数值上有
 \begin{align*}
-    v&=\frac{\Delta s}{\Delta t}=\Delta s \\
-    a&=\frac{(v_2-v_1)}{\Delta}=v_2-v_1=(\Delta s_2)-(\Delta s_1)
+    v & =\frac{\Delta s}{\Delta t}=\Delta s                         \\
+    a & =\frac{(v_2-v_1)}{\Delta}=v_2-v_1=(\Delta s_2)-(\Delta s_1)
 \end{align*}
 将结果列于表\ref{tab:01.08}中。
 \setlength{\tabcolsep}{0.2mm}{
-\begin{table}[!h]
-    \vspace{-0.5em}
-    \caption{}
-    \label{tab:01.08}
-    \centering \zihao{-5}
-    \begin{tabular}{l|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c}
-    \toprule
-    时~~~~间(秒) & 0 &  & 1 &  & 2 &  & 3 &  & 4 &  & 5 &  & 6 &  & 7 &  & 8 \\
-    \midrule
-    与参考点的距离(米) & 3 &  & 4 &  & 9 &  & 18 &  & 31 &  & 48 &  & 69 &  & 94 &  & 123 \\
-    各秒内的位置变化($\Delta s$)(米) &  & 1 &  & 5 &  & 9 &  & 13 &  & 17 &  & 21 &  & 25 &  & 29 &  \\
-    各秒内的平均速度($v$)(米/秒) &  & 1 &  & 5 &  & 9 &  & 13 &  & 17 &  & 21 &  & 25 &  & 29 &  \\
-    各秒内的平均加速度($a$)($\text{米/秒}^2$) &  &  & 4 &  & 4 &  & 4 &  & 4 &  & 4 &  & 4 &  & 4 &  &  \\
-    \bottomrule
-    \end{tabular}
-    \normalsize \vspace{-1.2em}
-\end{table}
+    \begin{table}[!h]
+        \vspace{-0.5em}
+        \caption{}
+        \label{tab:01.08}
+        \centering \zihao{-5}
+        \begin{tabular}{l|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c}
+            \toprule
+            时~~~~间(秒)                              & 0 &   & 1 &   & 2 &   & 3  &    & 4  &    & 5  &    & 6  &    & 7  &    & 8   \\
+            \midrule
+            与参考点的距离(米)                        & 3 &   & 4 &   & 9 &   & 18 &    & 31 &    & 48 &    & 69 &    & 94 &    & 123 \\
+            各秒内的位置变化($\Delta s$)(米)          &   & 1 &   & 5 &   & 9 &    & 13 &    & 17 &    & 21 &    & 25 &    & 29 &     \\
+            各秒内的平均速度($v$)(米/秒)              &   & 1 &   & 5 &   & 9 &    & 13 &    & 17 &    & 21 &    & 25 &    & 29 &     \\
+            各秒内的平均加速度($a$)($\text{米/秒}^2$) &   &   & 4 &   & 4 &   & 4  &    & 4  &    & 4  &    & 4  &    & 4  &    &     \\
+            \bottomrule
+        \end{tabular}
+        \normalsize \vspace{-1.2em}
+    \end{table}
 }
 
 \noindent 既然平均加速度$a$是一个常数，所以这个直线运动是匀加速
@@ -202,8 +202,8 @@ $Z$三个方向上的直线运动，这三个运动同时进行，我们可以�
 故有：
 \begin{equation*}
     \left\lbrace \begin{aligned}
-        x&=v_0 t \\
-        y&=\frac{1}{2}at^2+y_0
+        x & =v_0 t               \\
+        y & =\frac{1}{2}at^2+y_0
     \end{aligned}\right.
 \end{equation*}
 电子通过平行板的时间为：
@@ -212,18 +212,18 @@ $Z$三个方向上的直线运动，这三个运动同时进行，我们可以�
 \end{equation*}
 电子通过平行板时，在竖直方向的位移为：
 \begin{align*}
-    d&=y_1-y_0 \\
-     &=\frac{1}{2}at_0^2 \\
-     &=\frac{1}{2}\times 10^{17} \times \num{4e18} \\
-     &=0.2\text{厘米}
+    d & =y_1-y_0                                     \\
+      & =\frac{1}{2}at_0^2                           \\
+      & =\frac{1}{2}\times 10^{17} \times \num{4e18} \\
+      & =0.2\text{厘米}
 \end{align*}
 电子在板中时，因为
 \begin{equation*}
-        v_x=v_0 \qquad v_y=at \\
+    v_x=v_0 \qquad v_y=at \\
 \end{equation*}
 所以
 \begin{equation*}
-        v=\sqrt{v_x^2+v_y^2}=\sqrt{v_0^2 + a^2 t^2}
+    v=\sqrt{v_x^2+v_y^2}=\sqrt{v_0^2 + a^2 t^2}
 \end{equation*}
 速度与水平轴的夹角为：
 \begin{equation*}
@@ -231,14 +231,14 @@ $Z$三个方向上的直线运动，这三个运动同时进行，我们可以�
 \end{equation*}
 它随时间而变。在离开板时，$t=t_0$，有
 \begin{align*}
-    &v \approx \num{1.02e9}\text{厘米/秒} \\
-    &\theta = \arctan\frac{at_0}{v_0} =\arctan\frac 1 5=\ang{11,19}
+     & v \approx \num{1.02e9}\text{厘米/秒}                           \\
+     & \theta = \arctan\frac{at_0}{v_0} =\arctan\frac 1 5=\ang{11,19}
 \end{align*}
 在板内运动方程是：
 \begin{equation*}
     \left\lbrace \begin{aligned}
-        x&=v_0 t \\
-        y&=\frac{1}{2}at^2+y_0
+        x & =v_0 t               \\
+        y & =\frac{1}{2}at^2+y_0
     \end{aligned}\right.
 \end{equation*}
 消去$t$则得$y=\dfrac{a}{2v_0^2}x^2+y_0$，轨迹是抛物线。

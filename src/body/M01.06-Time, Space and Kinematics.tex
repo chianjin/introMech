@@ -1,10 +1,9 @@
-\section{速度的瞬时性}
-\label{sec:01.06}
-    机械运动的现象，给了我们对“快”、“慢”的经验认识。
+\section{速度的瞬时性}\label{sec:01.06}
+
+机械运动的现象，给了我们对“快”、“慢”的经验认识。
 火车比轮船快，飞机比火车快，而火箭更比飞机快等等。反映质
-点运动快慢的物理量就是速度，或者确切地说，是速度的数值大
-小。
-    先以直线运动为例，当时刻t1时，质点A的位置坐标为x(t1)，
+点运动快慢的物理量就是速度，或者确切地说，是速度的数值大小。
+先以直线运动为例，当时刻t1时，质点A的位置坐标为x(t1)，
 当t2时，它的坐标为x(t2)，我们就用下式来定义质点A在t1到
 t2时间间隔内的平均速度:
 \begin{equation}
@@ -25,7 +24,7 @@ t2时间间隔内的平均速度:
 达式\ref{equ:01.05.01}~来计算，就会发现对任何时间间隔，运动的平均速度
 都是17米/秒。这种对于任何时间间隔平均速度总不变的运动，称
 为匀速直线运动．
-    由表\ref{tab:01.05}~或$x=4.9t^2$所示的自由落体运动，情况就不同了：
+由表\ref{tab:01.05}~或$x=4.9t^2$所示的自由落体运动，情况就不同了：
 在第1秒末到第3秒束的问隔中，
 \begin{equation*}
     \langle v\rangle_{1 \rightarrow 3}=\frac{44.1-4.9}{3-1}=19.6\text{米/秒}
@@ -50,15 +49,15 @@ t2时间间隔内的平均速度:
 秒钟的时间间隔内，自由落体仍然不是匀速的。这种情况迫使我
 们把计算平均速度的时间间隔取得尽可能地小。
 
-    为了便于进一步讨论，我们将式\ref{equ:01.06.01}~中的
+为了便于进一步讨论，我们将式\ref{equ:01.06.01}~中的
 $t_2$表示成$t_2=t_1+\Delta t$，这个$\Delta t$就是求平均速
 度所选用的时间间隔。现在来求从第1秒末到第$1+\Delta t$秒末
 的间隔中，自由落体的平均速度。利用$x=4.9t^2$得到
 \begin{equation*}
     \begin{aligned}
-        \langle v\rangle_{1 \rightarrow 1+\Delta t} &=\frac{x(1+\Delta t)-x(1)}{1+\Delta t-1} \\
-        &=\frac{4.9 \times(1+\Delta t)^{2}-4.9 \times 1^{2}}{\Delta t} \\
-        &=(9.8+4.9 \Delta t) \text { 米/秒 }
+        \langle v\rangle_{1 \rightarrow 1+\Delta t} & =\frac{x(1+\Delta t)-x(1)}{1+\Delta t-1}                      \\
+                                                    & =\frac{4.9 \times(1+\Delta t)^{2}-4.9 \times 1^{2}}{\Delta t} \\
+                                                    & =(9.8+4.9 \Delta t) \text { 米/秒 }
     \end{aligned}
 \end{equation*}
 此式再次表明，从第1秒末开始取不同的时间间隔$\Delta t$，所得的平
@@ -75,15 +74,15 @@ $\Delta t$为无限小，或者相当于$\Delta t \rightarrow 0$的
 的物理量；相反，瞬时速度与一个时刻相联系，它是描述运动的
 瞬时性质的物理量。有了瞬时速度这个概念，使我们对运动的认
 识大为深化。
-    用类似的手续不难求出自由落体运动在任何时刻t的瞬时速
+用类似的手续不难求出自由落体运动在任何时刻t的瞬时速
 度$v(t)$，只要将上述的1及$1+\Delta t$分别代之以$t$及$t+\Delta t$，并取
 于$\Delta t \rightarrow 0$的极限值就可以了。故有
 \begin{equation}\label{equ:01.06.02}
     \begin{aligned}
-        v(t) &=\lim _{\Delta t \rightarrow 0} \frac{x(t+\Delta t)-x(t)}{\Delta t} \\
-        &=\lim _{\Delta t \rightarrow 0} \frac{4.9 \times(t+\Delta t)^{2}-4.9 \times t^{2}}{\Delta t} \\
-        &=\lim _{\Delta t \rightarrow 0}(9.8 t+4.9 \Delta t) \\
-        &=9.8 t
+        v(t) & =\lim _{\Delta t \rightarrow 0} \frac{x(t+\Delta t)-x(t)}{\Delta t}                          \\
+             & =\lim _{\Delta t \rightarrow 0} \frac{4.9 \times(t+\Delta t)^{2}-4.9 \times t^{2}}{\Delta t} \\
+             & =\lim _{\Delta t \rightarrow 0}(9.8 t+4.9 \Delta t)                                          \\
+             & =9.8 t
     \end{aligned}
 \end{equation}
 此式给出了自由落体在每个时刻的瞬时速度。根据这个结果，我
@@ -93,29 +92,29 @@ $\Delta t$为无限小，或者相当于$\Delta t \rightarrow 0$的
 的。只有$\Delta t$趋于无限小，给出了每个时刻$t$的瞬时速度，了解了
 质点运动在每一瞬时的快慢，才算最精确地反映了质点运动的快
 慢。
-    对于任何直线运动，它的瞬时速度都可以用类似方式来确
+对于任何直线运动，它的瞬时速度都可以用类似方式来确
 定:
 $$
-v(t)=\lim _{\Delta \rightarrow 0} \frac{x(t+\Delta t)-x(t)}{\Delta t}
+    v(t)=\lim _{\Delta \rightarrow 0} \frac{x(t+\Delta t)-x(t)}{\Delta t}
 $$
 根据微积分学的知识，该极限就是轨迹函数x(t)对时间t的一阶
 导数。即
 \begin{equation}
     \begin{aligned}
-        v(t) &=\lim _{\Delta t \rightarrow 0} \frac{x(t+\Delta t)-x(t)}{\Delta t} \\
-        &=\lim _{\Delta t \rightarrow 0} \frac{\Delta x}{\Delta t}=\frac{d x}{d t} \label{equ:01.06.03}
+        v(t) & =\lim _{\Delta t \rightarrow 0} \frac{x(t+\Delta t)-x(t)}{\Delta t}                            \\
+             & =\lim _{\Delta t \rightarrow 0} \frac{\Delta x}{\Delta t}=\frac{d x}{d t} \label{equ:01.06.03}
     \end{aligned}
 \end{equation}
 其中，$\Delta x=x(t+\Delta t)-x(t)$，是在$t\rightarrow t+\Delta t$时间间隔中质点位置
 坐标的增量。以后我们提到的速度，一般都指瞬时速度。
 
-    我们看到，瞬时速度是利用数学上的微分概念来描写的。其
+我们看到，瞬时速度是利用数学上的微分概念来描写的。其
 实，在历史上，正是由于牛顿在处理这类基本力学问题时需要一
 种适当的数学工具，从而促使他创建了微积分学。这不仅使物理
 概念得以准确地表述，而且也大大丰富了数学本身。这是牛顿的
 巨大功绩之一。由此，我们再次看到，一个物理对象，用什么数学
 语言描写并不是一件自然的事情，而是物理研究的一个核心课题。
-    当质点作直线运动时，我们
+当质点作直线运动时，我们
 可以设法求出它的位置时间曲线
 (图l.10)。从图中可以看出，平
 均速度在数值上等于各段割线的
@@ -123,7 +122,7 @@ $$
 点的切线的斜率。所以在求出位
 置时间曲线后，就可以从$x(t)$曲
 线上求出各点的速度。
-  从平均速度的定义（\ref{equ:01.06.01}）式可以知道，$\langle v\rangle$可以有正值，
+从平均速度的定义（\ref{equ:01.06.01}）式可以知道，$\langle v\rangle$可以有正值，
 也可以有负值。当$x(t+\Delta t)<x(t)$时，$\langle v\rangle$为负。这种情况相当
 于质点在$t$到$t+\Delta t$间隔中，总的说来是向负$x$方向运动的。所
 以，$\langle v\rangle$的正负恰恰反映了运动的方向。通常称平均速度的绝对
