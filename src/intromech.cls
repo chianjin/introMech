@@ -19,7 +19,8 @@
 % PDF单页
 \RequirePackage{pdfpages}
 % 数学公式
-\RequirePackage{amsmath}
+\RequirePackage[fleqn]{amsmath}
+\setlength{\mathindent}{6em}
 \RequirePackage{amsfonts}
 \RequirePackage{amssymb}
 % 公式按节编号
@@ -53,6 +54,7 @@
 
 % 表格
 \RequirePackage{booktabs}
+\RequirePackage{makecell}
 
 % 图表标题
 \RequirePackage{caption}
@@ -198,6 +200,19 @@
 \newcommand{\proofnote}[2]{%
     #1\marginpar{$^{\endnote{#1：#2}}$}%
 }
+
+% 定理，证明，例题，解答
+%\RequirePackage{amsthm}
+%\newtheorem{theorem}{\indent 定理}[section]
+%\newtheorem{lemma}[theorem]{\indent 引理}
+%\newtheorem{proposition}[theorem]{\indent 命题}
+%\newtheorem{corollary}[theorem]{\indent 推论}
+%\newtheorem{definition}{\indent 定义}[section]
+%\newtheorem{example}{\indent 例}[section]
+%\newtheorem{remark}{\indent 注}[section]
+%\newenvironment{solution}{\begin{proof}[\indent\textbf{解}]}{\end{proof}}
+%\renewcommand{\proofname}{\indent\bf 证明}
+
 
 % 自定义命令
 
