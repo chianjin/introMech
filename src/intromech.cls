@@ -25,36 +25,40 @@
 \RequirePackage{amssymb}
 % 公式按节编号
 \numberwithin{equation}{section}
-% 修改公式环境
-\newenvironment{mequation}{
-    \setlength\abovedisplayskip{1pt plus 3pt minus 7pt}
-    \setlength\belowdisplayskip{1pt plus 3pt minus 7pt}
-    \begin{equation}}
-    {\end{equation}}
-\newenvironment{malign}{
-    \setlength\abovedisplayskip{1pt plus 3pt minus 7pt}
-    \setlength\belowdisplayskip{1pt plus 3pt minus 7pt}
-    \begin{align}}
-    {\end{align}}
+\newcommand{\example}[1]{\heiti 【例#1】\normalfont}
+\newcommand{\solution}{\heiti 解~\normalfont}
+\newcommand{\discussion}{\heiti 讨论~\normalfont}
+
 % 修改行距，适应行内公式间距
-%\setlength{\lineskip}{3.5pt}
-%\setlength{\lineskiplimit}{3.5pt}
-
-% 表格
-\RequirePackage{threeparttable}
-
-% 图片
-\RequirePackage{import}
-\RequirePackage{graphicx}
-\newenvironment{mfigure}[1][htbp]{
-    \setlength\abovedisplayskip{1pt plus 3pt minus 7pt}
-    \setlength\belowdisplayskip{1pt plus 3pt minus 7pt}
-    \begin{figure}[#1]}
-    {\end{figure}}
+\setlength{\lineskip}{3.5pt}
+\setlength{\lineskiplimit}{3.5pt}
 
 % 表格
 \RequirePackage{booktabs}
 \RequirePackage{makecell}
+\newenvironment{tablex}[2][htbp]
+{
+    \setlength{\tabcolsep}{#2}
+    \begin{table}[#1]
+        \vspace{-0.5em}
+    }
+    {
+        \vspace{-1.2em}
+    \end{table}
+}
+
+% 图片
+\RequirePackage{import}
+\RequirePackage{graphicx}
+\newenvironment{figurex}[1][htbp]
+{
+    \begin{figure}[#1]
+    \vspace{-0.5em}
+}
+{
+    \vspace{-1.2em}
+    \end{figure}
+}
 
 % 图表标题
 \RequirePackage{caption}
