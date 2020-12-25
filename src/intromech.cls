@@ -25,7 +25,8 @@
 \RequirePackage{amssymb}
 % 公式按节编号
 \numberwithin{equation}{section}
-\newcommand{\example}[1]{\heiti 【例#1】\normalfont}
+\newcounter{example}[section]
+\newcommand{\example}{\refstepcounter{example}【例~\theexample】}
 \newcommand{\solution}{\heiti 解~\normalfont}
 \newcommand{\discussion}{\heiti 讨论~\normalfont}
 
@@ -100,7 +101,7 @@
     BoldItalicFont=LeksaSans-BoldItalic.otf
 ]
 % 向量字体
-\newcommand{\vq}[1]{{\sf #1}}
+\newcommand{\vq}[1]{{\boldmath{\mathsf{#1}}}}
 % 下划线
 \RequirePackage{ulem}
 % 强制间距
@@ -161,7 +162,7 @@
     }
 }
 % 绪论标题
-\newcommand{\ichapter}[2][绪论]{
+\newcommand{\xchapter}[2][绪论]{
     \ctexset{
         chapter={
             number={#1},
@@ -177,6 +178,42 @@
     }
     \addtocounter{chapter}{-1}
 }
+
+\newcommand{\chapterx}[2][绪论]{
+    \ctexset{
+        chapter={
+            number={#1},
+            name={},
+        }
+    }
+    \chapter{#2}
+    \ctexset{
+        chapter={
+            number={\chinese{chapter}},
+            name={第,章},
+        }
+    }
+    \addtocounter{chapter}{-1}
+}
+
+\newcounter{question}
+\newcommand{\question}{\refstepcounter{question}\thequestion . ~}
+\newcommand{\questions}{%
+    \setcounter{question}{0}
+    \addcontentsline{toc}{section}{思考题}
+    ~\vspace{0.6em}
+    \par{\heiti\centerline{思~~考~~题}}
+}
+
+\newcounter{exercise}
+\newcommand{\exercise}{\refstepcounter{exercise}\theexercise . ~}
+\newcommand{\exercises}{%
+    \setcounter{exercise}{0}
+    \addcontentsline{toc}{section}{习题}
+    ~\vspace{0.6em}
+    \par{\heiti\centerline{习~~~~~~题}}
+}
+
 
 % ----------------------------------------------------------
 % 注释
