@@ -7,6 +7,10 @@
 \ProcessOptions\relax
 \LoadClass{ctexbook}
 
+% 工具包
+\RequirePackage{calc}
+
+
 % ----------------------------------------------------------
 % 开本及版心设置
 % ----------------------------------------------------------
@@ -29,6 +33,14 @@
 \newcommand{\example}{\refstepcounter{example}【例~\theexample】}
 \newcommand{\solution}{\heiti 解~\normalfont}
 \newcommand{\discussion}{\heiti 讨论~\normalfont}
+
+% 中文字距调整
+\newlength{\tempccwd}
+\newcommand{\setziju}[1]{
+    \setlength{\tempccwd}{\ccwd}
+    \ziju{#1}
+}
+\newcommand{\normalccwd}{def}
 
 % 修改行距，适应行内公式间距
 \setlength{\lineskip}{3.5pt}
@@ -64,18 +76,18 @@
 % 图表标题
 \RequirePackage{caption}
 \DeclareCaptionFormat{table}{\heiti\zihao{-5}#1#2#3}
-\DeclareCaptionFormat{figure}{\zihao{-5}#1#2#3}
 \captionsetup[table]{%
     position=above,
     format=table,
     skip=0.1em,
-    labelsep=quad
+    labelsep=space
 }
 \captionsetup[figure]{%
     position=below,
-    format=figure,
+    format=hang,
+    font=small,
     skip=0.1em,
-    labelsep=quad
+    labelsep=space
 }
 
 % 图表绕排
