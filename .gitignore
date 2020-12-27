@@ -3,6 +3,9 @@ build
 orign
 font
 
+## Special files
+/src/intromech.pdf
+
 ## Font files
 *.ttf
 *.otf
@@ -250,4 +253,3 @@ TSWLatexianTemp*
 
 # generated if using elsarticle.cls
 *.spl
-orgin

@@ -8,7 +8,7 @@
 \LoadClass{ctexbook}
 
 % 工具包
-\RequirePackage{calc}
+%\RequirePackage{calc}
 
 
 % ----------------------------------------------------------
@@ -63,6 +63,7 @@
 % 图片
 \RequirePackage{import}
 \RequirePackage{graphicx}
+\RequirePackage{subfigure}
 \newenvironment{figurex}[1][htbp]
 {
     \begin{figure}[#1]
@@ -266,6 +267,10 @@
 %\newenvironment{solution}{\begin{proof}[\indent\textbf{解}]}{\end{proof}}
 %\renewcommand{\proofname}{\indent\bf 证明}
 
+
+% 作图
+\RequirePackage{tikz}
+\RequirePackage{tkz-euclide}
 
 % 自定义命令
 
