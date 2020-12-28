@@ -4,14 +4,14 @@
 度。对于直线运动，若当$t$时刻，质点速度为$v(t)$，$当t+\Delta t$时
 刻，为$v(t+\Delta t)$，则我们定义从$t$到$t+\Delta t$间隔中质点的平均加
 速度为
-\begin{equation}\label{eqn:01.08.01}
+\vspace{-1em}\begin{equation}\label{eqn:01.08.01}
     \langle a\rangle_{t\rightarrow t+\Delta t} = \frac{v(t+\Delta t)-v(t)}{\Delta t}
 \end{equation}
 它的定义是质点在单位时间中速度的平均变化，单位是$\text{米/秒}^2$。
 
 利用式\eqref{eqn:01.06.02}，可以计算自由落体在$t$到$t+\Delta t$间隔中的平
 均加速度：
-\begin{equation*}
+\vspace{-0.5em}\begin{equation*}
     \begin{aligned}
         \langle a\rangle_{t\rightarrow t+\Delta t} & = \frac{9.8(t+\Delta t)-9.8t}{\Delta t} \\
                                                    & = 9.8\text{米/秒}^2
@@ -24,7 +24,8 @@
 称此加速度为重力加速度，用$g$表示。
 
 精确测量表明，在地球各处，重力加速度$g$并不都一样，一
-\begin{tablex}[!b]{2em}
+\begin{tablex}[!h]{2em}
+    \vspace{-1em}
     \caption{地球上不同地点的$g$值}
     \label{tab:01.06}
     \centering
@@ -47,7 +48,7 @@
         \end{tabular}
 \end{tablex}
 \clearpage
-\noindent 般说来，在低纬度处$g$值较小；在高纬度处，$g$值较大（表\ref{tab:01.06}）。
+\noindent 般说来，在低纬度处$g$值较小；在高纬度处，$g$值较大(表\ref{tab:01.06})。
 
 类似于平均速度不足以细致地描写非匀速运动一样，平均加
 速度也不足以细致地描写非匀加速运动。对于非匀加速运动，必
@@ -75,7 +76,15 @@
     \end{aligned}
 \end{equation}
 在曲线运动情况下，速度方向是变化的。$v(t)$，$v(t+\Delta t)$及$\Delta v$，
-一般如图l-14所示。由于$a$平行于$\Delta v$，所以平均加速度的方向一
+\begin{wrapfigure}[6]{r}{13em}
+    %\vspace{-6em}
+    \centering
+    \small
+    \import{figure}{fig01.14.pdf_tex}
+    \caption{加速度的计算}
+    \label{fig:01.14}
+\end{wrapfigure}
+一般如图\ref{fig:01.14}~所示。由于$a$平行于$\Delta v$，所以平均加速度的方向一
 般与速度方向并不相同。瞬时加速度也类似。当加速度方向平行
 于速度时，表示速度方向没有变化，但速率增加。当二者反平行
 时，表示速度方向不变，而速率减少。当加速度既不平行也不反
@@ -111,7 +120,8 @@ $\vq{r}$，$\vq{v}$，$\vq{a}$是描写运动的物理量。我们希望用数�
 下面我们介绍运动的独立性这一重要概念。由式\eqref{eqn:01.05.02}、
 \eqref{eqn:01.07.03}、\eqref{eqn:01.08.05}可以看到，描写一个复杂的曲线运动时，$X$方
 向的坐标、速度、加速度与其他方向的坐标，速度、加速度无关。
-$Y$方向和$Z$方向也有这种性质，即三个方向相互无关，这种性质被
+\clearpage
+\noindent $Y$方向和$Z$方向也有这种性质，即三个方向相互无关，这种性质被
 称为运动的独立性。因此，一个复杂的曲线运动，可看成在$X$，$Y$，
 $Z$三个方向上的直线运动，这三个运动同时进行，我们可以对每
 一个运动进行单独的分析，好象另外两个自由度上的运动是根本
@@ -154,8 +164,8 @@ $Z$三个方向上的直线运动，这三个运动同时进行，我们可以�
             \bottomrule
         \end{tabular}
 \end{tablex}
-
-\noindent 既然平均加速度$a$是一个常数，所以这个直线运动是匀加速
+\clearpage
+既然平均加速度$a$是一个常数，所以这个直线运动是匀加速
 直线运动，加速度是$a=4$米/秒$^2$．对于匀加速直线运动，一般的
 运动方程是:
 \begin{equation*}
