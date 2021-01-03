@@ -22,7 +22,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -95,18 +95,19 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1920"
-     inkscape:window-height="1001"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
      id="namedview4905"
      showgrid="false"
      inkscape:snap-global="false"
-     inkscape:zoom="7.0981894"
-     inkscape:cx="311.45375"
+     inkscape:zoom="3.8533249"
+     inkscape:cx="328.63506"
      inkscape:cy="512.19612"
-     inkscape:window-x="-9"
-     inkscape:window-y="-9"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
      inkscape:window-maximized="1"
-     inkscape:current-layer="g4911" />
+     inkscape:current-layer="g4911"
+     inkscape:document-rotation="0" />
   <g
      inkscape:groupmode="layer"
      inkscape:label="Image"
@@ -127,33 +128,51 @@
        sodipodi:nodetypes="cc" />
     <text
        xml:space="preserve"
-       style="font-size:12px;line-height:1.25;font-family:FZShuSong-Z01S;-inkscape-font-specification:'FZShuSong-Z01S, Normal'"
-       x="257.83853"
-       y="506.20468"
-       id="text5616"><tspan
+       style="font-style:italic;font-size:12px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Italic';text-align:center;text-anchor:middle"
+       x="267.04208"
+       y="510.20874"
+       id="text873"><tspan
          sodipodi:role="line"
-         id="tspan5614"
-         x="257.83853"
-         y="506.20468">$v(t)$</tspan></text>
+         id="tspan871"
+         x="267.04208"
+         y="510.20874"><tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Latin Modern Sans';-inkscape-font-specification:'Latin Modern Sans'"
+   id="tspan897">v</tspan><tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, '"
+   id="tspan877">(</tspan>t<tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, '"
+   id="tspan875">)</tspan></tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:12px;line-height:1.25;font-family:FZShuSong-Z01S;-inkscape-font-specification:'FZShuSong-Z01S, Normal'"
-       x="308.04221"
-       y="551.86157"
-       id="text5620"><tspan
+       style="font-style:italic;font-size:12px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Italic';text-align:center;text-anchor:middle"
+       x="377.85547"
+       y="486.59274"
+       id="text881"><tspan
          sodipodi:role="line"
-         id="tspan5618"
-         x="308.04221"
-         y="551.86157">$v(t+\Delta t)$</tspan></text>
+         id="tspan879"
+         x="377.85547"
+         y="486.59274"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, '"
+           id="tspan883">Δ</tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Latin Modern Sans';-inkscape-font-specification:'Latin Modern Sans'"
+           id="tspan895">v</tspan></tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:12px;line-height:1.25;font-family:FZShuSong-Z01S;-inkscape-font-specification:'FZShuSong-Z01S, Normal'"
-       x="367.33939"
-       y="483.47092"
-       id="text5624"><tspan
+       style="font-style:italic;font-size:12px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Italic';text-align:center;text-anchor:middle"
+       x="329.84503"
+       y="546.80048"
+       id="text887"><tspan
          sodipodi:role="line"
-         id="tspan5622"
-         x="367.33939"
-         y="483.47092">$\Delta v$</tspan></text>
+         id="tspan885"
+         x="329.84503"
+         y="546.80048"><tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Latin Modern Sans';-inkscape-font-specification:'Latin Modern Sans'"
+   id="tspan899">v</tspan><tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, '"
+   id="tspan889">(</tspan>t<tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, '"
+   id="tspan893">+Δ</tspan>t<tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, '"
+   id="tspan891">)</tspan></tspan></text>
   </g>
 </svg>

@@ -22,7 +22,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -100,6 +100,13 @@
          d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
          id="path847" />
     </marker>
+    <pattern
+       id="EMFhbasepattern"
+       patternUnits="userSpaceOnUse"
+       width="6"
+       height="6"
+       x="0"
+       y="0" />
   </defs>
   <sodipodi:namedview
      pagecolor="#ffffff"
@@ -110,33 +117,23 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1920"
-     inkscape:window-height="1001"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
      id="namedview835"
      showgrid="false"
-     inkscape:zoom="25.112533"
-     inkscape:cx="378.57265"
-     inkscape:cy="133.74392"
-     inkscape:window-x="-9"
-     inkscape:window-y="-9"
+     inkscape:zoom="4.0116491"
+     inkscape:cx="328.33865"
+     inkscape:cy="114.37389"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
      inkscape:window-maximized="1"
      inkscape:current-layer="g841"
-     inkscape:snap-global="false" />
+     inkscape:snap-global="false"
+     inkscape:document-rotation="0" />
   <g
      inkscape:groupmode="layer"
      inkscape:label="Image"
      id="g841">
-    <text
-       xml:space="preserve"
-       style="font-size:12px;line-height:1.25;font-family:FZShuSong-Z01S;-inkscape-font-specification:'FZShuSong-Z01S, Normal'"
-       x="323.86496"
-       y="-123.10854"
-       id="text1285"
-       transform="rotate(39.56833)"><tspan
-         sodipodi:role="line"
-         id="tspan1283"
-         x="323.86496"
-         y="-123.10854">$\Delta\vq{r}$</tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:1.0015748;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none;marker-end:url(#Arrow1Mend)"
        d="m 252.31229,60.700406 c 10.07011,15.664621 17.6227,29.371164 65.73546,23.496932 48.11276,-5.874233 69.37189,57.903152 67.69354,86.994592"
@@ -158,17 +155,7 @@
        sodipodi:nodetypes="cc" />
     <text
        xml:space="preserve"
-       style="font-size:12px;line-height:1.25;font-family:FZShuSong-Z01S;-inkscape-font-specification:'FZShuSong-Z01S, Normal'"
-       x="254.55899"
-       y="59.544834"
-       id="text1265"><tspan
-         sodipodi:role="line"
-         id="tspan1263"
-         x="254.55899"
-         y="59.544834">$A$</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:12px;line-height:1.25;font-family:FZShuSong-Z01S;-inkscape-font-specification:'FZShuSong-Z01S, Normal'"
+       style="font-size:12px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, ';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;"
        x="317.18704"
        y="79.971222"
        id="text1269"><tspan
@@ -178,7 +165,7 @@
          y="79.971222">1</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:12px;line-height:1.25;font-family:FZShuSong-Z01S;-inkscape-font-specification:'FZShuSong-Z01S, Normal'"
+       style="font-size:12px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, ';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;"
        x="382.70563"
        y="135.66202"
        id="text1273"><tspan
@@ -188,7 +175,7 @@
          y="135.66202">2</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:12px;line-height:1.25;font-family:FZShuSong-Z01S;-inkscape-font-specification:'FZShuSong-Z01S, Normal'"
+       style="font-size:12px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, ';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;"
        x="351.68066"
        y="89.991707"
        id="text1277"><tspan
@@ -198,35 +185,82 @@
          y="89.991707">3</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:12px;line-height:1.25;font-family:FZShuSong-Z01S;-inkscape-font-specification:'FZShuSong-Z01S, Normal'"
-       x="253.21007"
-       y="176.32208"
-       id="text1281"><tspan
+       style="font-style:italic;font-size:12px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Italic';text-align:center;text-anchor:middle"
+       x="259.99283"
+       y="62.318508"
+       id="text892"><tspan
          sodipodi:role="line"
-         id="tspan1279"
-         x="253.21007"
-         y="176.32208">$O$</tspan></text>
+         id="tspan890"
+         x="259.99283"
+         y="62.318508">A</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:12px;line-height:1.25;font-family:FZShuSong-Z01S;-inkscape-font-specification:'FZShuSong-Z01S, Normal'"
-       x="40.89925"
-       y="307.29459"
-       id="text1289"
-       transform="rotate(-56.03965)"><tspan
+       style="font-style:italic;font-size:12px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Italic';text-align:center;text-anchor:middle"
+       x="254.25952"
+       y="178.48021"
+       id="text896"><tspan
          sodipodi:role="line"
-         id="tspan1287"
-         x="40.89925"
-         y="307.29459">$r(t_1)$</tspan></text>
+         id="tspan894"
+         x="254.25952"
+         y="178.48021">O</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:12px;line-height:1.25;font-family:FZShuSong-Z01S;-inkscape-font-specification:'FZShuSong-Z01S, Normal'"
-       x="251.53021"
-       y="253.28848"
-       id="text1293"
-       transform="rotate(-17.215156)"><tspan
+       style="font-style:italic;font-size:12px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Italic';text-align:center;text-anchor:middle"
+       x="45.873592"
+       y="306.8511"
+       id="text900"
+       transform="rotate(-58.41875)"><tspan
          sodipodi:role="line"
-         id="tspan1291"
-         x="251.53021"
-         y="253.28848">$r(t_2)$</tspan></text>
+         id="tspan898"
+         x="45.873592"
+         y="306.8511"><tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Latin Modern Sans';-inkscape-font-specification:'Latin Modern Sans'"
+   id="tspan939">r</tspan><tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, '"
+   id="tspan906">(</tspan>t<tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:65%;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, ';baseline-shift:sub"
+   id="tspan902">1</tspan><tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, '"
+   id="tspan908">)</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-size:12px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Italic';text-align:center;text-anchor:middle"
+       x="259.52985"
+       y="253.50635"
+       id="text900-0"
+       transform="rotate(-17.521434)"><tspan
+         sodipodi:role="line"
+         id="tspan898-6"
+         x="259.52985"
+         y="253.50635"><tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Latin Modern Sans';-inkscape-font-specification:'Latin Modern Sans'"
+   id="tspan941">r</tspan><tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, '"
+   id="tspan906-2">(</tspan>t<tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:65%;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, ';baseline-shift:sub"
+   id="tspan902-9">2</tspan><tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, '"
+   id="tspan908-4">)</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:400;font-size:14.0625px;line-height:125%;font-family:'Latin Modern Math';text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+       x="321.66064"
+       y="-131.38609"
+       id="text966"
+       transform="rotate(40.909179)"><tspan
+         sodipodi:role="line"
+         x="321.66064"
+         y="-131.38609"
+         id="tspan964"><tspan
+           dx="0"
+           dy="0"
+           style="font-style:normal;font-variant:normal;font-weight:400;font-size:14.0625px;font-family:'Latin Modern Math';fill:#000000"
+           id="tspan960">Δ<tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Latin Modern Sans';-inkscape-font-specification:'Latin Modern Sans'"
+   id="tspan979">r</tspan></tspan><tspan
+           dx="0"
+           dy="0"
+           style="font-style:normal;font-variant:normal;font-weight:400;font-size:14.0625px;fill:#000000"
+           id="tspan962"> </tspan></tspan></text>
   </g>
 </svg>

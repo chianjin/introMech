@@ -81,15 +81,15 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1920"
-     inkscape:window-height="1001"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
      id="namedview835"
      showgrid="false"
-     inkscape:zoom="5.5312538"
-     inkscape:cx="327.9826"
-     inkscape:cy="99.50034"
-     inkscape:window-x="-9"
-     inkscape:window-y="-9"
+     inkscape:zoom="5.0262895"
+     inkscape:cx="320.29981"
+     inkscape:cy="96.209571"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
      inkscape:window-maximized="1"
      inkscape:current-layer="g841"
      inkscape:document-rotation="0" />
@@ -111,17 +111,17 @@
        id="path1153" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:1.25;font-family:'Latin Modern Math';-inkscape-font-specification:'Latin Modern Math'"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman,  Italic'"
        x="245.79079"
        y="144.34073"
        id="text1191"><tspan
          sodipodi:role="line"
          id="tspan1189"
          x="245.79079"
-         y="144.34073">\small$O$</tspan></text>
+         y="144.34073">O</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:1.25;font-family:'Latin Modern Math';-inkscape-font-specification:'Latin Modern Math'"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman,  Italic'"
        x="37.227688"
        y="281.20193"
        id="text1195"
@@ -129,10 +129,14 @@
          sodipodi:role="line"
          id="tspan1193"
          x="37.227688"
-         y="281.20193">\small$r(t)$</tspan></text>
+         y="281.20193">r<tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, '"
+   id="tspan863">(</tspan>t<tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, '"
+   id="tspan865">)</tspan></tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:1.25;font-family:'Latin Modern Math';-inkscape-font-specification:'Latin Modern Math'"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman,  Italic'"
        x="211.48656"
        y="236.05919"
        id="text1199"
@@ -140,6 +144,10 @@
          sodipodi:role="line"
          id="tspan1197"
          x="211.48656"
-         y="236.05919">\small$r(t')$</tspan></text>
+         y="236.05919">r<tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, '"
+   id="tspan869">(</tspan>t'<tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, '"
+   id="tspan867">)</tspan></tspan></text>
   </g>
 </svg>
