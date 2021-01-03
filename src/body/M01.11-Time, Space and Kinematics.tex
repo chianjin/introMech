@@ -22,13 +22,15 @@ t的质点的坐标$x(t)$。
     \end{array}
 \end{equation*}
 因而，质点在0到$t$间隔中坐标的总变化$x(t)-x(0)$就应当等于
-这许多小变化的总和，即
+这许多小变化的总和，即\vspace{-0.5em}
+{\setlength\abovedisplayskip{1pt}
+\setlength\belowdisplayskip{1pt}
 \begin{equation}\label{eqn:01.11.01}
     \begin{aligned}
         x(t)-x(0) &=\Delta x_{1}+\Delta x_{2}+\Delta x_{3}+\cdots \\
         & \approx \sum_{i} v\left(t_{i}\right) \Delta t_{i}
     \end{aligned}
-\end{equation}
+\end{equation}}\vspace{-0.5em}
 各时间间隔$\Delta t_i$取得越小，计算结果就越准确，当所有$\Delta t_i\rightarrow 0$时，
 就得到质点位置变化的精确值：
 \begin{equation}\label{eqn:01.11.02}
@@ -49,19 +51,46 @@ t的质点的坐标$x(t)$。
 
     利用这种几何性质，对一些简单情况，计算式\eqref{eqn:01.11.03}中的
 积分是很容易的。下面举两个例子。
-    图1·24运动的”f图    图1．25匀连运动的口一I图
+\begin{figure}[!h]
+    \begin{minipage}[b]{14em}
+        \centering
+        \includegraphics{figure/fig01.24.pdf}
+        \caption{运动的$v-t$图}
+        \label{fig:01.24}
+    \end{minipage}\hfill
+    \begin{minipage}[b]{14em}
+        \centering
+        \includegraphics{figure/fig01.25.pdf}
+        \caption{匀速运动的$v-t$图}
+        \label{fig:01.25}
+    \end{minipage}
+\end{figure}
 
-    \example 匀速运动。
+\example 匀速运动。
 
-    如果质点的速度是常数$v_0$，它的$v-t$图就如图l·25所示。由0
+如果质点的速度是常数$v_0$，它的$v-t$图就如图l·25所示。由0
 到$t$的横轴与曲线$v$围成一个长方形，它的面积是$v_0t$，将之代入
 式\eqref{eqn:01.11.03}，即得轨迹函数为:
 \begin{equation}\label{eqn:01.11.04}
     x(t)=x(0)+v_0 t
 \end{equation}
-图1·26匀加速运动的口一t圈    图1·27运动的4 f困
+~\vspace{-1.5em}
+\begin{figure}[!h]
+    \begin{minipage}[b]{14em}
+        \centering
+        \includegraphics{figure/fig01.26.pdf}
+        \caption{匀加速运动的$v-t$图}
+        \label{fig:01.26}
+    \end{minipage}\hfill
+    \begin{minipage}[b]{14em}
+        \centering
+        \includegraphics{figure/fig01.27.pdf}
+        \caption{运动的$a-t$图}
+        \label{fig:01.27}
+    \end{minipage}
+\end{figure}
 
-  \example 匀加速运动。
+  \vspace{-1em}\example 匀加速运动。
 
   设质点的速度与时间成正比，$v=at$，在图1·26中画出这个
 关系。零到$t$的横轴与曲线$v$围成一个直角三角形，它的面积是
@@ -92,7 +121,12 @@ $\dfrac{1}{2} a t^2$，代入式\eqref{eqn:01.11.03}，就得到轨迹函数为�
 上式中积分的几何意义是$a-t$图中由0到$t$的横轴与$a$曲线之间
 所围的面积(图1·27)。
 
-    对于曲线运动的情况，式\eqref{eqn:01.11.03}、\eqref{eqn:01.11.06}分别推广成\setlength{\mathindent}{4em}
+    对于曲线运动的情况，式\eqref{eqn:01.11.03}、\eqref{eqn:01.11.06}分别推广成
+{\setlength{\mathindent}{4em}
+\setlength\abovedisplayskip{0pt}
+\setlength\belowdisplayskip{0pt}
+\setlength{\lineskip}{-1pt}
+\setlength{\lineskiplimit}{-1pt}
 \begin{eqnarray}
     \label{eqn:01.11.07}
     \begin{aligned}
@@ -111,25 +145,33 @@ $\dfrac{1}{2} a t^2$，代入式\eqref{eqn:01.11.03}，就得到轨迹函数为�
         &+\left(\int_{0}^{t} a_{z}(t) d t\right) \vq{k}
     \end{aligned}
 \end{eqnarray}
-\setlength{\mathindent}{6em}%
+\setlength{\mathindent}{6em}}%
 其中$\vq{r}(0)$及$\vq{v}(0)$分别为初始时刻质点的位置矢量及速度矢量。具
 体使用式\eqref{eqn:01.11.07}及\eqref{eqn:01.11.08}时，可以把它们分解成分量的关系
 来计算。式\eqref{eqn:01.11.07}等价于下列三式。
+{\setlength\abovedisplayskip{0pt}
+    \setlength\belowdisplayskip{0pt}
+    \setlength{\lineskip}{-1pt}
+    \setlength{\lineskiplimit}{-1pt}
 \begin{equation}
     \begin{aligned}\label{eqn:01.11.09}
         x(t)=x(0)+\int_{0}^{t} v_{x}(t) d t \\
         y(t)=y(0)+\int_{0}^{t} v_{y}(t) d t \\
         z(t)=z(0)+\int_{0}^{t} v_{z}(t) d t
     \end{aligned}
-\end{equation}
+\end{equation}}%
 而式\eqref{eqn:01.11.08}等价于下列三式。
+{\setlength\abovedisplayskip{0pt}
+    \setlength\belowdisplayskip{0pt}
+    \setlength{\lineskip}{-1pt}
+    \setlength{\lineskiplimit}{-1pt}
 \begin{equation}\label{eqn:01.11.10}
     \begin{aligned}
         v_x(t)=v_x(0)+\int_{0}^{t} a_{x}(t) d t \\
         v_y(t)=v_y(0)+\int_{0}^{t} a_{y}(t) d t \\
         v_z(t)=v_z(0)+\int_{0}^{t} a_{z}(t) d t
     \end{aligned}
-\end{equation}
+\end{equation}}%
 这些积分中没有出现矢量，就可以按一一般方法计算，譬如上述的
 面积方法就是一种可行的方法．
 

@@ -35,12 +35,12 @@
 \newcommand{\discussion}{\heiti 讨论~\normalfont}
 
 % 中文字距调整
-\newlength{\tempccwd}
-\newcommand{\setziju}[1]{
-    \setlength{\tempccwd}{\ccwd}
-    \ziju{#1}
-}
-\newcommand{\normalccwd}{def}
+%\newlength{\tempccwd}
+%\newcommand{\setziju}[1]{
+%    \setlength{\tempccwd}{\ccwd}
+%    \ziju{#1}
+%}
+%\newcommand{\normalccwd}{def}
 
 % 修改行距，适应行内公式间距
 \setlength{\lineskip}{3.5pt}
@@ -210,7 +210,7 @@
 }
 
 \newcounter{question}
-\newcommand{\question}{\refstepcounter{question}\thequestion . ~}
+\newcommand{\question}{\refstepcounter{question}\thequestion .}
 \newcommand{\questions}{%
     \setcounter{question}{0}
     \addcontentsline{toc}{section}{思考题}
@@ -219,7 +219,7 @@
 }
 
 \newcounter{exercise}
-\newcommand{\exercise}{\refstepcounter{exercise}\theexercise . ~}
+\newcommand{\exercise}{\refstepcounter{exercise}\theexercise .}
 \newcommand{\exercises}{%
     \setcounter{exercise}{0}
     \addcontentsline{toc}{section}{习题}
