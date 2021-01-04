@@ -115,7 +115,8 @@
     BoldItalicFont=LeksaSans-BoldItalic.otf
 ]
 % 向量字体
-\newcommand{\vq}[1]{{\boldmath{\mathsf{#1}}}}
+\renewcommand{\vec}[1]{{\mathsf{#1}}}
+%\newcommand{\vq}[1]{{\boldsymbol{\mathsf{#1}}}}
 % 下划线
 \RequirePackage{ulem}
 % 强制间距
