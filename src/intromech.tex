@@ -1,10 +1,15 @@
 \documentclass[openany,fontset=none]{intromech}
 
-\usepackage{showkeys}
+%\usepackage{showkeys}
 
 \begin{document}
+%
+\newboolean{makeall}
+\setboolean{makeall}{true}
+\newcounter{makechapter}
+\setcounter{makechapter}{2}
 
-
+\ifthenelse{\boolean{makeall}}{
 % 封面
 \includepdf{body/F00-frontpage.pdf}
 
@@ -24,6 +29,7 @@
 \clearpage
 \setcounter{page}{1}
 \tableofcontents
+}{}
 
 % 正文
 \clearpage
@@ -34,9 +40,12 @@
 \setlength\belowdisplayskip{1pt plus 3pt minus 1pt}
 
 % 绪论
+\ifthenelse{\boolean{makeall} \OR \(\value{makechapter}=0\)}{
 \input{body/M00.00-Introduction.tex}
+}{}
 
 % 第一章
+\ifthenelse{\boolean{makeall} \OR \(\value{makechapter}=1\)}{
 \input{body/M01.00-Time, Space and Kinematics.tex}
 \input{body/M01.01-Time, Space and Kinematics.tex}
 \input{body/M01.02-Time, Space and Kinematics.tex}
@@ -51,15 +60,22 @@
 \input{body/M01.11-Time, Space and Kinematics.tex}
 \input{body/M01.12q-Time, Space and Kinematics.tex}
 \input{body/M01.13e-Time, Space and Kinematics.tex}
+}{}
 
-
+% 第二章
+\ifthenelse{\boolean{makeall} \OR \(\value{makechapter}=2\)}{
+\input{body/M02.00-Relativity in Kinematics.tex}
+\input{body/M02.01-Relativity in Kinematics.tex}
+\input{body/M02.02-Relativity in Kinematics.tex}
+}{}
 \clearpage{\pagestyle{empty}\cleardoublepage}
 
 % 校注
+\ifthenelse{\boolean{makeall}}{
 \setcounter{page}{1}
 \pagestyle{plain}
 \blfootnote{原书为人工铅字排版，明显错字、误字在所难免，如：“$\pi$”误作汉字“兀”、“于”误作“子”或“予”等，直接改正，不再一一列举。}
 \vspace{-2.5em}
 \theendnotes
-
+}{}
 \end{document}
