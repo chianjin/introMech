@@ -76,18 +76,18 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="3.8590841"
+     inkscape:zoom="3.7274212"
      inkscape:cx="332.77637"
      inkscape:cy="345.28076"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
      showgrid="false"
-     inkscape:window-width="1350"
-     inkscape:window-height="729"
-     inkscape:window-x="0"
-     inkscape:window-y="0"
-     inkscape:window-maximized="0" />
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1" />
   <metadata
      id="metadata3448">
     <rdf:RDF>
@@ -105,7 +105,7 @@
      inkscape:groupmode="layer"
      id="layer1">
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="fill:none;stroke:#000000;stroke-width:0.13229167;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
        d="m 62.08299,78.493215 c 4.454898,2.704759 5.402448,4.067892 14.359092,3.18207 7.23921,-0.715965 9.777485,0.340307 13.006712,2.466104 3.229226,2.125797 5.901939,8.202478 10.978146,11.296348"
        id="path1944"
        sodipodi:nodetypes="cszc" />

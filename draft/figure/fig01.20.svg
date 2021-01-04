@@ -76,6 +76,13 @@
          d="M 0,0 5,-5 -12.5,0 5,5 Z"
          id="path6736" />
     </marker>
+    <pattern
+       id="EMFhbasepattern"
+       patternUnits="userSpaceOnUse"
+       width="6"
+       height="6"
+       x="0"
+       y="0" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -85,7 +92,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="4.7436586"
-     inkscape:cx="351.42858"
+     inkscape:cx="336.14502"
      inkscape:cy="439.99999"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
@@ -104,7 +111,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -113,7 +120,7 @@
      inkscape:groupmode="layer"
      id="layer1">
     <rect
-       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.272942;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.13647075;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect4583"
        width="36.484951"
        height="27.67403"
@@ -121,7 +128,7 @@
        y="113.21352"
        transform="matrix(1,0,-0.34202015,0.93969262,0,0)" />
     <ellipse
-       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.272942;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow1Mstart)"
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.13647075;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow1Mstart)"
        id="path4585"
        cx="136.43599"
        cy="127.05053"
@@ -129,63 +136,71 @@
        rx="11.509375"
        ry="8.7299213" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Mend)"
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Mend)"
        d="M 93.012877,119.4565 V 100.83551"
        id="path4587"
        sodipodi:nodetypes="cc" />
-    <text
-       xml:space="preserve"
-       style="font-size:3.175px;line-height:1.25;font-family:FZShuSong-Z01S;-inkscape-font-specification:'FZShuSong-Z01S, Normal';stroke-width:0.264583"
-       x="94.42807"
-       y="105.13778"
-       id="text5161"><tspan
-         sodipodi:role="line"
-         id="tspan5159"
-         x="94.42807"
-         y="105.13778"
-         style="stroke-width:0.264583">$\omega$</tspan></text>
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker6629)"
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker6629)"
        d="m 93.012877,119.4565 9.931103,-5.38016"
        id="path6625"
        sodipodi:nodetypes="cc" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker6738)"
-       d="m 103.43749,113.80781 -4.780527,-5.22469"
+       d="M 103.43749,113.80781 98.824292,108.862"
        id="path6694"
        sodipodi:nodetypes="cc" />
     <text
        xml:space="preserve"
-       style="font-size:3.175px;line-height:1.25;font-family:FZShuSong-Z01S;-inkscape-font-specification:'FZShuSong-Z01S, Normal';stroke-width:0.264583"
-       x="90.426376"
-       y="122.303"
-       id="text6774"><tspan
+       style="font-style:italic;font-variant:normal;font-weight:400;font-size:3.7207px;line-height:125%;font-family:'Latin Modern Math';text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="94.501221"
+       y="102.53764"
+       id="text886"><tspan
          sodipodi:role="line"
-         id="tspan6772"
-         x="90.426376"
-         y="122.303"
-         style="stroke-width:0.264583">$O$</tspan></text>
+         x="94.501221"
+         y="102.53764"
+         id="tspan884"
+         style="stroke-width:0.264583"><tspan
+           dx="0"
+           dy="0"
+           style="font-style:italic;font-variant:normal;font-weight:400;font-size:3.175px;font-family:'Latin Modern Math';fill:#000000;stroke-width:0.264583"
+           id="tspan880">ω</tspan><tspan
+           dx="0"
+           dy="0"
+           style="font-style:normal;font-variant:normal;font-weight:400;font-size:3.7207px;fill:#000000;stroke-width:0.264583"
+           id="tspan882"> </tspan></tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:3.175px;line-height:1.25;font-family:FZShuSong-Z01S;-inkscape-font-specification:'FZShuSong-Z01S, Normal';stroke-width:0.264583"
-       x="98.047882"
-       y="119.36242"
-       id="text6778"><tspan
+       style="font-style:italic;font-size:3.175px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Italic';stroke-width:0.264583"
+       x="102.2378"
+       y="110.88313"
+       id="text901"><tspan
          sodipodi:role="line"
-         id="tspan6776"
-         x="98.047882"
-         y="119.36242"
-         style="stroke-width:0.264583">$r$</tspan></text>
+         id="tspan899"
+         x="102.2378"
+         y="110.88313"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Latin Modern Sans';-inkscape-font-specification:'Latin Modern Sans';stroke-width:0.264583">v</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:3.175px;line-height:1.25;font-family:FZShuSong-Z01S;-inkscape-font-specification:'FZShuSong-Z01S, Normal';stroke-width:0.264583"
-       x="102.24871"
-       y="111.56088"
-       id="text6782"><tspan
+       style="font-style:italic;font-size:3.175px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Italic';stroke-width:0.264583"
+       x="97.329498"
+       y="119.24954"
+       id="text905"><tspan
          sodipodi:role="line"
-         id="tspan6780"
-         x="102.24871"
-         y="111.56088"
-         style="stroke-width:0.264583">$v$</tspan></text>
+         id="tspan903"
+         x="97.329498"
+         y="119.24954"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Latin Modern Sans';-inkscape-font-specification:'Latin Modern Sans';stroke-width:0.264583">r</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-size:3.175px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Italic';stroke-width:0.264583"
+       x="90.357468"
+       y="122.20569"
+       id="text909"><tspan
+         sodipodi:role="line"
+         id="tspan907"
+         x="90.357468"
+         y="122.20569"
+         style="stroke-width:0.264583">O</tspan></text>
   </g>
 </svg>

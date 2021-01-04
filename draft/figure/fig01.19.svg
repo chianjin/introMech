@@ -74,6 +74,13 @@
          d="M 0,0 5,-5 -12.5,0 5,5 Z"
          id="path4978" />
     </marker>
+    <pattern
+       id="EMFhbasepattern"
+       patternUnits="userSpaceOnUse"
+       width="6"
+       height="6"
+       x="0"
+       y="0" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -102,7 +109,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -114,32 +121,28 @@
        style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Mend-5-0)"
        d="m 111.20579,120.96402 v 15.68041"
        id="path4587-3-3" />
-    <g
-       id="g4745"
-       transform="matrix(0.26458333,0,0,0.26458333,30.899434,64.601573)">
-      <rect
-         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.03159;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         id="rect4583"
-         width="137.89587"
-         height="104.59476"
-         x="116.20401"
-         y="171.11676"
-         transform="matrix(1,0,-0.34202015,0.93969262,0,0)" />
-      <ellipse
-         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.03159;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow1Mstart)"
-         id="path4585"
-         cx="185.15195"
-         cy="223.41415"
-         transform="matrix(1,0,-0.34202015,0.93969262,0,0)"
-         rx="43.5"
-         ry="32.99498" />
-      <path
-         style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Mend)"
-         d="M 108.85597,210.19785 V 150.93331"
-         id="path4587" />
-    </g>
     <rect
-       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.272942;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.13647075;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4583"
+       width="36.484951"
+       height="27.674028"
+       x="85.158127"
+       y="114.0222"
+       transform="matrix(1,0,-0.34202015,0.93969262,0,0)" />
+    <ellipse
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.13647075;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow1Mstart)"
+       id="path4585"
+       cx="103.4006"
+       cy="127.85922"
+       transform="matrix(1,0,-0.34202015,0.93969262,0,0)"
+       rx="11.509375"
+       ry="8.7299213" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.265112;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Mend)"
+       d="M 59.700909,120.21642 V 104.53601"
+       id="path4587" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.13647075;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect4583-1"
        width="36.484951"
        height="27.67403"
@@ -147,7 +150,7 @@
        y="114.81778"
        transform="matrix(1,0,-0.34202015,0.93969262,0,0)" />
     <ellipse
-       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.272942;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker4980)"
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.13647075;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker4980)"
        id="path4585-1"
        cx="155.1776"
        cy="128.6548"
@@ -160,25 +163,41 @@
        id="path5151" />
     <text
        xml:space="preserve"
-       style="font-size:3.175px;line-height:1.25;font-family:FZShuSong-Z01S;-inkscape-font-specification:'FZShuSong-Z01S, Normal';stroke-width:0.264583"
-       x="61.116108"
-       y="105.8977"
-       id="text5161"><tspan
+       style="font-style:italic;font-variant:normal;font-weight:400;font-size:3.7207px;line-height:125%;font-family:'Latin Modern Math';text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="61.229538"
+       y="105.50159"
+       id="text883"><tspan
          sodipodi:role="line"
-         id="tspan5159"
-         x="61.116108"
-         y="105.8977"
-         style="stroke-width:0.264583">$\omega$</tspan></text>
+         x="61.229538"
+         y="105.50159"
+         id="tspan881"
+         style="stroke-width:0.264583"><tspan
+           dx="0"
+           dy="0"
+           style="font-style:italic;font-variant:normal;font-weight:400;font-size:3.175px;font-family:'Latin Modern Math';fill:#000000;stroke-width:0.264583"
+           id="tspan877">ω</tspan><tspan
+           dx="0"
+           dy="0"
+           style="font-style:normal;font-variant:normal;font-weight:400;font-size:3.7207px;fill:#000000;stroke-width:0.264583"
+           id="tspan879"> </tspan></tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:3.175px;line-height:1.25;font-family:FZShuSong-Z01S;-inkscape-font-specification:'FZShuSong-Z01S, Normal';stroke-width:0.264583"
-       x="113.29211"
-       y="137.63177"
-       id="text5161-7"><tspan
+       style="font-style:italic;font-variant:normal;font-weight:400;font-size:3.7207px;line-height:125%;font-family:'Latin Modern Math';text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="112.72041"
+       y="136.51096"
+       id="text883-6"><tspan
          sodipodi:role="line"
-         id="tspan5159-1"
-         x="113.29211"
-         y="137.63177"
-         style="stroke-width:0.264583">$\omega$</tspan></text>
+         x="112.72041"
+         y="136.51096"
+         id="tspan881-1"
+         style="stroke-width:0.264583"><tspan
+           dx="0"
+           dy="0"
+           style="font-style:italic;font-variant:normal;font-weight:400;font-size:3.175px;font-family:'Latin Modern Math';fill:#000000;stroke-width:0.264583"
+           id="tspan877-8">ω</tspan><tspan
+           dx="0"
+           dy="0"
+           style="font-style:normal;font-variant:normal;font-weight:400;font-size:3.7207px;fill:#000000;stroke-width:0.264583"
+           id="tspan879-5"> </tspan></tspan></text>
   </g>
 </svg>

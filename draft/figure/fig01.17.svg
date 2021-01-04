@@ -58,6 +58,13 @@
          d="M 0,0 5,-5 -12.5,0 5,5 Z"
          id="path1893" />
     </marker>
+    <pattern
+       id="EMFhbasepattern"
+       patternUnits="userSpaceOnUse"
+       width="6"
+       height="6"
+       x="0"
+       y="0" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -66,8 +73,8 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="4.7383116"
-     inkscape:cx="337.4915"
+     inkscape:zoom="5.0562589"
+     inkscape:cx="326.03373"
      inkscape:cy="256.9791"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
@@ -86,7 +93,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -95,14 +102,14 @@
      inkscape:groupmode="layer"
      id="layer1">
     <circle
-       style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:none;stroke:#000000;stroke-width:0.13229167;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="path1445"
        cx="84.604164"
        cy="72.172722"
        r="14.62769" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Mend)"
-       d="M 84.372982,72.602077 H 113.89926"
+       style="fill:none;stroke:#000000;stroke-width:0.132292;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Mend)"
+       d="M 84.361979,72.602077 H 108.97668"
        id="path1449" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.265;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker1853)"
@@ -128,58 +135,66 @@
        sodipodi:open="true" />
     <text
        xml:space="preserve"
-       style="font-size:3.175px;line-height:1.25;font-family:'Latin Modern Math';-inkscape-font-specification:'Latin Modern Math';stroke-width:0.264583;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;"
-       x="81.501122"
-       y="75.071846"
-       id="text2045"><tspan
+       style="font-style:italic;font-size:3.175px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Italic';stroke-width:0.264583"
+       x="91.869972"
+       y="55.838005"
+       id="text875"><tspan
          sodipodi:role="line"
-         id="tspan2043"
-         x="81.501122"
-         y="75.071846"
-         style="stroke-width:0.264583;-inkscape-font-specification:'Latin Modern Math';font-family:'Latin Modern Math';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;">$O$</tspan></text>
+         id="tspan873"
+         x="91.869972"
+         y="55.838005"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Latin Modern Sans';-inkscape-font-specification:'Latin Modern Sans';stroke-width:0.264583">v</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;line-height:1.25;font-family:'Latin Modern Math';-inkscape-font-specification:'Latin Modern Math';stroke-width:0.264583"
-       x="90.251808"
-       y="71.347046"
-       id="text2049"><tspan
+       style="font-style:italic;font-size:3.175px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Italic';stroke-width:0.264583"
+       x="104.74678"
+       y="71.37101"
+       id="text879"><tspan
          sodipodi:role="line"
-         id="tspan2047"
-         x="90.251808"
-         y="71.347046"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Latin Modern Math';-inkscape-font-specification:'Latin Modern Math';stroke-width:0.264583">$\varphi$</tspan></text>
+         id="tspan877"
+         x="104.74678"
+         y="71.37101"
+         style="stroke-width:0.264583">X</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:3.175px;line-height:1.25;font-family:'Latin Modern Math';-inkscape-font-specification:'Latin Modern Math';stroke-width:0.264583;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;"
-       x="87.279366"
-       y="67.515892"
-       id="text2053"><tspan
+       style="font-style:italic;font-size:3.175px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Italic';stroke-width:0.264583"
+       x="81.707108"
+       y="76.163727"
+       id="text883"><tspan
          sodipodi:role="line"
-         id="tspan2051"
-         x="87.279366"
-         y="67.515892"
-         style="stroke-width:0.264583;-inkscape-font-specification:'Latin Modern Math';font-family:'Latin Modern Math';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;">$r$</tspan></text>
+         id="tspan881"
+         x="81.707108"
+         y="76.163727"
+         style="stroke-width:0.264583">O</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:3.175px;line-height:1.25;font-family:'Latin Modern Math';-inkscape-font-specification:'Latin Modern Math';stroke-width:0.264583;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;"
-       x="90.516029"
-       y="54.238968"
-       id="text2057"><tspan
+       style="font-style:italic;font-size:3.175px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Italic';stroke-width:0.264583"
+       x="88.116638"
+       y="67.328964"
+       id="text887"><tspan
          sodipodi:role="line"
-         id="tspan2055"
-         x="90.516029"
-         y="54.238968"
-         style="stroke-width:0.264583;-inkscape-font-specification:'Latin Modern Math';font-family:'Latin Modern Math';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;">$v$</tspan></text>
+         id="tspan885"
+         x="88.116638"
+         y="67.328964"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Latin Modern Sans';-inkscape-font-specification:'Latin Modern Sans';stroke-width:0.264583">r</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:3.175px;line-height:1.25;font-family:'Latin Modern Math';-inkscape-font-specification:'Latin Modern Math';stroke-width:0.264583;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;"
-       x="109.47361"
-       y="71.14888"
-       id="text2061"><tspan
+       style="font-style:italic;font-variant:normal;font-weight:400;font-size:3.175px;line-height:125%;font-family:'Latin Modern Math';text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="90.726044"
+       y="70.632858"
+       id="text898"><tspan
          sodipodi:role="line"
-         id="tspan2059"
-         x="109.47361"
-         y="71.14888"
-         style="stroke-width:0.264583;-inkscape-font-specification:'Latin Modern Math';font-family:'Latin Modern Math';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;">$X$</tspan></text>
+         x="90.726044"
+         y="70.632858"
+         id="tspan896"
+         style="font-size:3.175px;stroke-width:0.264583"><tspan
+           dx="0"
+           dy="0"
+           style="font-style:italic;font-variant:normal;font-weight:400;font-size:3.175px;font-family:'Latin Modern Math';fill:#000000;stroke-width:0.264583"
+           id="tspan892">φ</tspan><tspan
+           dx="0"
+           dy="0"
+           style="font-style:italic;font-variant:normal;font-weight:400;font-size:3.175px;fill:#000000;stroke-width:0.264583"
+           id="tspan894"> </tspan></tspan></text>
   </g>
 </svg>

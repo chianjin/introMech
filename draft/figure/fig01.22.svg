@@ -130,6 +130,20 @@
            id="path7501" />
       </symbol>
     </g>
+    <pattern
+       id="EMFhbasepattern"
+       patternUnits="userSpaceOnUse"
+       width="6"
+       height="6"
+       x="0"
+       y="0" />
+    <pattern
+       id="EMFhbasepattern-6"
+       patternUnits="userSpaceOnUse"
+       width="6"
+       height="6"
+       x="0"
+       y="0" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -138,18 +152,18 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="4.3748728"
-     inkscape:cx="337.98759"
-     inkscape:cy="416.24293"
+     inkscape:zoom="8.4019619"
+     inkscape:cx="295.01842"
+     inkscape:cy="391.42858"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
      showgrid="false"
-     inkscape:window-width="1413"
-     inkscape:window-height="1030"
-     inkscape:window-x="64"
-     inkscape:window-y="0"
-     inkscape:window-maximized="0" />
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1" />
   <metadata
      id="metadata9909">
     <rdf:RDF>
@@ -192,42 +206,6 @@
        sodipodi:arc-type="arc"
        d="m 82.984726,112.62348 a 10.548147,10.548147 0 0 1 5.203226,-4.65049"
        sodipodi:open="true" />
-    <text
-       xml:space="preserve"
-       style="font-size:3.175px;line-height:1.25;font-family:FZShuSong-Z01S;-inkscape-font-specification:'FZShuSong-Z01S, Normal';stroke-width:0.264583"
-       x="-9.0483046"
-       y="119.63165"
-       id="text9754"
-       transform="rotate(-39.891116)"><tspan
-         sodipodi:role="line"
-         id="tspan9752"
-         x="-9.0483046"
-         y="119.63165"
-         style="stroke-width:0.264583">$\Delta v$</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:3.175px;line-height:1.25;font-family:FZShuSong-Z01S;-inkscape-font-specification:'FZShuSong-Z01S, Normal';stroke-width:0.264583"
-       x="121.44344"
-       y="-50.015705"
-       id="text9758"
-       transform="rotate(70.869165)"><tspan
-         sodipodi:role="line"
-         id="tspan9756"
-         x="121.44344"
-         y="-50.015705"
-         style="stroke-width:0.264583">$v(t)$</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:3.175px;line-height:1.25;font-family:FZShuSong-Z01S;-inkscape-font-specification:'FZShuSong-Z01S, Normal';stroke-width:0.264583"
-       x="114.19216"
-       y="63.744965"
-       id="text9762"
-       transform="rotate(28.631392)"><tspan
-         sodipodi:role="line"
-         id="tspan9760"
-         x="114.19216"
-         y="63.744965"
-         style="stroke-width:0.264583">$v(t+\Delta t)$</tspan></text>
     <g
        inkscape:label=""
        transform="matrix(0.31810097,0,0,0.31810097,51.261563,82.986023)"
@@ -262,5 +240,71 @@
         </g>
       </g>
     </g>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-size:3.175px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Italic';stroke-width:0.264583"
+       x="128.173"
+       y="-29.423281"
+       id="text890"
+       transform="rotate(61.81324)"><tspan
+         sodipodi:role="line"
+         id="tspan888"
+         x="128.173"
+         y="-29.423281"
+         style="stroke-width:0.264583"><tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Latin Modern Sans';-inkscape-font-specification:'Latin Modern Sans'"
+   id="tspan907">v</tspan><tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, '"
+   id="tspan894">(</tspan>t<tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, '"
+   id="tspan892">)</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.7207px;line-height:125%;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, ';text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="-5.7506595"
+       y="119.66353"
+       id="text975"
+       transform="rotate(-38.907864)"><tspan
+         sodipodi:role="line"
+         x="-5.7506595"
+         y="119.66353"
+         id="tspan973"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, ';stroke-width:0.264583"><tspan
+           dx="0 0 0"
+           dy="0 0 0"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.7207px;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, ';fill:#000000;stroke-width:0.264583"
+           id="tspan969"><tspan
+   style="font-size:3.175px"
+   id="tspan990">Δ</tspan><tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;font-family:'Latin Modern Sans';-inkscape-font-specification:'Latin Modern Sans'"
+   id="tspan988">v</tspan> </tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.7207px;line-height:125%;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, ';text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="109.65293"
+       y="69.738899"
+       id="text975-6"
+       transform="rotate(25.425216)"><tspan
+         sodipodi:role="line"
+         x="109.65293"
+         y="69.738899"
+         id="tspan973-3"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, ';stroke-width:0.264583"><tspan
+           dx="0 0 0 0 0"
+           dy="0 0 0 0 0"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.7207px;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, ';fill:#000000;stroke-width:0.264583"
+           id="tspan969-8"><tspan
+             style="font-size:3.175px;stroke-width:0.264583"
+             id="tspan990-2"><tspan
+   style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman,  Italic'"
+   id="tspan1023"><tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Latin Modern Sans';-inkscape-font-specification:'Latin Modern Sans'"
+   id="tspan905">v</tspan><tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, '"
+   id="tspan1031">(</tspan>t</tspan>+Δ</tspan><tspan
+             style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Italic';stroke-width:0.264583"
+             id="tspan988-0">t<tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, '"
+   id="tspan1025">)</tspan></tspan></tspan></tspan></text>
   </g>
 </svg>
