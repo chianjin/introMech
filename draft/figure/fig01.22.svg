@@ -152,9 +152,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="8.4019619"
+     inkscape:zoom="7.7880172"
      inkscape:cx="295.01842"
-     inkscape:cy="391.42858"
+     inkscape:cy="391.46462"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
@@ -242,7 +242,7 @@
     </g>
     <text
        xml:space="preserve"
-       style="font-style:italic;font-size:3.175px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Italic';stroke-width:0.264583"
+       style="font-style:italic;font-size:2.46944444px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Italic';stroke-width:0.264583;"
        x="128.173"
        y="-29.423281"
        id="text890"
@@ -251,16 +251,16 @@
          id="tspan888"
          x="128.173"
          y="-29.423281"
-         style="stroke-width:0.264583"><tspan
-   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Latin Modern Sans';-inkscape-font-specification:'Latin Modern Sans'"
+         style="stroke-width:0.264583;font-size:2.46944444px;"><tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Latin Modern Sans';-inkscape-font-specification:'Latin Modern Sans';font-size:2.46944444px;"
    id="tspan907">v</tspan><tspan
-   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, '"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, ';font-size:2.46944444px;"
    id="tspan894">(</tspan>t<tspan
-   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, '"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, ';font-size:2.46944444px;"
    id="tspan892">)</tspan></tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.7207px;line-height:125%;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, ';text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.46944444px;line-height:125%;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, ';text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;"
        x="-5.7506595"
        y="119.66353"
        id="text975"
@@ -269,42 +269,42 @@
          x="-5.7506595"
          y="119.66353"
          id="tspan973"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, ';stroke-width:0.264583"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, ';stroke-width:0.264583;font-size:2.46944444px;"><tspan
            dx="0 0 0"
            dy="0 0 0"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.7207px;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, ';fill:#000000;stroke-width:0.264583"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, ';fill:#000000;stroke-width:0.264583;font-size:2.46944444px;"
            id="tspan969"><tspan
-   style="font-size:3.175px"
-   id="tspan990">Δ</tspan><tspan
-   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;font-family:'Latin Modern Sans';-inkscape-font-specification:'Latin Modern Sans'"
+   id="tspan990"
+   style="font-size:2.46944444px;">Δ</tspan><tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Latin Modern Sans';-inkscape-font-specification:'Latin Modern Sans';font-size:2.46944444px;"
    id="tspan988">v</tspan> </tspan></tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.7207px;line-height:125%;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, ';text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="109.65293"
-       y="69.738899"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.46944px;line-height:125%;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, ';text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="110.01107"
+       y="69.305336"
        id="text975-6"
        transform="rotate(25.425216)"><tspan
          sodipodi:role="line"
-         x="109.65293"
-         y="69.738899"
+         x="110.01107"
+         y="69.305336"
          id="tspan973-3"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, ';stroke-width:0.264583"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.46944px;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, ';stroke-width:0.264583"><tspan
            dx="0 0 0 0 0"
            dy="0 0 0 0 0"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.7207px;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, ';fill:#000000;stroke-width:0.264583"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.46944px;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, ';fill:#000000;stroke-width:0.264583"
            id="tspan969-8"><tspan
-             style="font-size:3.175px;stroke-width:0.264583"
+             style="font-size:2.46944px;stroke-width:0.264583"
              id="tspan990-2"><tspan
-   style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman,  Italic'"
+   style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.46944px;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Italic'"
    id="tspan1023"><tspan
-   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Latin Modern Sans';-inkscape-font-specification:'Latin Modern Sans'"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.46944px;font-family:'Latin Modern Sans';-inkscape-font-specification:'Latin Modern Sans'"
    id="tspan905">v</tspan><tspan
-   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, '"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.46944px;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, '"
    id="tspan1031">(</tspan>t</tspan>+Δ</tspan><tspan
-             style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Italic';stroke-width:0.264583"
+             style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.46944px;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Italic';stroke-width:0.264583"
              id="tspan988-0">t<tspan
-   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, '"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.46944px;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, '"
    id="tspan1025">)</tspan></tspan></tspan></tspan></text>
   </g>
 </svg>

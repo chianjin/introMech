@@ -22,7 +22,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -92,68 +92,69 @@
      inkscape:snap-midpoints="true"
      inkscape:snap-object-midpoints="true"
      inkscape:snap-center="true"
-     inkscape:zoom="3.9971474"
+     inkscape:zoom="4.4108307"
      inkscape:cx="298.73793"
      inkscape:cy="381.82326"
      inkscape:window-x="-9"
      inkscape:window-y="-9"
      inkscape:window-maximized="1"
-     inkscape:current-layer="g2665" />
+     inkscape:current-layer="g2665"
+     inkscape:document-rotation="0" />
   <g
      inkscape:groupmode="layer"
      inkscape:label="Image"
      id="g2665">
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none;marker-end:url(#Arrow1Mend);marker-start:url(#Arrow1Mstart)"
+       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none;marker-end:url(#Arrow1Mend);marker-start:url(#Arrow1Mstart);"
        d="M 190.1356,412.79439 H 369.7637"
        id="path4186" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none;marker-end:url(#marker4264)"
+       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none;marker-end:url(#marker4264);"
        d="M 279.94965,412.79439 V 318.22695"
        id="path4188" />
     <text
        xml:space="preserve"
-       style="font-style:italic;font-size:12px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Italic'"
-       x="261.97238"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+       x="263.27271"
        y="318.72589"
        id="text4192"><tspan
          sodipodi:role="line"
          id="tspan4190"
-         x="261.97238"
+         x="263.27271"
          y="318.72589">K'</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:italic;font-size:12px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Italic'"
-       x="285.73932"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+       x="287.03964"
        y="318.72589"
        id="text4196"><tspan
          sodipodi:role="line"
          id="tspan4194"
-         x="285.73932"
+         x="287.03964"
          y="318.72589">K</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:italic;font-size:12px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Italic'"
-       x="284.0593"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+       x="285.35962"
        y="337.73944"
        id="text4200"><tspan
          sodipodi:role="line"
          id="tspan4198"
-         x="284.0593"
+         x="285.35962"
          y="337.73944">Y</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:italic;font-size:12px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Italic'"
-       x="260.29236"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+       x="261.59268"
        y="337.73944"
        id="text4204"><tspan
          sodipodi:role="line"
          id="tspan4202"
-         x="260.29236"
+         x="261.59268"
          y="337.73944">Y'</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:italic;font-size:12px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Italic'"
+       style="font-style:italic;font-size:9.33333333px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Italic';font-weight:normal;font-stretch:normal;font-variant:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;"
        x="194.63881"
        y="403.03745"
        id="text4208"><tspan
@@ -163,7 +164,7 @@
          y="403.03745">X'</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:italic;font-size:12px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Italic'"
+       style="font-style:italic;font-size:9.33333333px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Italic';font-weight:normal;font-stretch:normal;font-variant:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;"
        x="357.25479"
        y="403.03745"
        id="text4212"><tspan
@@ -173,23 +174,23 @@
          y="403.03745">X</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:italic;font-size:12px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Italic'"
-       x="260.94037"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+       x="262.24069"
        y="426.80298"
        id="text4216"><tspan
          sodipodi:role="line"
          id="tspan4214"
-         x="260.94037"
+         x="262.24069"
          y="426.80298">O'</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:italic;font-size:12px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Italic'"
-       x="284.70731"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+       x="286.00763"
        y="426.80298"
        id="text4220"><tspan
          sodipodi:role="line"
          id="tspan4218"
-         x="284.70731"
+         x="286.00763"
          y="426.80298">O</tspan></text>
   </g>
 </svg>

@@ -22,7 +22,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -113,20 +113,21 @@
      inkscape:window-height="1001"
      id="namedview4298"
      showgrid="false"
-     inkscape:zoom="3.6732609"
+     inkscape:zoom="4.0534237"
      inkscape:cx="227.26208"
      inkscape:cy="185.69198"
      inkscape:window-x="-9"
      inkscape:window-y="-9"
      inkscape:window-maximized="1"
-     inkscape:current-layer="g4304" />
+     inkscape:current-layer="g4304"
+     inkscape:document-rotation="0" />
   <g
      inkscape:groupmode="layer"
      inkscape:label="Image"
      id="g4304">
     <text
        xml:space="preserve"
-       style="font-style:italic;font-size:12px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Italic'"
+       style="font-style:italic;font-size:9.33333333px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Italic';font-weight:normal;font-stretch:normal;font-variant:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;"
        x="98.005562"
        y="160.631"
        id="text4896"><tspan
@@ -155,7 +156,7 @@
     </g>
     <text
        xml:space="preserve"
-       style="font-style:italic;font-size:12px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Italic'"
+       style="font-style:italic;font-size:9.33333333px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Italic';font-weight:normal;font-stretch:normal;font-variant:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;"
        x="98.005562"
        y="208.54482"
        id="text4900"><tspan
@@ -165,7 +166,7 @@
          y="208.54482">K'</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:italic;font-size:12px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Italic'"
+       style="font-style:italic;font-size:9.33333333px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Italic';font-weight:normal;font-stretch:normal;font-variant:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;"
        x="304.36172"
        y="176.41"
        id="text4904"><tspan
@@ -175,35 +176,37 @@
          y="176.41">X</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:italic;font-size:12px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Italic'"
+       style="font-style:italic;font-size:9.33333px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Italic'"
        x="154.66724"
        y="170.14854"
        id="text4908"><tspan
          sodipodi:role="line"
          id="tspan4906"
          x="154.66724"
-         y="170.14854">t<tspan
-   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, '"
+         y="170.14854"
+         style="font-size:9.33333px">t<tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.33333px;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, '"
    id="tspan4910"><tspan
-   style="font-size:65%;baseline-shift:sub"
+   style="font-size:9.33333px;baseline-shift:sub"
    id="tspan4912">1</tspan>=1</tspan></tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:italic;font-size:12px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Italic'"
+       style="font-style:italic;font-size:9.33333px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Italic'"
        x="148.15724"
        y="207.51874"
        id="text4908-8"><tspan
          sodipodi:role="line"
          id="tspan4906-0"
          x="148.15724"
-         y="207.51874">t'<tspan
-   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, '"
+         y="207.51874"
+         style="font-size:9.33333px">t'<tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.33333px;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, '"
    id="tspan4910-4"><tspan
-   style="font-size:65%;baseline-shift:sub"
+   style="font-size:9.33333px;baseline-shift:sub"
    id="tspan4912-2">1</tspan>=−1</tspan></tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:italic;font-size:12px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Italic'"
+       style="font-style:italic;font-size:9.33333333px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Italic';"
        x="236.97525"
        y="172.12784"
        id="text4908-1"><tspan
@@ -211,23 +214,24 @@
          id="tspan4906-7"
          x="236.97525"
          y="172.12784">t<tspan
-   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, '"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, ';font-size:9.33333333px;"
    id="tspan4910-0"><tspan
-   style="font-size:65%;baseline-shift:sub"
+   style="baseline-shift:sub;font-size:9.33333333px;"
    id="tspan4912-9">1</tspan>=2</tspan></tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:italic;font-size:12px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Italic'"
+       style="font-style:italic;font-size:9.33333px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Italic'"
        x="230.46526"
        y="209.15216"
        id="text4908-2"><tspan
          sodipodi:role="line"
          id="tspan4906-5"
          x="230.46526"
-         y="209.15216">t'<tspan
-   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, '"
+         y="209.15216"
+         style="font-size:9.33333px">t'<tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.33333px;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, '"
    id="tspan4910-03"><tspan
-   style="font-size:65%;baseline-shift:sub"
+   style="font-size:9.33333px;baseline-shift:sub"
    id="tspan4912-91">2</tspan>=−2</tspan></tspan></text>
     <text
        xml:space="preserve"
@@ -241,31 +245,33 @@
          y="193.28876">O</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:italic;font-size:12px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Italic'"
+       style="font-style:italic;font-size:9.33333px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Italic'"
        x="161.60112"
        y="193.444"
        id="text4968"><tspan
          sodipodi:role="line"
          id="tspan4966"
          x="161.60112"
-         y="193.444">x<tspan
-   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:65%;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, ';baseline-shift:sub"
+         y="193.444"
+         style="font-size:9.33333px">x<tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.33333px;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, ';baseline-shift:sub"
    id="tspan4970">1</tspan></tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:italic;font-size:12px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Italic'"
+       style="font-style:italic;font-size:9.33333px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Italic'"
        x="243.97215"
        y="193.444"
        id="text4968-6"><tspan
          sodipodi:role="line"
          id="tspan4966-7"
          x="243.97215"
-         y="193.444">x<tspan
-   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:65%;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, ';baseline-shift:sub"
+         y="193.444"
+         style="font-size:9.33333px">x<tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.33333px;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, ';baseline-shift:sub"
    id="tspan4970-7">2</tspan></tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:italic;font-size:12px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Italic'"
+       style="font-style:italic;font-size:9.33333333px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Italic';"
        x="160.54816"
        y="149.87486"
        id="text4995"><tspan
@@ -273,10 +279,10 @@
          id="tspan4993"
          x="160.54816"
          y="149.87486"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:FZShuSong-Z01;-inkscape-font-specification:FZShuSong-Z01">早</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:FZShuSong-Z01;-inkscape-font-specification:FZShuSong-Z01;font-size:9.33333333px;">早</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:italic;font-size:12px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Italic'"
+       style="font-style:italic;font-size:9.33333333px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Italic';"
        x="242.56743"
        y="149.83092"
        id="text4999"><tspan
@@ -284,14 +290,14 @@
          id="tspan4997"
          x="242.56743"
          y="149.83092"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:FZShuSong-Z01;-inkscape-font-specification:FZShuSong-Z01">晚</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:FZShuSong-Z01;-inkscape-font-specification:FZShuSong-Z01;font-size:9.33333333px;">晚</tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker5123);stroke-miterlimit:4;stroke-dasharray:none"
        d="m 178.86015,157.08114 h 53.35859"
        id="path5001" />
     <text
        xml:space="preserve"
-       style="font-style:italic;font-size:12px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Italic'"
+       style="font-style:italic;font-size:9.33333333px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Italic';"
        x="243.03618"
        y="230.09882"
        id="text4995-3"><tspan
@@ -299,10 +305,10 @@
          id="tspan4993-1"
          x="243.03618"
          y="230.09882"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:FZShuSong-Z01;-inkscape-font-specification:FZShuSong-Z01">早</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:FZShuSong-Z01;-inkscape-font-specification:FZShuSong-Z01;font-size:9.33333333px;">早</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:italic;font-size:12px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Italic'"
+       style="font-style:italic;font-size:9.33333333px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Italic';"
        x="160.07941"
        y="230.05487"
        id="text4999-9"><tspan
@@ -310,7 +316,7 @@
          id="tspan4997-8"
          x="160.07941"
          y="230.05487"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:FZShuSong-Z01;-inkscape-font-specification:FZShuSong-Z01">晚</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:FZShuSong-Z01;-inkscape-font-specification:FZShuSong-Z01;font-size:9.33333333px;">晚</tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow1Mstart)"
        d="m 179.84549,216.16756 h 53.35859"

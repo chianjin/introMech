@@ -115,7 +115,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -124,26 +124,26 @@
      inkscape:groupmode="layer"
      id="layer1">
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.13229167;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker3976);stroke-miterlimit:4;stroke-dasharray:none"
+       style="fill:none;stroke:#000000;stroke-width:0.13229167;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker3976);stroke-miterlimit:4;stroke-dasharray:none;"
        d="m 104.58364,53.368045 h 35.44784"
        id="path3230" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.13229167;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker3986);stroke-miterlimit:4;stroke-dasharray:none"
+       style="fill:none;stroke:#000000;stroke-width:0.13229167;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker3986);stroke-miterlimit:4;stroke-dasharray:none;"
        d="M 104.58364,53.368045 V 22.925973"
        id="path3232" />
     <circle
-       style="fill:#000000;stroke-width:0.132292;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:0.529167, 0.264583"
+       style="fill:#000000;stroke-width:0.132292;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:0.529167, 0.26458300000000001;"
        id="path3234"
        cx="117.59548"
        cy="32.852856"
        r="0.26458332" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.13229167;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:0.52916667,0.13229167;stroke-dashoffset:0"
+       style="fill:none;stroke:#000000;stroke-width:0.13229167;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:1.05833333, 0.52916666999999995;stroke-dashoffset:0;"
        d="M 117.59548,32.852858 V 53.368045"
        id="path3236" />
     <text
        xml:space="preserve"
-       style="font-style:italic;font-size:3.175px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Italic';stroke-width:0.264583"
+       style="font-style:italic;font-size:2.46944444px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Italic';stroke-width:0.264583;font-weight:normal;font-stretch:normal;font-variant:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;"
        x="100.39657"
        y="27.47394"
        id="text3240"><tspan
@@ -151,10 +151,10 @@
          id="tspan3238"
          x="100.39657"
          y="27.47394"
-         style="stroke-width:0.264583">K</tspan></text>
+         style="stroke-width:0.264583;-inkscape-font-specification:'Latin Modern Roman, Italic';font-family:'Latin Modern Roman';font-weight:normal;font-style:italic;font-stretch:normal;font-variant:normal;font-size:2.46944444px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;">K</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:italic;font-size:3.175px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Italic';stroke-width:0.264583"
+       style="font-style:italic;font-size:2.46944444px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Italic';stroke-width:0.264583;font-weight:normal;font-stretch:normal;font-variant:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;"
        x="105.47607"
        y="26.558273"
        id="text3244"><tspan
@@ -162,10 +162,10 @@
          id="tspan3242"
          x="105.47607"
          y="26.558273"
-         style="stroke-width:0.264583">Y</tspan></text>
+         style="stroke-width:0.264583;-inkscape-font-specification:'Latin Modern Roman, Italic';font-family:'Latin Modern Roman';font-weight:normal;font-style:italic;font-stretch:normal;font-variant:normal;font-size:2.46944444px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;">Y</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:italic;font-size:3.175px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Italic';stroke-width:0.264583"
+       style="font-style:italic;font-size:2.46944444px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Italic';stroke-width:0.264583;font-weight:normal;font-stretch:normal;font-variant:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;"
        x="136.09668"
        y="52.417477"
        id="text3248"><tspan
@@ -173,10 +173,10 @@
          id="tspan3246"
          x="136.09668"
          y="52.417477"
-         style="stroke-width:0.264583">X</tspan></text>
+         style="stroke-width:0.264583;-inkscape-font-specification:'Latin Modern Roman, Italic';font-family:'Latin Modern Roman';font-weight:normal;font-style:italic;font-stretch:normal;font-variant:normal;font-size:2.46944444px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;">X</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:italic;font-size:3.175px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Italic';stroke-width:0.264583"
+       style="font-style:italic;font-size:2.46944444px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Italic';stroke-width:0.264583;font-weight:normal;font-stretch:normal;font-variant:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;"
        x="100.91663"
        y="56.336582"
        id="text3252"><tspan
@@ -184,25 +184,25 @@
          id="tspan3250"
          x="100.91663"
          y="56.336582"
-         style="stroke-width:0.264583">O</tspan></text>
+         style="stroke-width:0.264583;-inkscape-font-specification:'Latin Modern Roman, Italic';font-family:'Latin Modern Roman';font-weight:normal;font-style:italic;font-stretch:normal;font-variant:normal;font-size:2.46944444px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;">O</tspan></text>
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.132292;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker4076)"
+       style="fill:none;stroke:#000000;stroke-width:0.132292;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker4076);"
        d="M 104.58364,53.368045 136.54002,38.027259"
        id="path3230-6"
        inkscape:transform-center-x="-66.98805" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.132292;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker4086)"
+       style="fill:none;stroke:#000000;stroke-width:0.132292;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker4086);"
        d="M 104.58364,53.368045 91.409207,25.924394"
        id="path3232-9"
        inkscape:transform-center-y="-57.528324" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.13229167;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:0.52916667,0.13229167;stroke-dashoffset:0"
+       style="fill:none;stroke:#000000;stroke-width:0.13229167;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:1.05833333, 0.52916666999999995;stroke-dashoffset:0;"
        d="m 117.59548,32.852858 5.61315,11.574184"
        id="path3321"
        sodipodi:nodetypes="cc" />
     <text
        xml:space="preserve"
-       style="font-style:italic;font-size:3.175px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Italic';stroke-width:0.264583"
+       style="font-style:italic;font-size:2.46944444px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Italic';stroke-width:0.264583;font-weight:normal;font-stretch:normal;font-variant:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;"
        x="66.931946"
        y="72.848572"
        id="text4168"
@@ -211,10 +211,10 @@
          id="tspan4166"
          x="66.931946"
          y="72.848572"
-         style="stroke-width:0.264583">Y'</tspan></text>
+         style="stroke-width:0.264583;-inkscape-font-specification:'Latin Modern Roman, Italic';font-family:'Latin Modern Roman';font-weight:normal;font-style:italic;font-stretch:normal;font-variant:normal;font-size:2.46944444px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;">Y'</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:italic;font-size:3.175px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Italic';stroke-width:0.264583"
+       style="font-style:italic;font-size:2.46944444px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Italic';stroke-width:0.264583;font-weight:normal;font-stretch:normal;font-variant:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;"
        x="95.484238"
        y="99.349876"
        id="text4172"
@@ -223,10 +223,10 @@
          id="tspan4170"
          x="95.484238"
          y="99.349876"
-         style="stroke-width:0.264583">X'</tspan></text>
+         style="stroke-width:0.264583;-inkscape-font-specification:'Latin Modern Roman, Italic';font-family:'Latin Modern Roman';font-weight:normal;font-style:italic;font-stretch:normal;font-variant:normal;font-size:2.46944444px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;">X'</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:italic;font-size:3.175px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Italic';stroke-width:0.264583"
+       style="font-style:italic;font-size:2.46944444px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Italic';stroke-width:0.264583;font-weight:normal;font-stretch:normal;font-variant:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;"
        x="104.7159"
        y="56.336582"
        id="text4176"><tspan
@@ -234,10 +234,10 @@
          id="tspan4174"
          x="104.7159"
          y="56.336582"
-         style="stroke-width:0.264583">O'</tspan></text>
+         style="stroke-width:0.264583;-inkscape-font-specification:'Latin Modern Roman, Italic';font-family:'Latin Modern Roman';font-weight:normal;font-style:italic;font-stretch:normal;font-variant:normal;font-size:2.46944444px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;">O'</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:italic;font-size:3.175px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Italic';stroke-width:0.264583"
+       style="font-style:italic;font-size:2.46944444px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Italic';stroke-width:0.264583;font-weight:normal;font-stretch:normal;font-variant:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;"
        x="60.465736"
        y="74.743294"
        id="text4180"
@@ -246,10 +246,10 @@
          id="tspan4178"
          x="60.465736"
          y="74.743294"
-         style="stroke-width:0.264583">K'</tspan></text>
+         style="stroke-width:0.264583;-inkscape-font-specification:'Latin Modern Roman, Italic';font-family:'Latin Modern Roman';font-weight:normal;font-style:italic;font-stretch:normal;font-variant:normal;font-size:2.46944444px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;">K'</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:italic;font-size:3.175px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Italic';stroke-width:0.264583"
+       style="font-style:italic;font-size:2.46944444px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Italic';stroke-width:0.264583;font-weight:normal;font-stretch:normal;font-variant:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;"
        x="115.04662"
        y="32.400883"
        id="text4184"><tspan
@@ -257,6 +257,6 @@
          id="tspan4182"
          x="115.04662"
          y="32.400883"
-         style="stroke-width:0.264583">P</tspan></text>
+         style="stroke-width:0.264583;-inkscape-font-specification:'Latin Modern Roman, Italic';font-family:'Latin Modern Roman';font-weight:normal;font-style:italic;font-stretch:normal;font-variant:normal;font-size:2.46944444px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;">P</tspan></text>
   </g>
 </svg>

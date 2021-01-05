@@ -91,18 +91,18 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="4.7436586"
+     inkscape:zoom="5.2346018"
      inkscape:cx="336.14502"
      inkscape:cy="439.99999"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
      showgrid="false"
-     inkscape:window-width="1413"
-     inkscape:window-height="1030"
-     inkscape:window-x="192"
-     inkscape:window-y="0"
-     inkscape:window-maximized="0" />
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1" />
   <metadata
      id="metadata7080">
     <rdf:RDF>
@@ -152,7 +152,7 @@
        sodipodi:nodetypes="cc" />
     <text
        xml:space="preserve"
-       style="font-style:italic;font-variant:normal;font-weight:400;font-size:3.7207px;line-height:125%;font-family:'Latin Modern Math';text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       style="font-style:italic;font-variant:normal;font-weight:400;font-size:2.46944444px;line-height:125%;font-family:'Latin Modern Math';text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;"
        x="94.501221"
        y="102.53764"
        id="text886"><tspan
@@ -160,18 +160,18 @@
          x="94.501221"
          y="102.53764"
          id="tspan884"
-         style="stroke-width:0.264583"><tspan
+         style="stroke-width:0.264583;font-size:2.46944444px;"><tspan
            dx="0"
            dy="0"
-           style="font-style:italic;font-variant:normal;font-weight:400;font-size:3.175px;font-family:'Latin Modern Math';fill:#000000;stroke-width:0.264583"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Latin Modern Sans';-inkscape-font-specification:'Latin Modern Sans';fill:#000000;stroke-width:0.264583;font-size:2.46944444px;"
            id="tspan880">ω</tspan><tspan
            dx="0"
            dy="0"
-           style="font-style:normal;font-variant:normal;font-weight:400;font-size:3.7207px;fill:#000000;stroke-width:0.264583"
+           style="font-style:normal;font-variant:normal;font-weight:400;fill:#000000;stroke-width:0.264583;font-size:2.46944444px;"
            id="tspan882"> </tspan></tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:italic;font-size:3.175px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Italic';stroke-width:0.264583"
+       style="font-style:italic;font-size:2.46944444px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Italic';stroke-width:0.264583;"
        x="102.2378"
        y="110.88313"
        id="text901"><tspan
@@ -179,10 +179,10 @@
          id="tspan899"
          x="102.2378"
          y="110.88313"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Latin Modern Sans';-inkscape-font-specification:'Latin Modern Sans';stroke-width:0.264583">v</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Latin Modern Sans';-inkscape-font-specification:'Latin Modern Sans';stroke-width:0.264583;font-size:2.46944444px;">v</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:italic;font-size:3.175px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Italic';stroke-width:0.264583"
+       style="font-style:italic;font-size:2.46944444px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Italic';stroke-width:0.264583;"
        x="97.329498"
        y="119.24954"
        id="text905"><tspan
@@ -190,10 +190,10 @@
          id="tspan903"
          x="97.329498"
          y="119.24954"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Latin Modern Sans';-inkscape-font-specification:'Latin Modern Sans';stroke-width:0.264583">r</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Latin Modern Sans';-inkscape-font-specification:'Latin Modern Sans';stroke-width:0.264583;font-size:2.46944444px;">r</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:italic;font-size:3.175px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Italic';stroke-width:0.264583"
+       style="font-style:italic;font-size:2.46944444px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Italic';stroke-width:0.264583;"
        x="90.357468"
        y="122.20569"
        id="text909"><tspan
@@ -201,6 +201,6 @@
          id="tspan907"
          x="90.357468"
          y="122.20569"
-         style="stroke-width:0.264583">O</tspan></text>
+         style="stroke-width:0.264583;font-size:2.46944444px;">O</tspan></text>
   </g>
 </svg>

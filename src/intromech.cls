@@ -34,6 +34,7 @@
 \newcommand{\example}{\refstepcounter{example}【例~\theexample】}
 \newcommand{\solution}{\heiti 解~\normalfont}
 \newcommand{\discussion}{\heiti 讨论~\normalfont}
+\newcommand{\arctg}{{\rm arctg}}
 
 % 中文字距调整
 %\newlength{\tempccwd}

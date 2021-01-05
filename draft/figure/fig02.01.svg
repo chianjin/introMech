@@ -22,7 +22,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -155,13 +155,14 @@
      inkscape:window-height="1001"
      id="namedview835"
      showgrid="false"
-     inkscape:zoom="3.5825345"
+     inkscape:zoom="3.9533076"
      inkscape:cx="231.87316"
      inkscape:cy="488.29001"
      inkscape:window-x="-9"
      inkscape:window-y="-9"
      inkscape:window-maximized="1"
-     inkscape:current-layer="g841" />
+     inkscape:current-layer="g841"
+     inkscape:document-rotation="0" />
   <g
      inkscape:groupmode="layer"
      inkscape:label="Image"
@@ -169,20 +170,20 @@
     <g
        id="g1316">
       <path
-         style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none;marker-end:url(#marker1133)"
+         style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none;marker-end:url(#marker1133);"
          d="m 115.83978,525.04728 h 98.53359"
          id="path845" />
       <path
-         style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none;marker-end:url(#marker1123)"
+         style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none;marker-end:url(#marker1123);"
          d="M 115.83978,525.04728 93.369652,547.51741"
          id="path847" />
       <path
-         style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none;marker-end:url(#marker1143)"
+         style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none;marker-end:url(#marker1143);"
          d="M 115.83978,525.04728 V 434.88765"
          id="path849" />
       <text
          xml:space="preserve"
-         style="font-style:italic;font-size:12px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Italic'"
+         style="font-style:italic;font-size:12px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Italic';"
          x="102.44144"
          y="549.89001"
          id="text1195"><tspan
@@ -192,7 +193,7 @@
            y="549.89001">X</tspan></text>
       <text
          xml:space="preserve"
-         style="font-style:italic;font-size:12px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Italic'"
+         style="font-style:italic;font-size:12px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Italic';"
          x="199.0211"
          y="536.21259"
          id="text1217"><tspan
@@ -202,7 +203,7 @@
            y="536.21259">Y</tspan></text>
       <text
          xml:space="preserve"
-         style="font-style:italic;font-size:12px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Italic'"
+         style="font-style:italic;font-size:12px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Italic';"
          x="119.46849"
          y="444.9364"
          id="text1221"><tspan
@@ -212,7 +213,7 @@
            y="444.9364">Z</tspan></text>
       <text
          xml:space="preserve"
-         style="font-style:italic;font-size:12px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Italic'"
+         style="font-style:italic;font-size:12px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Italic';"
          x="102.16231"
          y="528.11774"
          id="text1225"><tspan
@@ -222,7 +223,7 @@
            y="528.11774">O</tspan></text>
       <text
          xml:space="preserve"
-         style="font-style:italic;font-size:12px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Italic'"
+         style="font-style:italic;font-size:12px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Italic';"
          x="114.16499"
          y="537.04999"
          id="text1229"><tspan
@@ -235,23 +236,23 @@
        id="g1316-0"
        transform="rotate(-26.992133,145.98165,189.08628)">
       <path
-         style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker1133-5)"
+         style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker1133-5);"
          d="m 115.83978,525.04728 73.18324,1.18422"
          id="path845-1"
          sodipodi:nodetypes="cc" />
       <path
-         style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker1123-1)"
+         style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker1123-1);"
          d="M 115.83978,525.04728 90.094344,551.48772"
          id="path847-7"
          sodipodi:nodetypes="cc" />
       <path
-         style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker1143-3)"
+         style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker1143-3);"
          d="m 115.83978,525.04728 0.48922,-72.0549"
          id="path849-7"
          sodipodi:nodetypes="cc" />
       <text
          xml:space="preserve"
-         style="font-style:italic;font-size:12px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Italic'"
+         style="font-style:italic;font-size:12px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Italic';"
          x="338.18661"
          y="447.12692"
          id="text1195-7"
@@ -262,7 +263,7 @@
            y="447.12692">X'</tspan></text>
       <text
          xml:space="preserve"
-         style="font-style:italic;font-size:12px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Italic'"
+         style="font-style:italic;font-size:12px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Italic';"
          x="407.27194"
          y="388.42209"
          id="text1217-1"
@@ -273,7 +274,7 @@
            y="388.42209">Y'</tspan></text>
       <text
          xml:space="preserve"
-         style="font-style:italic;font-size:12px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Italic'"
+         style="font-style:italic;font-size:12px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Italic';"
          x="314.79626"
          y="361.84262"
          id="text1221-6"
@@ -284,7 +285,7 @@
            y="361.84262">Z'</tspan></text>
       <text
          xml:space="preserve"
-         style="font-style:italic;font-size:12px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Italic'"
+         style="font-style:italic;font-size:12px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Italic';"
          x="326.362"
          y="423.2041"
          id="text1225-3"
@@ -295,7 +296,7 @@
            y="423.2041">O'</tspan></text>
       <text
          xml:space="preserve"
-         style="font-style:italic;font-size:12px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Italic'"
+         style="font-style:italic;font-size:12px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Italic';"
          x="354.75424"
          y="414.66092"
          id="text1229-2"
@@ -306,17 +307,17 @@
            y="414.66092">K'</tspan></text>
     </g>
     <path
-       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker1724)"
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker1724);"
        d="m 115.83978,525.04728 43.54459,-76.7613"
        id="path1708" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker1714)"
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker1714);"
        d="M 271.60517,502.1311 162.17569,447.44858"
        id="path1710"
        sodipodi:nodetypes="cc" />
     <text
        xml:space="preserve"
-       style="font-style:italic;font-size:12px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Italic'"
+       style="font-style:italic;font-size:9.33333333px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Italic';font-weight:normal;font-stretch:normal;font-variant:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;"
        x="151.56866"
        y="445.77377"
        id="text1794"><tspan
