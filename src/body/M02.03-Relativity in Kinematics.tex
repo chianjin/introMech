@@ -34,16 +34,16 @@
 \end{equation*}
 根据定义，质点相对于K系的速度为
 \begin{equation*}
-    v(t)\equiv\frac{dx}{dt}
+    v(t)\equiv\frac{\diff x}{\diff t}
 \end{equation*}
 
 相对于$K'$系，由式(2.3.1)，质点的轨迹函数应为
 \begin{equation*}
-    x'=x'(t)=x(t)-ut-d0
+    x'=x'(t)=x(t)-ut-d_0
 \end{equation*}
 按照定义，质点相对于$K'$的速度为
 \begin{equation*}
-    v(t)*\equiv\frac{dx'}{dt}=\frac{dx}{dt}-u
+    \erratanote{\ensuremath{v(t)}}{原书漏印“$v$”。}\equiv\frac{\diff x'}{\diff t}=\frac{\diff x}{\diff t}-u
 \end{equation*}
 即\vspace{-1.7em}
 \begin{equation}
@@ -80,15 +80,15 @@ $\vec{r'}$表示。它们之间的关系是
 \end{equation*}
 则根据定义，质点相对于$K$的速度是
 \begin{equation}\label{eqn:02.03.04}
-    \vec{v}(t)\equiv\frac{d\vec{r}}{dt}
+    \vec{v}(t)\equiv\frac{\diff \vec{r}}{\diff t}
 \end{equation}
 另一方面，由式\eqref{eqn:02.03.03}~可以求出质点在$K'$系中的轨迹函数，它是\vspace{-1em}
 \begin{equation*}
-    \vec{r}'*=\vec{r}'(t)=\vec{r}(t)-\vec{u}t-\vec{d}_0
+    \erratanote{\ensuremath{\vec{r}'=}}{原书作“$\vec{r}=\dots$”，显误。}\vec{r}'(t)=\vec{r}(t)-\vec{u}t-\vec{d}_0
 \end{equation*}
 因此，质点相对于K'的速度是
 \begin{equation}\label{eqn:02.03.05}
-    \vec{v}'(t)\equiv\frac{d\vec{r}'}{dt}=\frac{d\vec{r}}{dt}-\vec{u}
+    \vec{v}'(t)\equiv\frac{\diff \vec{r}'}{\diff t}=\frac{\diff \vec{r}}{\diff t}-\vec{u}
 \end{equation}
 即\vspace{-2em}
 \begin{equation}\label{eqn:02.03.06}
@@ -170,7 +170,7 @@ $\vec{r'}$表示。它们之间的关系是
     y=\frac{v_2}{v_1}x-\frac{g}{2v_1}x^2
 \end{equation*}
 
-\noindent 加速度$\vec{a}=\dfrac{d\vec{v}}{dt}=-g\vec{j}$，沿垂直方向向下。
+\noindent 加速度$\vec{a}=\dfrac{d\vec{v}}{\diff t}=-g\vec{j}$，沿垂直方向向下。
 
 (3)以地面为参考系，小球沿抛物线运动，相当于一个以初速
 率$\displaystyle v_0=\sqrt{v_1^2+v_2^2}$，抛射角为$\theta=\arctg\dfrac{v_2}{v_1}$的抛射体运动。
@@ -198,7 +198,7 @@ $\vec{r'}$表示。它们之间的关系是
 地球运动时，望远镜指向$E'O'$方向才能接收到星光，这是星的视
 方位。相应的，星由真位置$\sigma$移至视位置$\sigma_1$，
 
-设星的真方位与观测者速度$\vec{v}$间的交角为\proofnote{$\mu$}{原文为$u$，通常角度以希腊字母表示，疑为$\mu$误作$u$。\ref{sec:02.03}节其他误处据此改正，不一一说明。}，星的视方位与
+设星的真方位与观测者速度$\vec{v}$间的交角为\erratanote{$\mu$}{原书作“$u$”，疑为“$\mu$”误作“$u$”。本节误处据此改正。}，星的视方位与
 $\vec{v}$的夹角为$\mu'$，则光行差为$\alpha$，且有
 \begin{equation*}
     \alpha=\mu-\mu'

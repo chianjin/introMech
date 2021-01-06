@@ -57,7 +57,7 @@
 \begin{equation*}
     \begin{aligned}
         a(t) & =\lim _{\Delta t \rightarrow 0} \frac{v(t+\Delta t)-v(t)}{\Delta t} \\
-             & =\frac{dv(t)}{dt}=\frac{d^2 x(t)}{d t^2}
+             & =\frac{dv(t)}{\diff t}=\frac{\diff^2 x(t)}{\diff t^2}
     \end{aligned}
 \end{equation*}
 它的意义是质点在时刻t的无限小时间间隔中的平均加速度。以
@@ -72,7 +72,7 @@
     \begin{aligned}
         \vec{a}(t) & =\lim _{\Delta t \rightarrow 0} \frac{\vec{v}(t+\Delta t)-\vec{v}(t)}{\Delta t} \\
                   & =\lim_{\Delta t \rightarrow 0}\frac{\Delta \vec{v}}{\Delta t}                  \\
-                  & =\frac{d\vec{v}(t)}{dt}=\frac{d^2 \vec{r}(t)}{d t^2}
+                  & =\frac{\diff\vec{v}(t)}{\diff t}=\frac{\diff^2 \vec{r}(t)}{\diff t^2}
     \end{aligned}
 \end{equation}
 在曲线运动情况下，速度方向是变化的。$v(t)$，$v(t+\Delta t)$及$\Delta v$，
@@ -92,12 +92,12 @@
 
 利用式\eqref{eqn:01.07.03}，加速度矢量的分量可以表示为：
 \begin{equation}\label{eqn:01.08.04}
-    \vec{a}=\frac{d^2x(t)}{dt^2}\vec{i}+\frac{d^2y(t)}{dt^2}\vec{j}+\frac{d^2z(t)}{dt^2}\vec{k}
+    \vec{a}=\frac{\diff^2x(t)}{\diff t^2}\vec{i}+\frac{\diff^2y(t)}{\diff t^2}\vec{j}+\frac{\diff^2z(t)}{\diff t^2}\vec{k}
 \end{equation}
 加速度的三个坐标分量为：
 \begin{equation}\label{eqn:01.08.05}
-    a_x=\frac{d^2x(t)}{dt^2},~ a_y=\frac{d^2y(t)}{dt^2},~
-    a_z=\frac{d^2z(t)}{dt^2}
+    a_x=\frac{\diff^2x(t)}{\diff t^2},~ a_y=\frac{\diff^2y(t)}{\diff t^2},~
+    a_z=\frac{\diff^2z(t)}{\diff t^2}
 \end{equation}
 $\vec{r}$，$\vec{v}$，$\vec{a}$是描写运动的物理量。我们希望用数目比较少的物
 理量来描写运动。什么州比较步？意思是这些物理量之间应是相
