@@ -57,7 +57,7 @@
 \begin{equation*}
     \begin{aligned}
         a(t) & =\lim _{\Delta t \rightarrow 0} \frac{v(t+\Delta t)-v(t)}{\Delta t} \\
-             & =\frac{dv(t)}{\diff t}=\frac{\diff^2 x(t)}{\diff t^2}
+             & =\frac{\diff v(t)}{\diff t}=\frac{\diff^2 x(t)}{\diff t^2}
     \end{aligned}
 \end{equation*}
 它的意义是质点在时刻t的无限小时间间隔中的平均加速度。以
@@ -146,7 +146,7 @@ $Z$三个方向上的直线运动，这三个运动同时进行，我们可以�
 \solution 因为时间间隔都是1秒，即$\Delta t=1$秒。所以从数值上有
 \begin{align*}
     v & =\frac{\Delta s}{\Delta t}=\Delta s                         \\
-    a & =\frac{(v_2-v_1)}{\Delta}=v_2-v_1=(\Delta s_2)-(\Delta s_1)
+    a & =\frac{(v_2-v_1)}{\Delta t}=v_2-v_1=(\Delta s_2)-(\Delta s_1)
 \end{align*}
 将结果列于表\ref{tab:01.08}中。
 \begin{tablex}[!h]{0.2mm}
@@ -186,7 +186,7 @@ $Z$三个方向上的直线运动，这三个运动同时进行，我们可以�
 \end{equation*}
 
 \example 在阴极射线管中，一束电子以$10^9$厘米/秒的速度水
-平地射入平行板之间的均匀电场，电场使电子获得$10^17$厘米/秒$^2$
+平地射入平行板之间的均匀电场，电场使电子获得$10^{17}$厘米/秒$^2$
 的向下的匀加速度。己知平行板长为2厘米。求:
 
 \begin{wrapfigure}[8]{r}{16em}
@@ -202,7 +202,7 @@ $Z$三个方向上的直线运动，这三个运动同时进行，我们可以�
 
 (3)在平行板内和离开板后电子束的轨迹。
 
-\solution 选择如图1·15所示的坐标系。
+\solution 选择如图\ref{fig:01.15}~所示的坐标系。
 
 由于运动的独立性，在$x$方向是惯性运动，速度为$v_0=10^9$厘
 米/秒；在$y$方向是匀加速运动，加速度为$a=10^{17}\text{厘米/秒}^2$(因为$a$
@@ -237,12 +237,12 @@ $Z$三个方向上的直线运动，这三个运动同时进行，我们可以�
 \end{equation*}
 速度与水平轴的夹角为：
 \begin{equation*}
-    \theta = \arctan\frac{v_y}{v_x} = \arctan\frac{at}{v_0}
+    \theta = \arctg\frac{v_y}{v_x} = \arctg\frac{at}{v_0}
 \end{equation*}
 它随时间而变。在离开板时，$t=t_0$，有
 \begin{align*}
      & v \approx \num{1.02e9}\text{厘米/秒}                           \\
-     & \theta = \arctan\frac{at_0}{v_0} =\arctan\frac 1 5=\ang{11;19;}
+     & \theta = \arctg\frac{at_0}{v_0} =\arctg\frac 1 5=\ang{11;19;}
 \end{align*}
 在板内运动方程是：
 \begin{equation*}
@@ -260,7 +260,7 @@ $v\approx\num{1.02e8}$厘米/秒作直线运动。
 地面。物体的初速度为$ v_0 $。与水平方向成$ \theta $角。试讨论抛体运动
 轨迹。
 
-\discussion 我们在$ v $和铅垂线所决定的平面上来研究。按图l-16
+\discussion 我们在$ v $和铅垂线所决定的平面上来研究。按图\ref{fig:01.16}~
 中的坐标，可把运动分解为$ x $方向与$ y $方向，并分别处理。$ x $方向
 是惯性运动$ v_x=v_0\cos\theta $，所以有
 \begin{equation*}\label{xeqn:01.08.01}

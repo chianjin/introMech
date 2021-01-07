@@ -30,6 +30,20 @@
      id="defs3265">
     <marker
        style="overflow:visible;"
+       id="Arrow1Send"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Send"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.2) rotate(180) translate(6,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path921" />
+    </marker>
+    <marker
+       style="overflow:visible;"
        id="marker1279"
        refX="0.0"
        refY="0.0"
@@ -144,7 +158,7 @@
      inkscape:window-height="1001"
      id="namedview3263"
      showgrid="false"
-     inkscape:zoom="3.3767756"
+     inkscape:zoom="3.7262537"
      inkscape:cx="239.92224"
      inkscape:cy="154.01817"
      inkscape:window-x="-9"
@@ -259,7 +273,7 @@
        d="M 128.23677,187.66155 H 330.84863"
        id="path1191" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker1233)"
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Send)"
        d="M 128.23677,187.66155 163.282,138.31415"
        id="path1193" />
   </g>

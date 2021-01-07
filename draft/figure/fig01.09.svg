@@ -30,6 +30,34 @@
      id="defs837">
     <marker
        style="overflow:visible;"
+       id="marker1187"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Send"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.2) rotate(180) translate(6,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path1185" />
+    </marker>
+    <marker
+       style="overflow:visible;"
+       id="marker1177"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Send"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.2) rotate(180) translate(6,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path1175" />
+    </marker>
+    <marker
+       style="overflow:visible;"
        id="marker1157"
        refX="0.0"
        refY="0.0"
@@ -85,7 +113,7 @@
      inkscape:window-height="1001"
      id="namedview835"
      showgrid="false"
-     inkscape:zoom="6.753955"
+     inkscape:zoom="7.452953"
      inkscape:cx="320.29981"
      inkscape:cy="96.209571"
      inkscape:window-x="-9"
@@ -102,13 +130,15 @@
        d="m 255.15027,54.520259 c 33.04256,-8.391761 52.79816,15.035239 65.38581,25.175284 12.58764,10.140045 52.09885,36.364307 72.90342,-17.657664"
        id="path845" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker1127)"
-       d="M 256.64803,131.99541 293.53681,61.189926"
-       id="path1123" />
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker1177)"
+       d="M 256.64803,131.99541 293.80516,61.189926"
+       id="path1123"
+       sodipodi:nodetypes="cc" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker1157)"
-       d="M 256.64803,131.99541 338.81736,93.008687"
-       id="path1153" />
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker1187)"
+       d="M 256.64803,131.99541 340.15911,92.874512"
+       id="path1153"
+       sodipodi:nodetypes="cc" />
     <text
        xml:space="preserve"
        style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Italic'"
