@@ -74,6 +74,18 @@
 }{}
 \clearpage{\pagestyle{empty}\cleardoublepage}
 
+% 第三章
+\ifthenelse{\boolean{makeall} \OR \(\value{makechapter}=3\)}{
+    \input{body/M03.00-Newtonian Dynamicss.tex}
+    \input{body/M03.04-Newtonian Dynamicss.tex}
+    %\input{body/M02.02-Newtonian Dynamicss.tex}
+    %\input{body/M02.03-Newtonian Dynamicss.tex}
+    %\input{body/M02.04-Newtonian Dynamicss.tex}
+    %\input{body/M02.05-Newtonian Dynamicss.tex}
+    %\input{body/M02.06-Newtonian Dynamicss.tex}
+}{}
+\clearpage{\pagestyle{empty}\cleardoublepage}
+
 % 校注
 \ifthenelse{\boolean{makeall}}{
 \setcounter{page}{1}

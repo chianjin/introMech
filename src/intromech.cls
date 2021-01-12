@@ -194,6 +194,7 @@ BoldItalicFont=LeksaSans-BoldItalic.otf
 \RequirePackage{import}
 \RequirePackage{graphicx}
 \RequirePackage{subfigure}
+\RequirePackage{floatrow}
 \newenvironment{figurex}[1][htbp]
 {
     \begin{figure}[#1]
