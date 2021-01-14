@@ -74,6 +74,34 @@
          d="M 0,0 5,-5 -12.5,0 5,5 Z"
          id="path10345" />
     </marker>
+    <marker
+       style="overflow:visible"
+       id="marker11412"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path11410" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker11402"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path11400" />
+    </marker>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -82,18 +110,29 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="5.5999026"
+     inkscape:zoom="7.6154665"
      inkscape:cx="282.85714"
-     inkscape:cy="485.71429"
+     inkscape:cy="491.27865"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
      showgrid="false"
-     inkscape:window-width="1301"
-     inkscape:window-height="728"
-     inkscape:window-x="26"
-     inkscape:window-y="0"
-     inkscape:window-maximized="0" />
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     showguides="true"
+     inkscape:guide-bbox="true">
+    <sodipodi:guide
+       position="63.496364,177.58212"
+       orientation="0,-1"
+       id="guide1084" />
+    <sodipodi:guide
+       position="87.512101,153.23362"
+       orientation="0,-1"
+       id="guide1086" />
+  </sodipodi:namedview>
   <metadata
      id="metadata12473">
     <rdf:RDF>
@@ -102,7 +141,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -246,5 +285,9 @@
        style="fill:none;stroke:#000000;stroke-width:0.132292;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.264583, 0.264583;stroke-dashoffset:0;stroke-opacity:1"
        d="m 72.815785,140.06921 2.997645,-5.59974"
        id="path10486" />
+    <path
+       style="fill:none;stroke:#ffffff;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 66.380058,143.76638 h 5.625427"
+       id="path1088" />
   </g>
 </svg>

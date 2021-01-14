@@ -22,7 +22,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -83,21 +83,6 @@
          style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
          d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
          id="path4639" />
-    </marker>
-    <marker
-       style="overflow:visible;"
-       id="marker4583"
-       refX="0.0"
-       refY="0.0"
-       orient="auto"
-       inkscape:stockid="Arrow1Mend"
-       inkscape:isstock="true"
-       inkscape:collect="always">
-      <path
-         transform="scale(0.4) rotate(180) translate(10,0)"
-         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
-         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
-         id="path4581" />
     </marker>
     <marker
        style="overflow:visible;"
@@ -193,28 +178,29 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1366"
-     inkscape:window-height="705"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
      id="namedview3634"
      showgrid="false"
      inkscape:snap-intersection-paths="true"
      inkscape:object-paths="true"
      inkscape:snap-smooth-nodes="true"
      inkscape:snap-midpoints="true"
-     inkscape:zoom="2.4140716"
+     inkscape:zoom="2.663915"
      inkscape:cx="322.25471"
      inkscape:cy="414.90293"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
      inkscape:window-maximized="1"
-     inkscape:current-layer="g3640" />
+     inkscape:current-layer="g3640"
+     inkscape:document-rotation="0" />
   <g
      inkscape:groupmode="layer"
      inkscape:label="Image"
      id="g3640">
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:3,1;stroke-dashoffset:0"
-       d="M 308.55557,319.78486 V 484.63047"
+       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:3, 0.999998;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 308.55557,319.78486 V 464.66999"
        id="path4205" />
     <ellipse
        style="fill:none;stroke:#000000;stroke-width:0.502788;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:3.01672, 1.00557000000000007;stroke-dashoffset:0;marker-end:url(#marker4787)"
@@ -234,7 +220,7 @@
        transform="matrix(0.56181127,0.82726543,0.90143692,-0.43291047,0,0)" />
     <g
        id="g4866"
-       transform="matrix(0,0.36029135,-0.36029135,0,462.83534,398.39884)"
+       transform="matrix(0,0.36029135,-0.36029135,0,462.83534,381.50641)"
        style="stroke-width:2.77553">
       <path
          style="fill:#000000;stroke-width:10.4902"
