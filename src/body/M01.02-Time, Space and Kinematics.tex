@@ -55,7 +55,7 @@ $t'$，阿基里斯总是落在龟的后面。这就是芝诺的结论。
 式\eqref{eqn:01.02.02}或式\eqref{eqn:01.02.03}称为芝诺变换。它给出的$t'$与t的关系。在
 图\ref{fig:01.03}~中画出。
 
-\begin{table}[!h]
+\begin{tablex}[!h]{2em}
     \renewcommand\arraystretch{1.6}
     \centering
     \vspace{-0.5em}
@@ -63,22 +63,21 @@ $t'$，阿基里斯总是落在龟的后面。这就是芝诺的结论。
     \label{tab:01.02}
     \begin{tabular}{c|l}
         \toprule
-        芝诺时（$t'$） & \hspace{7em}普通时（$t$）                                                                                                         \\
+        芝诺时（$t'$） & \hspace{7em}普通时（$t$） \\
         \midrule
-        0              & \qquad 0                                                                                                                          \\
+        0              & 0                                                                                                                          \\
         %\addlinespace
-        1              & \qquad $\dfrac{L}{v_1}$                                                                                                           \\
+        1              & $\dfrac{L}{v_1}$                                                                                                           \\
         %\addlinespace
         %\specialrule{0em}{3pt}{3pt}
-        2              & \qquad $\dfrac{L}{v_1} + \dfrac{L}{v_1}\cdot\dfrac{v_2}{v_1}$                                                                     \\
+        2              & $\dfrac{L}{v_1} + \dfrac{L}{v_1}\cdot\dfrac{v_2}{v_1}$                                                                     \\
         %\addlinespace
-        \vdots         & \qquad \vdots                                                                                                                     \\
+        \vdots         & \vdots                                                                                                                     \\
         %\addlinespace
-        $n$            & \qquad $\dfrac{L}{v_1} + \dfrac{L}{v_1}\cdot\dfrac{v_2}{v_1} + \dots + \dfrac{L}{v_1}\cdot(\dfrac{v_2}{v_1})^{n-1} $ \qquad \null \\
+        $n$            & $\dfrac{L}{v_1} + \dfrac{L}{v_1}\cdot\dfrac{v_2}{v_1} + \dots + \dfrac{L}{v_1}\cdot(\dfrac{v_2}{v_1})^{n-1} $  \\
         \bottomrule
     \end{tabular}
-    \vspace{-1.2em}
-\end{table}
+\end{tablex}
 由图\ref{fig:01.03}~看到，芝诺变换是有奇性的，即当$t=L/(v_1-v_2)$时，
 $t'\rightarrow\infty$。所以，当芝诺时$t'$从零变化到无限时，它只覆盖了普通时
 $t$上的一个有限范围，即从零到$ L/(v_1-v_2) $。

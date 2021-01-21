@@ -177,6 +177,7 @@ BoldItalicFont=LeksaSans-BoldItalic.otf
 \newcommand{\diff}{{\rm d}}
 
 % 表格
+\RequirePackage{tabularx}
 \RequirePackage{booktabs}
 \RequirePackage{makecell}
 \newenvironment{tablex}[2][htbp]
