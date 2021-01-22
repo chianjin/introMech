@@ -260,7 +260,7 @@ BoldItalicFont=LeksaSans-BoldItalic.otf
 \RequirePackage{endnotes}
 \def\makeenmark{[~\theenmark~] }
 \def\enotesize{\normalsize}
-\renewcommand{\notesname}{\heiti 勘误}
+\renewcommand{\notesname}{\heiti 复刻校注}
 \newcommand{\erratanote}[2]{%
     #1\marginnote{$^{\endnote{#1：#2}}$}%
 }
