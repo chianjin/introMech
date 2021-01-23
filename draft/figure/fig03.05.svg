@@ -17,6 +17,20 @@
   <defs
      id="defs2712">
     <marker
+       style="overflow:visible;"
+       id="Arrow1Send"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Send"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.2) rotate(180) translate(6,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path916" />
+    </marker>
+    <marker
        style="overflow:visible"
        id="marker2571"
        refX="0"
@@ -39,7 +53,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="4.3059448"
-     inkscape:cx="84.069817"
+     inkscape:cx="126.83282"
      inkscape:cy="59.727831"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
@@ -49,9 +63,9 @@
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:window-width="1413"
-     inkscape:window-height="1030"
-     inkscape:window-x="192"
+     inkscape:window-width="1350"
+     inkscape:window-height="729"
+     inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="0" />
   <metadata
@@ -62,7 +76,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -238,7 +252,7 @@
        cy="89.123199"
        r="1.984375" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker2571)"
+       style="fill:none;stroke:#000000;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Send);stroke-miterlimit:4;stroke-dasharray:none"
        d="m 90.998191,89.1232 v 12.22594"
        id="path1090" />
     <text
@@ -286,6 +300,6 @@
          id="tspan1106"
          x="110.17197"
          y="118.31348"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:FZShuSong-Z01S;-inkscape-font-specification:FZShuSong-Z01S;stroke-width:0.264583">水平面</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:FZShuSong-Z01;-inkscape-font-specification:FZShuSong-Z01;stroke-width:0.264583">水平面</tspan></text>
   </g>
 </svg>
