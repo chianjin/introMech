@@ -177,12 +177,16 @@ BoldItalicFont=LeksaSans-BoldItalic.otf
 \newcommand{\diff}{{\rm d}}
 
 % 表格
-\RequirePackage{tabularx}
+\RequirePackage{array}
 \RequirePackage{booktabs}
 \RequirePackage{makecell}
-\newenvironment{tablex}[2][htbp]
+\RequirePackage{tabularx}
+\renewcommand{\tabularxcolumn}[1]{m{#1}}
+\newcolumntype{C}{>{\centering\arraybackslash}X}
+%\newcolumntype{L}{>{\centering\arraybackslash}X}
+\newcolumntype{R}{>{\raggedleft\arraybackslash}X}
+\newenvironment{tablex}[1][htbp]
 {
-    \setlength{\tabcolsep}{#2}
     \begin{table}[#1]
         \vspace{-0.5em}
     }

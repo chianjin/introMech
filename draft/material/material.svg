@@ -195,7 +195,7 @@
     </g>
     <g
        id="g8290-7"
-       transform="matrix(0,0.26458333,0.26458333,0,-52.53243,-42.367128)">
+       transform="matrix(0,-0.26458333,-0.26458333,0,226.89454,72.820167)">
       <path
          style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          d="m 203.71232,526.44482 -3.53554,3.53554"
@@ -515,6 +515,33 @@
          style="fill:#ffffff;stroke-width:10.4902"
          d="m 281.98479,431.76226 1.07237,-3.00282 -2.60548,1.34905 c -1.43303,0.74199 -2.76316,1.79055 -2.95587,2.33018 -0.1927,0.5396 0.49719,1.28383 1.53311,1.65378 1.48969,0.532 2.10771,0.0448 2.95587,-2.33019 z"
          id="path4432" />
+    </g>
+    <g
+       id="g7879"
+       transform="matrix(0.26458333,0,0,0.26458333,-57.512403,-55.656805)">
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+         id="path7294"
+         sodipodi:type="arc"
+         sodipodi:cx="460.00076"
+         sodipodi:cy="269.99942"
+         sodipodi:rx="9.7507715"
+         sodipodi:ry="9.7498226"
+         sodipodi:start="2.043212"
+         sodipodi:end="1.0988471"
+         sodipodi:open="true"
+         sodipodi:arc-type="arc"
+         d="m 455.56378,278.68136 a 9.7507715,9.7498226 0 0 1 -5.04277,-10.96467 9.7507715,9.7498226 0 0 1 9.48203,-7.46709 9.7507715,9.7498226 0 0 1 9.47854,7.47151 9.7507715,9.7498226 0 0 1 -5.04789,10.96232" />
+      <circle
+         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path7874"
+         cx="460.00082"
+         cy="269.9996"
+         r="1" />
+      <path
+         id="path7868"
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 460.00082,267.22222 a 2.5,2.7777778 0 0 0 -2.5,2.77778 l -5,25 h 15 l -5,-25 a 2.5,2.7777778 0 0 0 -2.5,-2.77778 z" />
     </g>
   </g>
 </svg>
