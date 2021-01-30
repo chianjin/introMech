@@ -38,7 +38,7 @@ t的质点的坐标$x(t)$。
 \end{equation}
 	上式取极限的项，与积分的定义是一样的。所以它可写成
 \begin{equation}\label{eqn:01.11.03}
-    x(t)=x(0)+\int_{0}^{t} v(t) \diff  t
+    x(t)=x(0)+\int_{0}^{t} v(t) {\rm d}  t
 \end{equation}
 这就是我们所要求的答案。
 
@@ -115,7 +115,7 @@ $\dfrac{1}{2} a t^2$，代入式\eqref{eqn:01.11.03}，就得到轨迹函数为�
 \begin{equation}\label{eqn:01.11.06}
     \begin{aligned}
         v(t) &=v(0)+\lim _{\Delta t_{i} \rightarrow 0} \sum a(t_{i}) \Delta t_{i} \\
-        &=v(0)+\int_{0}^{t} a(t) \diff  t
+        &=v(0)+\int_{0}^{t} a(t) {\rm d}  t
     \end{aligned}
 \end{equation}
 上式中积分的几何意义是$a-t$图中由0到$t$的横轴与$a$曲线之间
@@ -130,19 +130,19 @@ $\dfrac{1}{2} a t^2$，代入式\eqref{eqn:01.11.03}，就得到轨迹函数为�
 \begin{eqnarray}
     \label{eqn:01.11.07}
     \begin{aligned}
-        \vec{r}(t)=& \vec{r}(0)+\int_{0}^{t} \vec{v}(t) \diff  t \\
+        \vec{r}(t)=& \vec{r}(0)+\int_{0}^{t} \vec{v}(t) {\rm d}  t \\
         =& \vec{r}(0)
-        +\left(\int_{0}^{t} v_{x}(t) \diff  t\right) \vec{i}
-        +\left(\int_{0}^{t} v_{y}(t) \diff  t\right) \vec{J}  \\
-        &+\left(\int_{0}^{t} v_{z}(t) \diff  t\right) \vec{k}
+        +\left(\int_{0}^{t} v_{x}(t) {\rm d}  t\right) \vec{i}
+        +\left(\int_{0}^{t} v_{y}(t) {\rm d}  t\right) \vec{j}  \\
+        &+\left(\int_{0}^{t} v_{z}(t) {\rm d}  t\right) \vec{k}
     \end{aligned} \\
     \label{eqn:01.11.08}
     \begin{aligned}
-        \vec{v}(t)=& \vec{v}(0)+\int_{0}^{t} \vec{a}(t) \diff  t \\
+        \vec{v}(t)=& \vec{v}(0)+\int_{0}^{t} \vec{a}(t) {\rm d}  t \\
         =& \vec{v}(0)
-        +\left(\int_{0}^{t} a_{x}(t) \diff  t\right) \vec{i}
-        +\left(\int_{0}^{t} a_{y}(t) \diff  t\right) \vec{J} \\
-        &+\left(\int_{0}^{t} a_{z}(t) \diff  t\right) \vec{k}
+        +\left(\int_{0}^{t} a_{x}(t) {\rm d}  t\right) \vec{i}
+        +\left(\int_{0}^{t} a_{y}(t) {\rm d}  t\right) \vec{j} \\
+        &+\left(\int_{0}^{t} a_{z}(t) {\rm d}  t\right) \vec{k}
     \end{aligned}
 \end{eqnarray}
 \setlength{\mathindent}{6em}}%
@@ -155,9 +155,9 @@ $\dfrac{1}{2} a t^2$，代入式\eqref{eqn:01.11.03}，就得到轨迹函数为�
     \setlength{\lineskiplimit}{-1pt}
 \begin{equation}
     \begin{aligned}\label{eqn:01.11.09}
-        x(t)=x(0)+\int_{0}^{t} v_{x}(t) \diff  t \\
-        y(t)=y(0)+\int_{0}^{t} v_{y}(t) \diff  t \\
-        z(t)=z(0)+\int_{0}^{t} v_{z}(t) \diff  t
+        x(t)=x(0)+\int_{0}^{t} v_{x}(t) {\rm d}  t \\
+        y(t)=y(0)+\int_{0}^{t} v_{y}(t) {\rm d}  t \\
+        z(t)=z(0)+\int_{0}^{t} v_{z}(t) {\rm d}  t
     \end{aligned}
 \end{equation}}%
 而式\eqref{eqn:01.11.08}等价于下列三式。
@@ -167,9 +167,9 @@ $\dfrac{1}{2} a t^2$，代入式\eqref{eqn:01.11.03}，就得到轨迹函数为�
     \setlength{\lineskiplimit}{-1pt}
 \begin{equation}\label{eqn:01.11.10}
     \begin{aligned}
-        v_x(t)=v_x(0)+\int_{0}^{t} a_{x}(t) \diff  t \\
-        v_y(t)=v_y(0)+\int_{0}^{t} a_{y}(t) \diff  t \\
-        v_z(t)=v_z(0)+\int_{0}^{t} a_{z}(t) \diff  t
+        v_x(t)=v_x(0)+\int_{0}^{t} a_{x}(t) {\rm d}  t \\
+        v_y(t)=v_y(0)+\int_{0}^{t} a_{y}(t) {\rm d}  t \\
+        v_z(t)=v_z(0)+\int_{0}^{t} a_{z}(t) {\rm d}  t
     \end{aligned}
 \end{equation}}%
 这些积分中没有出现矢量，就可以按一一般方法计算，譬如上述的

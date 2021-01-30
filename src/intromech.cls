@@ -167,12 +167,12 @@ BoldItalicFont=LeksaSans-BoldItalic.otf
 \newcommand{\discussion}{\heiti 讨论~\normalfont}
 
 % 旧式正切余切函数名 tan cot tanh coth arctan arccot
-\newcommand{\tg}{{\rm tg}}
-\newcommand{\ctg}{{\rm ctg}}
-\newcommand{\tgh}{{\rm tgh}}
-\newcommand{\ctgh}{{\rm ctgh}}
-\newcommand{\arctg}{{\rm arctg}}
-\newcommand{\arcctg}{{\rm arcctg}}
+\newcommand{\tg}{\operatorname{tg}}
+\newcommand{\ctg}{\operatorname{ctg}}
+\newcommand{\tgh}{\operatorname{tgh}}
+\newcommand{\ctgh}{\operatorname{ctgh}}
+\newcommand{\arctg}{\operatorname{arctg}}
+\newcommand{\arcctg}{\operatorname{arcctg}}
 % 求导符号
 \newcommand{\diff}{{\rm d}}
 
@@ -262,7 +262,7 @@ BoldItalicFont=LeksaSans-BoldItalic.otf
 % 校注
 \RequirePackage{marginnote}
 \RequirePackage{endnotes}
-\def\makeenmark{[~\theenmark~] }
+\def\makeenmark{[\,\theenmark\,] }
 \def\enotesize{\normalsize}
 \renewcommand{\notesname}{\heiti 复刻校注}
 \newcommand{\erratanote}[2]{%
