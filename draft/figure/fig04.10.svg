@@ -14,7 +14,7 @@
    viewBox="0 0 91.536568 46.004002"
    version="1.1"
    id="svg6348"
-   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
+   inkscape:version="1.0.2 (e86c870879, 2021-01-15, custom)"
    sodipodi:docname="fig04.10.svg">
   <defs
      id="defs6342">
@@ -31,7 +31,6 @@
          id="stop9294" />
     </linearGradient>
     <linearGradient
-       inkscape:collect="always"
        id="linearGradient9264"
        osb:paint="gradient">
       <stop
@@ -175,19 +174,24 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.9655169"
-     inkscape:cx="172.98248"
-     inkscape:cy="86.936709"
+     inkscape:zoom="3.7115669"
+     inkscape:cx="172.85749"
+     inkscape:cy="87.475565"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
      showgrid="false"
      inkscape:snap-global="true"
-     inkscape:window-width="1301"
-     inkscape:window-height="728"
-     inkscape:window-x="26"
-     inkscape:window-y="0"
-     inkscape:window-maximized="0" />
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:object-paths="true"
+     inkscape:snap-intersection-paths="true"
+     inkscape:snap-midpoints="true"
+     inkscape:snap-smooth-nodes="true"
+     inkscape:snap-object-midpoints="true" />
   <metadata
      id="metadata6345">
     <rdf:RDF>
@@ -196,7 +200,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -493,8 +497,13 @@
        sodipodi:arc-type="arc"
        d="m 81.725018,141.62047 a 5.2916665,5.2916665 0 0 1 1.717855,3.90251" />
     <path
+       id="path4410-0"
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.26458333;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 70.919037,125.64056 c -8.360527,3.02057 -13.931425,10.95608 -13.931453,19.84478 0,11.65349 9.447925,21.10052 21.102525,21.10052 0.217916,-2e-5 0.435824,-0.004 0.653637,-0.0102 -0.132107,-0.81645 -0.388223,-1.67983 -0.849043,-2.5246 -1.758506,-3.22361 -2.735395,-2.05122 -1.660759,-4.98179 1.074644,-2.93057 -3.321808,-4.78654 -1.563295,-8.01016 1.758505,-3.22361 -0.879231,-2.54017 0.195411,-7.42445 1.074646,-4.88427 -2.833202,-8.30293 -2.637816,-9.9636 0.195398,-1.66066 1.758578,-3.51696 0.586236,-4.78688 -0.542099,-0.58722 -1.268093,-1.94521 -1.896415,-3.23781 z"
+       sodipodi:nodetypes="ccscsssssscc" />
+    <path
        id="path4410"
-       style="fill:url(#radialGradient9300);fill-opacity:1;stroke:none;stroke-width:0.132;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:url(#radialGradient9300);fill-opacity:1;stroke:#000000;stroke-width:0.13229167;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 70.442636,124.33785 c -8.910058,3.21941 -14.847128,11.67732 -14.847157,21.15117 0,12.42065 10.06893,22.48958 22.489579,22.48958 0.23224,-2e-5 0.46447,-0.004 0.6966,-0.0109 -0.14079,-0.8702 -0.41374,-1.79041 -0.90485,-2.69079 -1.874091,-3.43583 -2.91519,-2.18626 -1.769919,-5.30975 1.145279,-3.12349 -3.540149,-5.10164 -1.66605,-8.53747 1.874091,-3.43583 -0.937022,-2.7074 0.208256,-7.91321 1.145281,-5.20581 -3.019427,-8.84952 -2.811198,-10.61951 0.208241,-1.76998 1.874168,-3.74849 0.624769,-5.10201 -0.577731,-0.62587 -1.351444,-2.07326 -2.021065,-3.45095 z"
        sodipodi:nodetypes="ccscsssssscc" />
     <text
@@ -534,5 +543,9 @@
          style="stroke-width:0.264583">F<tspan
    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:65%;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, ';baseline-shift:sub"
    id="tspan9316">2</tspan></tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 78.743746,166.57566 0.0079,1.21726"
+       id="path1021" />
   </g>
 </svg>

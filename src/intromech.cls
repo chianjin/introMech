@@ -149,9 +149,10 @@ BoldItalicFont=LeksaSans-BoldItalic.otf
 
 % 数学公式
 \RequirePackage[fleqn]{amsmath}
-\setlength{\mathindent}{6em}
 \RequirePackage{amsfonts}
 \RequirePackage{amssymb}
+%\RequirePackage{unicode-math}
+\setlength{\mathindent}{6em}
 
 % 公式按节编号
 \numberwithin{equation}{section}
@@ -273,3 +274,5 @@ BoldItalicFont=LeksaSans-BoldItalic.otf
 % 自定义命令
 % ----------------------------------------------------------
 \newcommand{\hsp}{}
+\newcommand{\lhbrak}{〔}
+\newcommand{\rhbrak}{〕}
