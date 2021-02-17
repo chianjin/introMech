@@ -9,7 +9,7 @@
 
 % 工具包
 %\RequirePackage{calc}
-\RequirePackage{ifthen}
+%\RequirePackage{ifthen}
 
 % ----------------------------------------------------------
 % 字体
@@ -151,7 +151,6 @@ BoldItalicFont=LeksaSans-BoldItalic.otf
 \RequirePackage[fleqn]{amsmath}
 \RequirePackage{amsfonts}
 \RequirePackage{amssymb}
-%\RequirePackage{unicode-math}
 \setlength{\mathindent}{6em}
 
 % 公式按节编号
@@ -175,7 +174,7 @@ BoldItalicFont=LeksaSans-BoldItalic.otf
 \newcommand{\arctg}{\operatorname{arctg}}
 \newcommand{\arcctg}{\operatorname{arcctg}}
 % 求导符号
-\newcommand{\diff}{{\rm d}}
+\newcommand{\diff}{{\mathrm d}}
 
 % 表格
 \RequirePackage{array}

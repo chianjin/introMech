@@ -16,29 +16,29 @@ t的质点的坐标$x(t)$。
 间间隔中质点的坐标变化分别近似为：
 \begin{equation*}
     \begin{array}{l}
-        \Delta x_{1} \approx v(t_{1}) \Delta t_{1} \\
-        \Delta x_{2} \approx v(t_{2}) \Delta t_{2} \\
+        \Delta x_{1} \approx v(t_{1}) \Delta t_{1} \\[-1pt]
+        \Delta x_{2} \approx v(t_{2}) \Delta t_{2} \\[-1pt]
         \cdots \cdots
     \end{array}
 \end{equation*}
 因而，质点在0到$t$间隔中坐标的总变化$x(t)-x(0)$就应当等于
 这许多小变化的总和，即\vspace{-0.5em}
-{\setlength\abovedisplayskip{1pt}
-\setlength\belowdisplayskip{1pt}
 \begin{equation}\label{eqn:01.11.01}
     \begin{aligned}
-        x(t)-x(0) &=\Delta x_{1}+\Delta x_{2}+\Delta x_{3}+\cdots \\
+        x(t)-x(0) &=\Delta x_{1}+\Delta x_{2}+\Delta x_{3}+\cdots \\[-1pt]
         & \approx \sum_{i} v\left(t_{i}\right) \Delta t_{i}
     \end{aligned}
-\end{equation}}\vspace{-0.5em}
+\end{equation}
 各时间间隔$\Delta t_i$取得越小，计算结果就越准确，当所有$\Delta t_i\rightarrow 0$时，
 就得到质点位置变化的精确值：
+
+~\vspace{-1.56em}
 \begin{equation}\label{eqn:01.11.02}
     x(t)=x(0)+\lim _{\Delta t_{i} \rightarrow 0} \sum_{i} v\left(t_{i}\right) \Delta t_{i}
 \end{equation}
-	上式取极限的项，与积分的定义是一样的。所以它可写成
+上式取极限的项，与积分的定义是一样的。所以它可写成
 \begin{equation}\label{eqn:01.11.03}
-    x(t)=x(0)+\int_{0}^{t} v(t) {\rm d}  t
+    x(t)=x(0)+\int_{0}^{t} v(t) {~\mathrm d}  t
 \end{equation}
 这就是我们所要求的答案。
 
@@ -51,20 +51,20 @@ t的质点的坐标$x(t)$。
 
     利用这种几何性质，对一些简单情况，计算式\eqref{eqn:01.11.03}中的
 积分是很容易的。下面举两个例子。
-\begin{figure}[!h]
+\begin{figurex}[!h]
     \begin{minipage}[b]{14em}
         \centering
-        \includegraphics{figure/fig01.24}
+        \includegraphics[width=0.8\linewidth]{figure/fig01.24}
         \caption{运动的$v-t$图}
         \label{fig:01.24}
     \end{minipage}\hfill
     \begin{minipage}[b]{14em}
         \centering
-        \includegraphics{figure/fig01.25}
+        \includegraphics[width=0.8\linewidth]{figure/fig01.25}
         \caption{匀速运动的$v-t$图}
         \label{fig:01.25}
     \end{minipage}
-\end{figure}
+\end{figurex}
 
 \example 匀速运动。
 
@@ -78,13 +78,13 @@ t的质点的坐标$x(t)$。
 \begin{figure}[!h]
     \begin{minipage}[b]{14em}
         \centering
-        \includegraphics{figure/fig01.26}
+        \includegraphics[width=0.8\linewidth]{figure/fig01.26}
         \caption{匀加速运动的$v-t$图}
         \label{fig:01.26}
     \end{minipage}\hfill
     \begin{minipage}[b]{14em}
         \centering
-        \includegraphics{figure/fig01.27}
+        \includegraphics[width=0.8\linewidth]{figure/fig01.27}
         \caption{运动的$a-t$图}
         \label{fig:01.27}
     \end{minipage}
@@ -115,7 +115,7 @@ $\dfrac{1}{2} a t^2$，代入式\eqref{eqn:01.11.03}，就得到轨迹函数为�
 \begin{equation}\label{eqn:01.11.06}
     \begin{aligned}
         v(t) &=v(0)+\lim _{\Delta t_{i} \rightarrow 0} \sum a(t_{i}) \Delta t_{i} \\
-        &=v(0)+\int_{0}^{t} a(t) {\rm d}  t
+        &=v(0)+\int_{0}^{t} a(t) {~\mathrm d}  t
     \end{aligned}
 \end{equation}
 上式中积分的几何意义是$a-t$图中由0到$t$的横轴与$a$曲线之间
@@ -130,19 +130,19 @@ $\dfrac{1}{2} a t^2$，代入式\eqref{eqn:01.11.03}，就得到轨迹函数为�
 \begin{eqnarray}
     \label{eqn:01.11.07}
     \begin{aligned}
-        \vec{r}(t)=& \vec{r}(0)+\int_{0}^{t} \vec{v}(t) {\rm d}  t \\
+        \vec{r}(t)=& \vec{r}(0)+\int_{0}^{t} \vec{v}(t) {~\mathrm d}  t \\
         =& \vec{r}(0)
-        +\left(\int_{0}^{t} v_{x}(t) {\rm d}  t\right) \vec{i}
-        +\left(\int_{0}^{t} v_{y}(t) {\rm d}  t\right) \vec{j}  \\
-        &+\left(\int_{0}^{t} v_{z}(t) {\rm d}  t\right) \vec{k}
+        +\left(\int_{0}^{t} v_{x}(t) {~\mathrm d}  t\right) \vec{i}
+        +\left(\int_{0}^{t} v_{y}(t) {~\mathrm d}  t\right) \vec{j}  \\
+        &+\left(\int_{0}^{t} v_{z}(t) {~\mathrm d}  t\right) \vec{k}
     \end{aligned} \\
     \label{eqn:01.11.08}
     \begin{aligned}
-        \vec{v}(t)=& \vec{v}(0)+\int_{0}^{t} \vec{a}(t) {\rm d}  t \\
+        \vec{v}(t)=& \vec{v}(0)+\int_{0}^{t} \vec{a}(t) {~\mathrm d}  t \\
         =& \vec{v}(0)
-        +\left(\int_{0}^{t} a_{x}(t) {\rm d}  t\right) \vec{i}
-        +\left(\int_{0}^{t} a_{y}(t) {\rm d}  t\right) \vec{j} \\
-        &+\left(\int_{0}^{t} a_{z}(t) {\rm d}  t\right) \vec{k}
+        +\left(\int_{0}^{t} a_{x}(t) {~\mathrm d}  t\right) \vec{i}
+        +\left(\int_{0}^{t} a_{y}(t) {~\mathrm d}  t\right) \vec{j} \\
+        &+\left(\int_{0}^{t} a_{z}(t) {~\mathrm d}  t\right) \vec{k}
     \end{aligned}
 \end{eqnarray}
 \setlength{\mathindent}{6em}}%
@@ -155,9 +155,9 @@ $\dfrac{1}{2} a t^2$，代入式\eqref{eqn:01.11.03}，就得到轨迹函数为�
     \setlength{\lineskiplimit}{-1pt}
 \begin{equation}
     \begin{aligned}\label{eqn:01.11.09}
-        x(t)=x(0)+\int_{0}^{t} v_{x}(t) {\rm d}  t \\
-        y(t)=y(0)+\int_{0}^{t} v_{y}(t) {\rm d}  t \\
-        z(t)=z(0)+\int_{0}^{t} v_{z}(t) {\rm d}  t
+        x(t)=x(0)+\int_{0}^{t} v_{x}(t) {~\mathrm d}  t \\
+        y(t)=y(0)+\int_{0}^{t} v_{y}(t) {~\mathrm d}  t \\
+        z(t)=z(0)+\int_{0}^{t} v_{z}(t) {~\mathrm d}  t
     \end{aligned}
 \end{equation}}%
 而式\eqref{eqn:01.11.08}等价于下列三式。
@@ -167,9 +167,9 @@ $\dfrac{1}{2} a t^2$，代入式\eqref{eqn:01.11.03}，就得到轨迹函数为�
     \setlength{\lineskiplimit}{-1pt}
 \begin{equation}\label{eqn:01.11.10}
     \begin{aligned}
-        v_x(t)=v_x(0)+\int_{0}^{t} a_{x}(t) {\rm d}  t \\
-        v_y(t)=v_y(0)+\int_{0}^{t} a_{y}(t) {\rm d}  t \\
-        v_z(t)=v_z(0)+\int_{0}^{t} a_{z}(t) {\rm d}  t
+        v_x(t)=v_x(0)+\int_{0}^{t} a_{x}(t) {~\mathrm d}  t \\
+        v_y(t)=v_y(0)+\int_{0}^{t} a_{y}(t) {~\mathrm d}  t \\
+        v_z(t)=v_z(0)+\int_{0}^{t} a_{z}(t) {~\mathrm d}  t
     \end{aligned}
 \end{equation}}%
 这些积分中没有出现矢量，就可以按一一般方法计算，譬如上述的

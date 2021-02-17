@@ -12,8 +12,8 @@
    width="140mm"
    height="203mm"
    viewBox="0 0 529.13387 767.24409"
-   sodipodi:docname="frontpage.svg"
-   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)">
+   sodipodi:docname="F00-frontpage.svg"
+   inkscape:version="1.0.2 (e86c870879, 2021-01-15, custom)">
   <metadata
      id="metadata676">
     <rdf:RDF>
@@ -27,7 +27,37 @@
     </rdf:RDF>
   </metadata>
   <defs
-     id="defs674" />
+     id="defs674">
+    <pattern
+       id="EMFhbasepattern"
+       patternUnits="userSpaceOnUse"
+       width="6"
+       height="6"
+       x="0"
+       y="0" />
+    <filter
+       height="1"
+       width="1"
+       y="0"
+       x="0"
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Blur"
+       id="filter50">
+      <feGaussianBlur
+         stdDeviation="38.9632 38.3497"
+         result="blur"
+         id="feGaussianBlur44" />
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 50 0 "
+         result="colormatrix"
+         id="feColorMatrix46" />
+      <feComposite
+         in="colormatrix"
+         in2="SourceGraphic"
+         operator="in"
+         id="feComposite48" />
+    </filter>
+  </defs>
   <sodipodi:namedview
      pagecolor="#ffffff"
      bordercolor="#666666"
@@ -37,8 +67,8 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1920"
-     inkscape:window-height="1001"
+     inkscape:window-width="1440"
+     inkscape:window-height="837"
      id="namedview672"
      showgrid="false"
      units="mm"
@@ -46,9 +76,9 @@
      inkscape:guide-bbox="true"
      inkscape:zoom="1.4689763"
      inkscape:cx="305.31505"
-     inkscape:cy="471.18584"
-     inkscape:window-x="-9"
-     inkscape:window-y="-9"
+     inkscape:cy="607.33508"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
      inkscape:window-maximized="1"
      inkscape:current-layer="g678"
      inkscape:document-rotation="0">
@@ -74,7 +104,7 @@
      inkscape:label="Image"
      id="g678">
     <rect
-       style="fill:#782121;fill-opacity:1;stroke-width:7.74222"
+       style="fill:#642121;fill-opacity:1;stroke-width:7.74222"
        id="rect1771"
        width="529.13385"
        height="767.24408"
