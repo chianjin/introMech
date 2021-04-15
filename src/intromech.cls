@@ -5,7 +5,7 @@
     \PassOptionsToClass{\CurrentOption}{ctexbook}
 }
 \ProcessOptions\relax
-\LoadClass{ctexbook}
+\LoadClass[fontset=none]{ctexbook}
 
 % 工具包
 %\RequirePackage{calc}
@@ -16,7 +16,26 @@
 % ----------------------------------------------------------
 
 % 中文字体，使用CTeX内置方正字体设置
-\ctexset{fontset=founder}
+%\ctexset{fontset=none}
+% 中文字体，使用方正书宋、黑体、楷体、仿宋四种免费字体，采用思源字体作为书宋和黑体粗体
+\setCJKmainfont{FZShuSong-Z01S} [BoldFont=Source Han Serif Bold, ItalicFont=FZKai-Z03S]
+\setCJKsansfont{FZHei-B01S} [ BoldFont=Source Han Sans Bold]
+\setCJKmonofont{FZFangSong-Z02S}
+\setCJKfamilyfont{zhsong}{FZShuSong-Z01S}
+\setCJKfamilyfont{zhxbs}{Source Han Serif Bold}
+\setCJKfamilyfont{zhdbs}{Source Han Serif Heavy}
+\setCJKfamilyfont{zhhei}{FZHei-B01S}
+\setCJKfamilyfont{zhdh}{Source Han Sans Bold}
+\setCJKfamilyfont{zhfs}{FZFangSong-Z02S}
+\setCJKfamilyfont{zhkai}{FZKai-Z03S}
+
+\newcommand{\songti}{\CJKfamily{zhsong}}
+\newcommand{\xbsong}{\CJKfamily{zhxbs}}
+\newcommand{\dbsong}{\CJKfamily{zhdbs}}
+\newcommand{\heiti}{\CJKfamily{zhhei}}
+\newcommand{\dahei}{\CJKfamily{zhdh}}
+\newcommand{\fangsong}{\CJKfamily{zhfs}}
+\newcommand{\kaishu}{\CJKfamily{zhkai}}
 
 % 页码字体
 \RequirePackage{fontspec}
@@ -78,13 +97,13 @@ BoldItalicFont=LeksaSans-BoldItalic.otf
         titleformat+=\zihao{-3},
         beforeskip=1mm,
         afterskip=6.5mm,
-    },
+},
     section={
         %number={\arabic{chapter}$\cdot$\arabic{section}},
         format=\zihao{4}\kaishu,
         afterskip=3mm,
         beforeskip=3mm,
-    }
+}
 }
 % 绪论标题
 \newcommand{\xchapter}[2][绪论]{
@@ -92,15 +111,15 @@ BoldItalicFont=LeksaSans-BoldItalic.otf
         chapter={
             number={#1},
             name={},
-        }
-    }
+}
+}
     \chapter{#2}
     \ctexset{
         chapter={
             number={\chinese{chapter}},
             name={第,章},
-        }
-    }
+}
+}
     \addtocounter{chapter}{-1}
 }
 
@@ -109,15 +128,15 @@ BoldItalicFont=LeksaSans-BoldItalic.otf
         chapter={
             number={#1},
             name={},
-        }
-    }
+}
+}
     \chapter{#2}
     \ctexset{
         chapter={
             number={\chinese{chapter}},
             name={第,章},
-        }
-    }
+}
+}
     \addtocounter{chapter}{-1}
 }
 
@@ -190,8 +209,8 @@ BoldItalicFont=LeksaSans-BoldItalic.otf
 {
     \begin{table}[#1]
         \vspace{-0.5em}
-    }
-    {
+}
+{
         \vspace{-1.2em}
     \end{table}
 }
@@ -263,9 +282,9 @@ BoldItalicFont=LeksaSans-BoldItalic.otf
 % 校注
 \RequirePackage{marginnote}
 \RequirePackage{endnotes}
-\def\makeenmark{[\,\theenmark\,] }
+\def\makeenmark{[\,\theenmark\,]}
 \def\enotesize{\normalsize}
-\renewcommand{\notesname}{\heiti 复刻校注}
+\renewcommand{\notesname}{\heiti 重排校注}
 \newcommand{\erratanote}[2]{%
     #1\marginnote{$^{\endnote{#1：#2}}$}%
 }
