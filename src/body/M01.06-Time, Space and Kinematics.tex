@@ -69,7 +69,7 @@ $t_2$表示成$t_2=t_1+\Delta t$，这个$\Delta t$就是求平均速
 $\Delta t$为无限小，或者相当于$\Delta t \rightarrow 0$的
 极限情况，这时平均速度变成为:
 \begin{equation*}
-    \lim _{\Delta \rightarrow 0}(9.8+4.9 \Delta t)=9.8 \text { 米/秒 }
+    \lim _{\Delta t \rightarrow 0}(9.8+4.9 \Delta t)=9.8 \text { 米/秒 }
 \end{equation*}
 这个9.8米/秒的物理意义是自由落体在第1秒末的一个无限小时
 间间隔中的平均速度，我们称这个值为自由落体在第1秒末的瞬
@@ -101,14 +101,14 @@ $\Delta t$为无限小，或者相当于$\Delta t \rightarrow 0$的
 对于任何直线运动，它的瞬时速度都可以用类似方式来确
 定:
 \begin{equation*}
-        v(t)=\lim _{\Delta \rightarrow 0} \frac{x(t+\Delta t)-x(t)}{\Delta t}
+        v(t)=\lim _{\Delta t \rightarrow 0} \frac{x(t+\Delta t)-x(t)}{\Delta t}
 \end{equation*}
 根据微积分学的知识，该极限就是轨迹函数x(t)对时间t的一阶
 导数。即
 \begin{equation}
     \begin{aligned}
         v(t) & =\lim _{\Delta t \rightarrow 0} \frac{x(t+\Delta t)-x(t)}{\Delta t}                            \\
-             & =\lim _{\Delta t \rightarrow 0} \frac{\Delta x}{\Delta t}=\frac{\diff x}{\diff t} \label{eqn:01.06.03}
+             & =\lim _{\Delta t \rightarrow 0} \frac{\Delta x}{\Delta t}=\frac{\dif x}{\dif t} \label{eqn:01.06.03}
     \end{aligned}
 \end{equation}
 其中，$\Delta x=x(t+\Delta t)-x(t)$，是在$t\rightarrow t+\Delta t$时间间隔中质点位置

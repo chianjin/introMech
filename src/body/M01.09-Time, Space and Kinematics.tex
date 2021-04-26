@@ -44,11 +44,11 @@ $\varphi(t+\Delta t)$，所以在$\Delta t$间隔中质点
 将此式代入式\eqref{eqn:01.07.05}，就得到圆周运动的速率\vspace{-0.7em}
 \setlength{\mathindent}{6em}
 \begin{equation}\label{eqn:01.09.01}
-    v=\lim _{\omega \rightarrow 0} \frac{r|\Delta \varphi|}{\Delta t}=r \lim _{\Delta \rightarrow 0} \frac{|\Delta \varphi|}{\Delta t}
+    v=\lim _{\Delta t \rightarrow 0} \frac{r|\Delta \varphi|}{\Delta t}=r \lim _{\Delta t \rightarrow 0} \frac{|\Delta \varphi|}{\Delta t}
 \end{equation}
 现在定义一个新的量，它是
 \begin{equation}\label{eqn:01.09.02}
-    \omega=\lim _{\Delta \rightarrow 0} \frac{|\Delta \varphi|}{\Delta t}
+    \omega=\lim _{\Delta t \rightarrow 0} \frac{|\Delta \varphi|}{\Delta t}
 \end{equation}
 这种形式的公式我们已经多次遇到了。$|\Delta\varphi|/\Delta t$是在$t$到$t+\Delta t$间
 隔中，质点的单位时间的角位置的平均变化。当取$\Delta t\rightarrow 0$的极限
@@ -61,7 +61,7 @@ $\varphi(t+\Delta t)$，所以在$\Delta t$间隔中质点
 速度本质上是一个矢量，有大小和方向两方面。上述角速度
 定义只反映了大小，为反映方向，我们需作些补充。
 
-现在定义一个矢量$\symbf{\omega}$，它的大小等于式\eqref{eqn:01.09.01}中的$\omega$，$\symbf{\omega}$的
+现在定义一个矢量$\vec{\omega}$，它的大小等于式\eqref{eqn:01.09.01}中的$\omega$，$ \vec{\omega}$的
 方向按图\ref{fig:01.19}~所示的方法给定。
 \begin{figure}[!h]
     \includegraphics{figure/fig01.19}
@@ -70,18 +70,18 @@ $\varphi(t+\Delta t)$，所以在$\Delta t$间隔中质点
     \vspace{-1.2em}
 \end{figure}
 
-\noindent 当我们从$\symbf{\omega}$指向的方向观察质点的运动时，质点总是沿逆时钟方
-向转动。这个规定$ \symbf{\omega}$的方向的方法也可以用一个正扣螺旋来说
-明，当螺钉按质点运动方向旋转时，螺钉的运动方向就是$ \symbf{\omega}$的方
+\noindent 当我们从$ \vec{\omega}$指向的方向观察质点的运动时，质点总是沿逆时钟方
+向转动。这个规定$  \vec{\omega}$的方向的方法也可以用一个正扣螺旋来说
+明，当螺钉按质点运动方向旋转时，螺钉的运动方向就是$  \vec{\omega}$的方
 向。
 
-这样定义的$ \symbf{\omega}$，称为角速度矢量。利用这个矢量。可以把质
+这样定义的$  \vec{\omega}$，称为角速度矢量。利用这个矢量。可以把质
 点的速度矢量$\vec{v}$表示成
 \begin{equation}\label{eqn:01.09.04}
-    \vec{v}= \symbf{\omega}\times \vec{r}
+    \vec{v}=  \vec{\omega}\times \vec{r}
 \end{equation}
-由图\ref{fig:01.20}，因为$ \symbf{\omega}$与$\vec{r}$垂直，所以$| \symbf{\omega}\times\vec{r}|=\omega r=v$，
-而且$ \symbf{\omega}\times\vec{r}$的方向与$\vec{v}$的方向一致。故式\eqref{eqn:01.09.04}
+由图\ref{fig:01.20}，因为$  \vec{\omega}$与$\vec{r}$垂直，所以$|  \vec{\omega}\times\vec{r}|=\omega r=v$，
+而且$  \vec{\omega}\times\vec{r}$的方向与$\vec{v}$的方向一致。故式\eqref{eqn:01.09.04}
 比\eqref{eqn:01.09.03}更具有一般性，它不仅表达了三者的大小关系，也反映了
 三者间的方向关系。不仅如此，若取通过圆心且垂直于圆所在平面
 的直线上任一点为原点(图\ref{fig:01.21})来描写圆周运动，式\eqref{eqn:01.09.04}仍成立，但式\eqref{eqn:01.09.03}就不对
@@ -94,7 +94,7 @@ $\varphi(t+\Delta t)$，所以在$\Delta t$间隔中质点
         \centering
         \includegraphics{figure/fig01.20}
         \vspace{4em}
-        \caption{圆周运动中$ \symbf{\omega}$与$\vec{v}$的关系}
+        \caption{圆周运动中$  \vec{\omega}$与$\vec{v}$的关系}
         \label{fig:01.20}
     \end{minipage}
     \hfill

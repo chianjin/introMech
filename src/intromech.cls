@@ -1,29 +1,28 @@
 \ProvidesClass{intromech}[Introduction to Mechanics]
 \NeedsTeXFormat{LaTeX2e}
 
-\DeclareOption*{%
-    \PassOptionsToClass{\CurrentOption}{ctexbook}
-}
 \ProcessOptions\relax
-\LoadClass[fontset=none]{ctexbook}
-
-% 工具包
-%\RequirePackage{calc}
-%\RequirePackage{ifthen}
+\LoadClass[openany,fontset=none]{ctexbook}
 
 % ----------------------------------------------------------
-% 字体 ----------------------------------------------------------
+% 字体
+% ----------------------------------------------------------
 % 英文字体
-\setmainfont{XITS-Regular.otf} [BoldFont=XITS-Bold.otf, ItalicFont=XITS-Italic.otf]
-%\setsansfont{FZHei-B01S} [ BoldFont=Source Han Sans SC Bold]
-%\setmonofont{FZFangSong-Z02S}
-
+\setmainfont[
+    BoldFont=XITS-Bold.otf,
+    ItalicFont=XITS-Italic.otf,
+    BoldItalicFont=XITS-BoldItalic.otf
+    ]{XITS-Regular.otf}
 
 % 中文字体，使用CTeX内置方正字体设置
-%\ctexset{fontset=none}
 % 中文字体，使用方正书宋、黑体、楷体、仿宋四种免费字体，采用思源字体作为书宋和黑体粗体
-\setCJKmainfont{FZShuSong-Z01S} [BoldFont=Source Han Serif SC Bold, ItalicFont=FZKai-Z03S]
-\setCJKsansfont{FZHei-B01S} [ BoldFont=Source Han Sans SC Bold]
+\setCJKmainfont[
+    BoldFont=Source Han Serif SC Bold,
+    ItalicFont=FZKai-Z03S
+    ]{FZShuSong-Z01S}
+\setCJKsansfont[
+    BoldFont=Source Han Sans SC Bold
+    ]{FZHei-B01S}
 \setCJKmonofont{FZFangSong-Z02S}
 \setCJKfamilyfont{zhsong}{FZShuSong-Z01S}
 \setCJKfamilyfont{zhxbs}{Source Han Serif SC Bold}
@@ -41,20 +40,20 @@
 \newcommand{\fangsong}{\CJKfamily{zhfs}}
 \newcommand{\kaishu}{\CJKfamily{zhkai}}
 
-% 页码字体
-%\RequirePackage{fontspec}
-%\newfontface{\laksasans}{LeksaSans.otf}[
-%BoldFont=LeksaSans-Bold.otf,
-%ItalicFont=LeksaSans-Italic.otf,
-%BoldItalicFont=LeksaSans-BoldItalic.otf
-%]
-
 % ----------------------------------------------------------
 % 排版格式
 % ----------------------------------------------------------
 
 % 版心：大32开, textwidth=103mm
-\RequirePackage[paperheight=203mm,paperwidth=140mm,top=27mm,bottom=20mm,left=21mm,right=16mm,footskip=10mm]{geometry}
+\RequirePackage[
+    paperheight=203mm,
+    paperwidth=140mm,
+    top=27mm,
+    bottom=20mm,
+    left=21mm,
+    right=16mm,
+    footskip=10mm
+    ]{geometry}
 
 % 修改行距，适应行内公式间距
 \setlength{\lineskip}{3.5pt}
@@ -111,60 +110,46 @@
 }
 }
 % 绪论标题
-\newcommand{\xchapter}[2][绪论]{
-    \ctexset{
-        chapter={
-            number={#1},
-            name={},
-}
-}
-    \chapter{#2}
-    \ctexset{
-        chapter={
-            number={\chinese{chapter}},
-            name={第,章},
-}
-}
-    \addtocounter{chapter}{-1}
-}
-
 \newcommand{\chapterx}[2][绪论]{
     \ctexset{
         chapter={
             number={#1},
             name={},
-}
-}
+        }
+    }
     \chapter{#2}
     \ctexset{
         chapter={
             number={\chinese{chapter}},
             name={第,章},
-}
-}
+        }
+    }
     \addtocounter{chapter}{-1}
 }
 
 % 思考题，按节处理
 \newcounter{question}
 \newcommand{\question}{\refstepcounter{question}\par\thequestion .}
-\newcommand{\questions}{%
+\newenvironment{questions}{
     \setcounter{question}{0}
     \addcontentsline{toc}{section}{思考题}
     ~\vspace{0.6em}
     \par{\heiti\centerline{思~~考~~题}}
-}
+    \fangsong
+    }
+    {\normalfont}
 
 % 习题，按节处理
 \newcounter{exercise}
-\newcommand{\exercise}{\refstepcounter{exercise}\theexercise .}
-\newcommand{\exercises}{%
+\newcommand{\exercise}{\refstepcounter{exercise}\par\theexercise .}
+\newenvironment{exercises}{%
     \setcounter{exercise}{0}
     \addcontentsline{toc}{section}{习题}
     ~\vspace{0.6em}
     \par{\heiti\centerline{习~~~~~~题}}
-}
-
+    \fangsong
+    }
+    {\normalfont}
 % ----------------------------------------------------------
 % 排版元素
 % ----------------------------------------------------------
@@ -173,19 +158,20 @@
 
 % 数学公式
 \RequirePackage[fleqn]{amsmath}
-%\RequirePackage{amsfonts}
+\RequirePackage{amsfonts}
 \RequirePackage{amssymb}
+\RequirePackage{yhmath}
 \RequirePackage{unicode-math}
-\setmathfont{XITSMath-Regular.otf}
+\setmathfont[
+    BoldFont=XITSMath-Bold.otf
+    ]{XITSMath-Regular.otf}
 \setlength{\mathindent}{6em}
 
 % 公式按节编号
 \numberwithin{equation}{section}
 
 % 向量字体
-\renewcommand{\vec}[1]{{\symsf{#1}}}
-%\renewcommand{\vec}[1]{{\mathsf{#1}}}
-%\newcommand{\vq}[1]{{\boldsymbol{\mathsf{#1}}}}
+\renewcommand{\vec}[1]{{\symbfsf{#1}}}
 
 % 例、解、讨论
 \newcounter{example}[section]
@@ -201,7 +187,7 @@
 \newcommand{\arctg}{\operatorname{arctg}}
 \newcommand{\arcctg}{\operatorname{arcctg}}
 % 求导符号
-\newcommand{\diff}{{\mathrm d}}
+\newcommand{\dif}{\mathop{}\!\symrm{d}}
 
 % 表格
 \RequirePackage{array}
@@ -289,7 +275,7 @@
 % 校注
 \RequirePackage{marginnote}
 \RequirePackage{endnotes}
-\def\makeenmark{[\,\theenmark\,]}
+\def\makeenmark{[\,\theenmark\,]~}
 \def\enotesize{\normalsize}
 \renewcommand{\notesname}{\heiti 重排校注}
 \newcommand{\erratanote}[2]{%
