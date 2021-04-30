@@ -76,10 +76,11 @@
 
 \clearpage{\pagestyle{empty}\cleardoublepage}
 
+
+% 重排后记
+\input{body/Z01-afterword.tex}
+\clearpage{\pagestyle{empty}\cleardoublepage}
 % 校注
-\setcounter{page}{1}
-\pagestyle{plain}
-\blfootnote{原书为人工铅字排版，明显错字、误字在所难免，如：“$\pi$”误作汉字“兀”、“于”误作“子”或“予”等，直接改正，不再一一列举。}
-\vspace{-2.5em}
-\theendnotes
+\input{body/Z02-erratanote.tex}
+
 \end{document}

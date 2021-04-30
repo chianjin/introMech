@@ -68,7 +68,7 @@
 % plain 版式，章标题页
 \fancypagestyle{plain}{
     \fancyhf{}
-    \fancyhead[RO,LE]{\thepage}
+    \fancyhead[RO,LE]{\zihao{-5}\thepage}
     \renewcommand{\headrulewidth}{0pt}
     \renewcommand{\footrulewidth}{0pt}
 }
@@ -77,14 +77,14 @@
     \fancyhf{}
     \fancyhead[LO]{\zihao{6}\underline{力学概论}}
     \fancyhead[RE]{\zihao{6}\underline{\leftmark}}
-    \fancyhead[RO,LE]{\thepage}
+    \fancyhead[RO,LE]{\zihao{-5}\thepage}
     \renewcommand{\headrulewidth}{0pt}
     \renewcommand{\footrulewidth}{0pt}
 }
 % foreword 版式，前言、目录、序等页
 \fancypagestyle{foreword}{
     \fancyhf{}
-    \fancyfoot[RO,LE]{\thepage}
+    \fancyfoot[RO,LE]{\zihao{-5}\thepage}
     \renewcommand{\headrulewidth}{0pt}
     \renewcommand{\footrulewidth}{0pt}
 }
@@ -171,7 +171,7 @@
 \numberwithin{equation}{section}
 
 % 向量字体
-\renewcommand{\vec}[1]{{\symbfsf{#1}}}
+\renewcommand{\vec}[1]{{\symbfsf #1}}
 
 % 例、解、讨论
 \newcounter{example}[section]
