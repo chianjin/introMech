@@ -133,9 +133,8 @@
 \newenvironment{questions}{
     \setcounter{question}{0}
     \addcontentsline{toc}{section}{思考题}
-    ~\vspace{0.6em}
-    \par{\heiti\centerline{思~~考~~题}}
-    \fangsong
+    \begin{center}\heiti\vspace{-0.6em} 思~~考~~题\vspace{-1.56em}\end{center}
+    ~\vspace{-0.56em}\fangsong
     }
     {\normalfont}
 
@@ -145,8 +144,7 @@
 \newenvironment{exercises}{%
     \setcounter{exercise}{0}
     \addcontentsline{toc}{section}{习题}
-    ~\vspace{0.6em}
-    \par{\heiti\centerline{习~~~~~~题}}
+    \begin{center}\heiti\vspace{-0.56em} 习~~~~~~题 \vspace{-0.56em}\end{center}
     \fangsong
     }
     {\normalfont}

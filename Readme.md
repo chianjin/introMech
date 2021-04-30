@@ -42,10 +42,10 @@
 
 中文采用四款方正商业免费字体，配合思源字体作为相应字体粗体。
 
-- 宋体：方正书宋简（FZShuSong-Z01S）
+- 宋体：方正书宋简（FZShuSong-Z01S），粗体：小标宋，斜体：楷体
 - 小标宋：思源宋体粗体（Source Han Serif SC Bold）
 - 大标宋：思源宋体超粗（Source Han Serif SC Heavy）
-- 黑体：方正黑体简（FZHei-B01S）
+- 黑体：方正黑体简（FZHei-B01S），粗体：大黑
 - 大黑：思源黑体粗体（Source Han Sans SC Bold）
 - 楷体：方正楷体简（FZKai-Z03S）
 - 仿宋：方正仿宋简（FZFangSong-Z02S）
