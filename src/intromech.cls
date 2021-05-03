@@ -18,19 +18,20 @@
 % 中文字体，使用方正书宋、黑体、楷体、仿宋四种免费字体，采用思源字体作为书宋和黑体粗体
 \setCJKmainfont[
     BoldFont=Source Han Serif SC Bold,
-    ItalicFont=FZKai-Z03S
-    ]{FZShuSong-Z01S}
+    ItalicFont=FZKai-Z03
+    ]{FZShuSong-Z01}
 \setCJKsansfont[
     BoldFont=Source Han Sans SC Bold
-    ]{FZHei-B01S}
-\setCJKmonofont{FZFangSong-Z02S}
-\setCJKfamilyfont{zhsong}{FZShuSong-Z01S}
+    ]{FZHei-B01}
+\setCJKmonofont{FZFangSong-Z02}
+
+\setCJKfamilyfont{zhsong}{FZShuSong-Z01}
 \setCJKfamilyfont{zhxbs}{Source Han Serif SC Bold}
 \setCJKfamilyfont{zhdbs}{Source Han Serif SC Heavy}
-\setCJKfamilyfont{zhhei}{FZHei-B01S}
+\setCJKfamilyfont{zhhei}{FZHei-B01}
 \setCJKfamilyfont{zhdh}{Source Han Sans SC Bold}
-\setCJKfamilyfont{zhfs}{FZFangSong-Z02S}
-\setCJKfamilyfont{zhkai}{FZKai-Z03S}
+\setCJKfamilyfont{zhfs}{FZFangSong-Z02}
+\setCJKfamilyfont{zhkai}{FZKai-Z03}
 
 \newcommand{\songti}{\CJKfamily{zhsong}}
 \newcommand{\xbsong}{\CJKfamily{zhxbs}}
@@ -284,7 +285,7 @@
 % 自定义命令
 % ----------------------------------------------------------
 \newcommand{\hsp}{}
-%\newcommand{\lhbrak}{〔}
-%\newcommand{\rhbrak}{〕}
-\newcommand{\lhbrak}{\ensuremath{\lbrbrak}}
-\newcommand{\rhbrak}{\ensuremath{\rbrbrak}}
+\newcommand{\lhbrak}{〔}
+\newcommand{\rhbrak}{〕}
+\newcommand{\mlhbrak}{\lbrbrak}
+\newcommand{\mrhbrak}{\rbrbrak}
