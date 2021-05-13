@@ -162,7 +162,8 @@
 \RequirePackage{yhmath}
 \RequirePackage{unicode-math}
 \setmathfont[
-    BoldFont=XITSMath-Bold.otf
+    BoldFont=XITSMath-Bold.otf,
+    StylisticSet=8
     ]{XITSMath-Regular.otf}
 \setlength{\mathindent}{6em}
 
