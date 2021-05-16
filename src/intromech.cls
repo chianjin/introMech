@@ -171,7 +171,10 @@
 \numberwithin{equation}{section}
 
 % 向量字体
-\renewcommand{\vec}[1]{{\symbfsf #1}}
+\renewcommand{\vec}[1]{{\symbfsf {#1}}}
+
+% 数学模式连字符
+\mathchardef\mdash="2D
 
 % 例、解、讨论
 \newcounter{example}[section]
