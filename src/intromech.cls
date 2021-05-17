@@ -62,7 +62,7 @@
 
 % ----------------------------------------------------------
 % 版式
-% TODO： 页码格式
+% TODO: 页码格式
 % ----------------------------------------------------------
 \RequirePackage{fancyhdr}
 
@@ -276,13 +276,17 @@
 }
 
 % 校注
+% TODO: 尾注页码
 \RequirePackage{marginnote}
 \RequirePackage{endnotes}
 \def\makeenmark{[\,\theenmark\,]~}
 \def\enotesize{\normalsize}
 \renewcommand{\notesname}{\heiti 重排校注}
-\newcommand{\erratanote}[2]{%
-    #1\marginnote{$^{\endnote{#1：#2}}$}%
+\newcommand{\erratanote}[3][(\thesection\,节)]{%
+    #2\marginnote{$^{\endnotemark}$}%
+    %\addtocounter{page}{1}%
+    \addtoendnotes{\par\makeenmark #2：原文“#3”。#1}%
+    %\addtocounter{page}{-1}%
 }
 
 % ----------------------------------------------------------
