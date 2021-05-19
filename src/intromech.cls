@@ -279,14 +279,22 @@
 % TODO: 尾注页码
 \RequirePackage{marginnote}
 \RequirePackage{endnotes}
+\RequirePackage{xparse}
 \def\makeenmark{[\,\theenmark\,]~}
 \def\enotesize{\normalsize}
 \renewcommand{\notesname}{\heiti 重排校注}
-\newcommand{\erratanote}[3][(\thesection\,节)]{%
-    #2\marginnote{$^{\endnotemark}$}%
-    %\addtocounter{page}{1}%
-    \addtoendnotes{\par\makeenmark #2：原文“#3”。#1}%
-    %\addtocounter{page}{-1}%
+\NewDocumentCommand{\erratanote}{mmoo}{%
+    #1\marginnote{$^{\endnotemark}$}
+    \IfNoValueT{#4}{\label{err:\theenmark}}
+    %\edef\addnotetext\IfValueT{#3}{#3}
+    \addtoendnotes{\par\makeenmark\hspace{0.5em}%
+        #1：原文“#2”。\IfValueT{#3}{#3} (%
+            \IfNoValueTF{#4}
+                {\noexpand\pageref{err:\theenmark}}
+                {\pageref{#4}}%
+            页%
+        )%
+    }%
 }
 
 % ----------------------------------------------------------
