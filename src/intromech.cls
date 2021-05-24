@@ -163,9 +163,9 @@
 \RequirePackage{unicode-math}
 \setmathfont[
     BoldFont=XITSMath-Bold.otf,
-    StylisticSet=8
+    StylisticSet=8 % 直立积分符号
     ]{XITSMath-Regular.otf}
-\setlength{\mathindent}{6em}
+\setlength{\mathindent}{6em} % 数学公式左缩进 6em
 
 % 公式按节编号
 \numberwithin{equation}{section}
@@ -174,7 +174,7 @@
 \renewcommand{\vec}[1]{{\symbfsf {#1}}}
 
 % 数学模式连字符
-\mathchardef\mdash="2D
+\mathchardef\mathdash="2D
 
 % 例、解、讨论
 \newcounter{example}[section]
