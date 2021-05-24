@@ -16,9 +16,9 @@
 学各部门中，或是在工程技术部门中，共振现象都是常遇到的。
 下面我们来发展这一现象的理论。
 
-受迫振动的物体受到三种力，即弹性力$ ( - k x ) $、阻力
+受迫振动的物体受到三种力，即弹性力$ \left( - k x \right) $、阻力
 $ \left( - \eta \dfrac { \dif x } { \dif t } \right) $
-和周期性外力$ ( F _ { 0 } \cos \omega t ) $。所以，按照牛顿第二定律，有
+和周期性外力$ \left( F _ { 0 } \cos \omega t \right) $。所以，按照牛顿第二定律，有
 \begin{equation*}
     m \frac { \dif ^ { 2 } x } { \dif t ^ { 2 } } = - k x - \eta \frac { \dif x } { \dif t } + F _ { 0 } \cos \omega t
 \end{equation*}
@@ -38,11 +38,11 @@ $ \left( - \eta \dfrac { \dif x } { \dif t } \right) $
 所消耗的能量与外力所给予的能量相等时，振动就稳定下来。因
 此，我们可以尝试一下去寻找稳定解，即具有下列形式的解：
 \begin{equation}\label{eqn:07.05.02}
-    x = A \cos ( \omega t + \varphi _ { 0 } )
+    x = A \cos \left( \omega t + \varphi _ { 0 } \right)
 \end{equation}
 将式\ref{eqn:07.05.02}代入式\ref{eqn:07.05.01}，可以定出$ A $，$  \omega ' $，$ \varphi_{ 0 } $的值为
 \begin{equation}\label{eqn:07.05.03}
-    A = \frac { f _ { 0 } } { \sqrt { ( \omega_{ 0 } ^ { 2 } - \omega ^ { 2 } ) ^ { 2 } + 4 \beta ^ { 2 } \omega ^ { 2 } }}
+    A = \frac { f _ { 0 } } { \sqrt { \left( \omega_{ 0 } ^ { 2 } - \omega ^ { 2 } \right) ^ { 2 } + 4 \beta ^ { 2 } \omega ^ { 2 } }}
 \end{equation}
 \begin{equation}\label{eqn:07.05.04}
     \varphi _ { 0 } = \tg ^ { - 1 } \frac { 2 \beta \omega } { \omega_{ 0 } ^ { 2 } - \omega ^ { 2 } }
@@ -66,7 +66,7 @@ $ A $达到极大，这个$ \omega $称为共振频率。这就是说，当外�
 系统的$ Q $值越大，则其共振现象越显著。
 
 在极端情况，若阻力为零，即$ \beta = 0 $时，则
-$ A = \dfrac { f _ { 0 } } { | \omega_{ 0 } ^ { 2 } - \omega ^ { 2 } } $。
+$ A = \dfrac { f _ { 0 } } { \left| \omega_{ 0 } ^ { 2 } - \omega ^ { 2 } \right| } $。
 这时共振发生于$ \omega = \omega _ { 0 } $，而
 且振幅无限大。而在
 
@@ -86,7 +86,7 @@ $ \eta \left( \dfrac { \dif x } { \dif t } \right) ^ { 2 } $
 \begin{equation}\label{eqn:07.05.06}
     \begin{aligned}
         &\frac { 1 } { T } \int _ { 0 } ^ { T } \eta  \left( \frac { \dif x } { \dif t } \right) ^ { 2 } \dif t \\
-     = &\frac { \eta f _ { 0 } ^ { 2 } \omega ^ { 2 } } { 2 [ ( \omega_{ 0 } ^ { 2 } - \omega ^ { 2 } ) ^ { 2 } + 4 \beta ^ { 2 } \omega ^ { 2 } ] }
+     = &\frac { \eta f _ { 0 } ^ { 2 } \omega ^ { 2 } } { 2 \left[ \left( \omega_{ 0 } ^ { 2 } - \omega ^ { 2 } \right) ^ { 2 } + 4 \beta ^ { 2 } \omega ^ { 2 } \right] }
     \end{aligned}
 \end{equation}
 上式中$ T = \dfrac { 2 \uppi } { \omega } $的是振动周期。这种计算是把瞬时功率在一个周
@@ -108,22 +108,22 @@ $ \omega_{ 0 } $时，振子才能有效地吸收外力所提供的能量，而�
 现在来求：吸收功率为上述极大值的一半时，外力频率$ \omega $与振子
 的固有频率$ \omega_{ 0 } $差多少。即解方程
 \begin{equation*}
-    \frac { \eta f _ { 0 } ^ { 2 } } { 16 \beta ^ { 2 } }  = \frac { \eta f _ { 0 } ^ { 2 } \omega ^ { 2 } } { 2 [ ( \omega_{ 0 } ^ { 2 } - \omega ^ { 2 } ) ^ { 2 } + 4 \beta ^ { 2 } \omega ^ { 2 } ] }
+    \frac { \eta f _ { 0 } ^ { 2 } } { 16 \beta ^ { 2 } }  = \frac { \eta f _ { 0 } ^ { 2 } \omega ^ { 2 } } { 2 \left[ \left( \omega_{ 0 } ^ { 2 } - \omega ^ { 2 } \right) ^ { 2 } + 4 \beta ^ { 2 } \omega ^ { 2 } \right] }
 \end{equation*}
 采用\erratanote{$ \omega \approx \omega _ { 0 } $}{$ \omega ^ { 2 } \approx \omega _ { 0 } $}，则
 \begin{equation*}
     \begin{aligned}
-    ( \omega _ { 0 } ^ { 2 } - \omega ^ { 2 } ) &= ( \omega _ { 0 } + \omega ) ( \omega _ { 0 } - \omega ) \\
-    &\approx 2 \omega _ { 0 } ( \omega _ { 0 } - \omega )
+    \left( \omega _ { 0 } ^ { 2 } - \omega ^ { 2 } \right) &= \left( \omega _ { 0 } + \omega \right) \left( \omega _ { 0 } - \omega \right) \\
+    &\approx 2 \omega _ { 0 } \left( \omega _ { 0 } - \omega \right)
     \end{aligned}
 \end{equation*}
 上式成为
 \begin{equation*}
-    \frac { f _ { 0 } ^ { 2 } } { 16 \beta ^ { 2 } }  = \frac { f _ { 0 } ^ { 2 } } { 2 [ 4 ( \omega_{ 0 } - \omega ) ^ { 2 } ) ^ { 2 } + 4 \beta ^ { 2 } ] }
+    \frac { f _ { 0 } ^ { 2 } } { 16 \beta ^ { 2 } }  = \frac { f _ { 0 } ^ { 2 } } { 2 \left[ 4 \left( \omega_{ 0 } - \omega ) ^ { 2 } \right) ^ { 2 } + 4 \beta ^ { 2 } \right] }
 \end{equation*}
 解得
 \begin{equation*}
-    | \omega _ { 0 } - \omega | \approx \beta
+    \left| \omega _ { 0 } - \omega \right| \approx \beta
 \end{equation*}
 所以，只要外力的频率在下列范围
 \begin{equation}\label{eqn:07.05.07}

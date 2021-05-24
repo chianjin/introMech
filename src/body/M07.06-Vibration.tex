@@ -10,24 +10,24 @@
 
 这种情况，似乎要求我们把振动按其形式分为多种类型来建
 立理论。其实不然，因为各种周期振动都可以由简谐振动组成。
-理论上可以证明：任意一个周期振动$ x = f ( t ) $，即$ f ( t ) $是$ t $的周期
+理论上可以证明：任意一个周期振动$ x = f \left( t \right) $，即$ f \left( t \right) $是$ t $的周期
 函数，以$ T $为周期，即
 \begin{equation}\label{eqn:07.06.01}
-	f ( t + n T ) = \erratanote{\ensuremath{f ( t )}}{$f(T)$}[][eqn:07.06.01]
+	f \left( t + n T \right) = \erratanote{\ensuremath{f ( t )}}{$f\left(T\right)$}[][eqn:07.06.01]
 \end{equation}
-其中$ n $为任意正、负整数，则$ f ( t ) $可以表示成
+其中$ n $为任意正、负整数，则$ f \left( t \right) $可以表示成
 \begin{equation}\label{eqn:07.06.02}
 	\begin{aligned}
-		f ( t ) =& A _ { 0 } + A _ { 1 } \cos ( \omega t + \varphi _ { 1 } ) + A _ { 2 } \cos ( 2 \omega t + \varphi _ { 2 } ) \\
-		&+ A _ { 3 } \cos ( 3 \omega t + \varphi _ { 3 } ) + \cdots
+		f \left( t \right) =& A _ { 0 } + A _ { 1 } \cos \left( \omega t + \varphi _ { 1 } \right) + A _ { 2 } \cos \left( 2 \omega t + \varphi _ { 2 } \right) \\
+		&+ A _ { 3 } \cos \left( 3 \omega t + \varphi _ { 3 } \right) + \cdots
 	\end{aligned}
 \end{equation}
-其中$\omega = \frac { 2 \uppi } { T } $；$ A _ { 0 }, A _ { 1 }, A _ { 2 }, \dots $决定于$ f ( t ) $的具体形式。式\eqref{eqn:07.06.01}
+其中$\omega = \dfrac { 2 \uppi } { T } $；$ A _ { 0 }, A _ { 1 }, A _ { 2 }, \dots $决定于$ f \left( t \right) $的具体形式。式\eqref{eqn:07.06.01}
 及式\eqref{eqn:07.06.02}表示，任何一个周期为$ T $的振动，可以看成是由周期
 为$ T, \dfrac { 1 } { 2 } T , \dfrac { 1 } { 3 } T  , \dots $一系列简谐振动相加而成的。例如上述小
 提琴的振动可写为
 \begin{equation*}
-	x = A ( \sin \omega t + \frac { 1 } { 2 } \sin 2 \omega t + \frac { 1 } { 3 } \sin 3 \omega t + \cdots )
+	x = A \left( \sin \omega t + \frac { 1 } { 2 } \sin 2 \omega t + \frac { 1 } { 3 } \sin 3 \omega t + \cdots \right)
 \end{equation*}
 所谓音色，就决定于$ A _ { 1 } , A _ { 2 }, \dots $各项简谐振动的振幅之比例。声
 % 215.jpg
@@ -40,7 +40,7 @@ $ \dfrac { 1 } { 1 } : \dfrac { 1 } { 2 } : \dfrac { 1 } { 3 }
 
 (1)一种最简单的情况是
 \begin{equation}\label{eqn:07.06.03}
-	x = A _ { 1 } \cos ( \omega t + \varphi _ { 1 } ) + A _ { 2 } \cos ( \omega t + \varphi _ { 2 } )
+	x = A _ { 1 } \cos \left( \omega t + \varphi _ { 1 } \right) + A _ { 2 } \cos \left( \omega t + \varphi _ { 2 } \right)
 \end{equation}
 这表示质点的运动是两种简谐振动合成的结果，而且这两种简谐
 振动具有相同的周期。
@@ -48,8 +48,8 @@ $ \dfrac { 1 } { 1 } : \dfrac { 1 } { 2 } : \dfrac { 1 } { 3 }
 利用三角公式，可以将上式改写成
 \begin{equation}\label{eqn:07.06.04}
 	\begin{aligned}
-		x =& ( A _ { 1 } \cos \varphi _ { 1 } + A _ { 2 } \cos \varphi _ { 2 } ) \cos \omega t \\
-		&- ( A _ { 1 } \sin \varphi _ { 1 } + A _ { 2 } \sin \varphi _ { 2 } ) \sin \omega t
+		x =& \left( A _ { 1 } \cos \varphi _ { 1 } + A _ { 2 } \cos \varphi _ { 2 } \right) \cos \omega t \\
+		&- \left( A _ { 1 } \sin \varphi _ { 1 } + A _ { 2 } \sin \varphi _ { 2 } \right) \sin \omega t
 	\end{aligned}
 \end{equation}
 ( 7 \cdot 6 \cdot 4 )
@@ -62,12 +62,12 @@ $ \dfrac { 1 } { 1 } : \dfrac { 1 } { 2 } : \dfrac { 1 } { 3 }
 \end{equation}
 则式\eqref{eqn:07.06.04}成为
 \begin{equation}\label{eqn:07.06.06}
-	x = A  \cos ( \omega t +  \varphi )
+	x = A  \cos \left( \omega t +  \varphi \right)
 \end{equation}
 由式\ref{eqn:07.06.05}，$ A $及$ \varphi $可以表示成
 \begin{equation}\label{eqn:07.06.07}
     \begin{split}
-    A &= \sqrt { A _ { 1 } ^ { 2 } + A _ 2 ^ { 2 } + 2 A _ { 1 } A _ { 2 }  \cos ( \varphi _ { 1 } -  \varphi _ { 2 } ) } \\
+    A &= \sqrt { A _ { 1 } ^ { 2 } + A _ 2 ^ { 2 } + 2 A _ { 1 } A _ { 2 }  \cos \left( \varphi _ { 1 } -  \varphi _ { 2 } \right) } \\
     \tg \varphi &= \frac { A _ { 1 }  \sin \varphi _ { 1 } + A _ { 2 } \sin \varphi _ { 2 } } { A _ { 1 }  \cos \varphi _ { 1 } + A _ { 2 } \cos \varphi _ { 2 } }
     \end{split}
 \end{equation}
@@ -88,17 +88,17 @@ $ \dfrac { 1 } { 1 } : \dfrac { 1 } { 2 } : \dfrac { 1 } { 3 }
 
 (2)两个振幅相同，但周期差别很小的简谐振动的合成，即
 \begin{equation}\label{eqn:07.06.08}
-    x = A \cos ( \omega _ { 1 } t + \varphi ) + A  \cos ( \omega _ { 2 } t + \varphi )
+    x = A \cos \left( \omega _ { 1 } t + \varphi \right) + A  \cos \left( \omega _ { 2 } t + \varphi \right)
 \end{equation}
 其中$\omega_{ 1 }$与$\omega_{ 2 }$的差很小。
 \begin{equation*}
-    | \omega _ { 1 } - \omega _ { 2 } | \ll \omega _ { 1 } , \omega _ { 2 }
+    \left| \omega _ { 1 } - \omega _ { 2 } \right| \ll \omega _ { 1 } , \omega _ { 2 }
 \end{equation*}
 利用三角公式，式\eqref{eqn:07.06.08}可以改写成
 \begin{equation*}
     \begin{split}
         x &= 2 A  \cos \left( \frac { \omega _ { 1 } - \omega _ { 2 } } { 2 } t \right)  \cos \left( \frac { \omega _ { 1 } + \omega _ { 2 } t } { 2 } t  + \varphi \right)  \\
-        & \approx 2 A  \cos \left( \frac { \omega _ { 1 } - \omega _ { 2 } } { 2 } t \right)  \cos ( \omega _ { 1 } t + \varphi )
+        & \approx 2 A  \cos \left( \frac { \omega _ { 1 } - \omega _ { 2 } } { 2 } t \right)  \cos \left( \omega _ { 1 } t + \varphi \right)
     \end{split}
 \end{equation*}
 这个公式的物理意义是，质点仍作频率为$\omega_{ 1 }$的简谐振动，但它的
@@ -106,9 +106,9 @@ $ \dfrac { 1 } { 1 } : \dfrac { 1 } { 2 } : \dfrac { 1 } { 3 }
 变化的。振幅的平方正比于振动能量，所以，这种振动具有周期
 生的强弱变化，这种现象称为拍。振幅的变化周期即为拍的周期。
 由于振幅只涉及$ \cos \dfrac { \omega _ { 1 } - \omega _ { 2 } } { 2 } t $的绝对值，所以，单位时间中的振
-福变化次数等于的$ \dfrac { 1 } { 2 \uppi } - \dfrac { | \omega _ { 1 } - \omega _ { 2 } | } { 2 } $两倍，故拍的周期为
+福变化次数等于的$ \dfrac { 1 } { 2 \uppi } - \dfrac { \left| \omega _ { 1 } - \omega _ { 2 } \right| } { 2 } $两倍，故拍的周期为
 \begin{equation*}
-    T _ { \text { 拍 } } = \frac { 2 \uppi } { | \omega _ { 1 } - \omega _ { 2 } | }
+    T _ { \text { 拍 } } = \frac { 2 \uppi } { \left| \omega _ { 1 } - \omega _ { 2 } \right| }
 \end{equation*}
 
 (3)二维的振动合成。由\ref{sec:07.03}节的讨论已知，一个匀速圆周运
@@ -117,8 +117,8 @@ $ \dfrac { 1 } { 1 } : \dfrac { 1 } { 2 } : \dfrac { 1 } { 3 }
 % 217.jpg
 \begin{equation}\label{eqn:07.06.09}
     \begin{cases}
-        x = r _ { 0 } \cos ( \omega t + \varphi _ { 0 } ) \\
-        y = r _ { 0 } \sin ( \omega t + \varphi _ { 0 } )
+        x = r _ { 0 } \cos \left( \omega t + \varphi _ { 0 } \right) \\
+        y = r _ { 0 } \sin \left( \omega t + \varphi _ { 0 } \right)
     \end{cases}
 \end{equation}
 其中$ r _ { 0 } $为圆周的半径。
@@ -127,8 +127,8 @@ $ \dfrac { 1 } { 1 } : \dfrac { 1 } { 2 } : \dfrac { 1 } { 3 }
 位相不一定相同，即
 \begin{equation}\label{eqn:07.06.10}
     \begin{cases}
-        x = r _ { 0 } \cos ( \omega t + \varphi _ { 1 } ) \\
-        y = r _ { 0 } \sin ( \omega t + \varphi _ { 2 } )
+        x = r _ { 0 } \cos \left( \omega t + \varphi _ { 1 } \right) \\
+        y = r _ { 0 } \sin \left( \omega t + \varphi _ { 2 } \right)
     \end{cases}
 \end{equation}
 这时，运动的形态完全取决于$  \varphi _ { 1 }   $， $ \varphi _ { 2 }   $的相互关系。
@@ -139,13 +139,13 @@ $ \dfrac { 1 } { 1 } : \dfrac { 1 } { 2 } : \dfrac { 1 } { 3 }
 如果$   \varphi _ { 2 } - \varphi _ { 1 } = 0  $ ，则式\eqref{eqn:07.06.10}成为
 \begin{equation*}
     \begin{split}
-        x = r _ { 0 }  \cos ( \omega t + \varphi _ { 1 } )  \\
-        y = r _ { 0 }  \cos ( \omega t + \varphi _ { 1 } )
+        x = r _ { 0 }  \cos \left( \omega t + \varphi _ { 1 } \right)  \\
+        y = r _ { 0 }  \cos \left( \omega t + \varphi _ { 1 } \right)
     \end{split}
 \end{equation*}
 因此，这时的轨迹是一段直线：
 \begin{equation*}
-    x = y, \quad | x | , | y | \erratanote{\ensuremath{\leqslant}}{$<$}[][err:07.06.01] r _ { 0 }
+    x = y, \quad \left| x \right| , \left| y \right| \erratanote{\ensuremath{\leqslant}}{$<$}[][err:07.06.01] r _ { 0 }
 \end{equation*}\label{err:07.06.01}
 如果定义坐标
 \begin{equation*}
@@ -153,31 +153,31 @@ $ \dfrac { 1 } { 1 } : \dfrac { 1 } { 2 } : \dfrac { 1 } { 3 }
 \end{equation*}
 则
 \begin{equation*}
-    r = \sqrt { 2 } r _ { 0 }  \cos ( \omega t +  \varphi _ { 1 } )
+    r = \sqrt { 2 } r _ { 0 }  \cos \left( \omega t +  \varphi _ { 1 } \right)
 \end{equation*}
 故质点是沿着图712(a)的斜线方向作简谐振动。
 
 为了讨论一般情况，我们可以从式\eqref{eqn:07.06.10}得出
 \begin{equation}\label{eqn:07.06.11}
     \begin{split}
-        x + y &= r _ { 0 }  \cos ( \omega t + \varphi _ { 1 } ) + r _ { 0 }  \cos ( \omega t +  \varphi _ { 2 } )  \\
-        &= A _ { + }  \cos ( \omega t + \varphi ) \\
-        x - y &= r _ { 0 }  \cos ( \omega t +  \varphi _ { 1 } ) - r _ { 0 }  \cos ( \omega t +  \varphi _ { 2 } )  \\
-        &= A _ { - }  \sin ( \omega t + \varphi )
+        x + y &= r _ { 0 }  \cos \left( \omega t + \varphi _ { 1 } \right) + r _ { 0 }  \cos \left( \omega t +  \varphi _ { 2 } \right)  \\
+        &= A _ { + }  \cos \left( \omega t + \varphi \right) \\
+        x - y &= r _ { 0 }  \cos \left( \omega t +  \varphi _ { 1 } \right) - r _ { 0 }  \cos \left( \omega t +  \varphi _ { 2 } \right)  \\
+        &= A _ { - }  \sin \left( \omega t + \varphi \right)
     \end{split}
 \end{equation}
 其中
 \begin{equation}\label{eqn:07.06.12}
     \begin{split}
-        A _ { + } &= \sqrt { 2 } r _ { 0 } \sqrt { 1 + \cos ( \varphi _ { 1 } -  \varphi _ { 2 } ) }  \\
-        A _ { - } &= \sqrt { 2 } r _ { 0 } \sqrt { 1 - \cos ( \varphi _ { 1 } -  \varphi _ { 2 } ) } \\
+        A _ { + } &= \sqrt { 2 } r _ { 0 } \sqrt { 1 + \cos \left( \varphi _ { 1 } -  \varphi _ { 2 } \right) }  \\
+        A _ { - } &= \sqrt { 2 } r _ { 0 } \sqrt { 1 - \cos \left( \varphi _ { 1 } -  \varphi _ { 2 } \right) } \\
         \tg \varphi &= \frac { \sin \varphi _ { 1 } + \sin \varphi _ { 2 } } { \cos \varphi _ { 1 } + \cos \varphi _ { 2 } }
     \end{split}
 \end{equation}
 % 218.jpg
 由式\eqref{eqn:07.06.11}即得
 \begin{equation*}
-    \frac { ( x + y ) ^ { 2 } } { A _ { + } ^ { 2 } } + \frac { ( x - y ) ^ { 2 } } { A _ { - } ^ { 2 } } = 1
+    \frac { \left( x + y \right) ^ { 2 } } { A _ { + } ^ { 2 } } + \frac { \left( x - y \right) ^ { 2 } } { A _ { - } ^ { 2 } } = 1
 \end{equation*}
 可见，式\eqref{eqn:07.06.10}表示的运动轨迹，一般情况是一个椭圆。椭圆
 的长轴或短轴沿着$ \pm 45 ^ { \circ } $线，两轴长分别为$ A _ { + } $及$ A _ { - } $。由此，不难

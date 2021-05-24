@@ -176,6 +176,9 @@
 % 数学模式连字符
 \mathchardef\mathdash="2D
 
+% 数学常数
+\newcommand{\e}{\mathrm e}
+
 % 例、解、讨论
 \newcounter{example}[section]
 \newcommand{\example}{\refstepcounter{example}【例~\theexample】}
