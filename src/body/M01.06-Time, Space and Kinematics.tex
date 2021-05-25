@@ -4,11 +4,11 @@
 火车比轮船快，飞机比火车快，而火箭更比飞机快等等。反映质
 点运动快慢的物理量就是速度，或者确切地说，是速度的数值大小。
 
-先以直线运动为例，当时刻$ t_1 $时，质点$ A $的位置坐标为$ x(t_1) $，
-当$ t_2 $时，它的坐标为$ x(t_2) $，我们就用下式来定义质点$ A $在$ t_1 $到
+先以直线运动为例，当时刻$ t_1 $时，质点$ A $的位置坐标为$ x\left(t_1\right) $，
+当$ t_2 $时，它的坐标为$ x\left(t_2\right) $，我们就用下式来定义质点$ A $在$ t_1 $到
 $ t_2 $时间间隔内的平均速度:
 \begin{equation}
-    \langle v\rangle_{t_{1} \rightarrow t_{2}}=\frac{x(t_{2})-x(t_{1})}{t_{2}-t_{1}} \label{eqn:01.06.01}
+    \langle v\rangle_{t_{1} \rightarrow t_{2}}=\frac{x\left(t_{2}\right)-x\left(t_{1}\right)}{t_{2}-t_{1}} \label{eqn:01.06.01}
 \end{equation}
 符号$\langle ~ \rangle$表示所讨论的量的平均值。$\langle v\rangle_{t_{1} \rightarrow t_{2}}$的数值表示质点
 在时
@@ -59,9 +59,9 @@ $t_2$表示成$t_2=t_1+\Delta t$，这个$\Delta t$就是求平均速
 的间隔中，自由落体的平均速度。利用$x=4.9t^2$得到
 \begin{equation*}
     \begin{aligned}
-        \langle v\rangle_{1 \rightarrow 1+\Delta t} & =\frac{x(1+\Delta t)-x(1)}{1+\Delta t-1}                      \\
-                                                    & =\frac{4.9 \times(1+\Delta t)^{2}-4.9 \times 1^{2}}{\Delta t} \\
-                                                    & =(9.8+4.9 \Delta t) \text { 米/秒 }
+        \langle v\rangle_{1 \rightarrow 1+\Delta t} & =\frac{x\left(1+\Delta t\right)-x\left(1\right)}{1+\Delta t-1}                      \\
+                                                    & =\frac{4.9 \times\left(1+\Delta t\right)^{2}-4.9 \times 1^{2}}{\Delta t} \\
+                                                    & =\left(9.8+4.9 \Delta t\right) \text { 米/秒 }
     \end{aligned}
 \end{equation*}
 此式再次表明，从第1秒末开始取不同的时间间隔$\Delta t$，所得的平
@@ -69,7 +69,7 @@ $t_2$表示成$t_2=t_1+\Delta t$，这个$\Delta t$就是求平均速
 $\Delta t$为无限小，或者相当于$\Delta t \rightarrow 0$的
 极限情况，这时平均速度变成为:
 \begin{equation*}
-    \lim _{\Delta t \rightarrow 0}(9.8+4.9 \Delta t)=9.8 \text { 米/秒 }
+    \lim _{\Delta t \rightarrow 0}\left(9.8+4.9 \Delta t\right)=9.8 \text { 米/秒 }
 \end{equation*}
 这个9.8米/秒的物理意义是自由落体在第1秒末的一个无限小时
 间间隔中的平均速度，我们称这个值为自由落体在第1秒末的瞬
@@ -79,14 +79,14 @@ $\Delta t$为无限小，或者相当于$\Delta t \rightarrow 0$的
 瞬时性质的物理量。有了瞬时速度这个概念，使我们对运动的认
 识大为深化。
 用类似的手续不难求出自由落体运动在任何时刻t的瞬时速
-度$v(t)$，只要将上述的1及$1+\Delta t$分别代之以$t$及$t+\Delta t$，并取
+度$v\left(t\right)$，只要将上述的1及$1+\Delta t$分别代之以$t$及$t+\Delta t$，并取
 于$\Delta t \rightarrow 0$的极限值就可以了。故有
 
 \begin{equation}\label{eqn:01.06.02}
     \begin{aligned}
-        v(t) & =\lim _{\Delta t \rightarrow 0} \frac{x(t+\Delta t)-x(t)}{\Delta t}                          \\
-             & =\lim _{\Delta t \rightarrow 0} \frac{4.9 \times(t+\Delta t)^{2}-4.9 \times t^{2}}{\Delta t} \\
-             & =\lim _{\Delta t \rightarrow 0}(9.8 t+4.9 \Delta t)                                          \\
+        v\left(t\right) & =\lim _{\Delta t \rightarrow 0} \frac{x\left(t+\Delta t\right)-x\left(t\right)}{\Delta t}                          \\
+             & =\lim _{\Delta t \rightarrow 0} \frac{4.9 \times\left(t+\Delta t\right)^{2}-4.9 \times t^{2}}{\Delta t} \\
+             & =\lim _{\Delta t \rightarrow 0}\left(9.8 t+4.9 \Delta t\right)                                          \\
              & =9.8 t
     \end{aligned}
 \end{equation}
@@ -101,17 +101,17 @@ $\Delta t$为无限小，或者相当于$\Delta t \rightarrow 0$的
 对于任何直线运动，它的瞬时速度都可以用类似方式来确
 定:
 \begin{equation*}
-        v(t)=\lim _{\Delta t \rightarrow 0} \frac{x(t+\Delta t)-x(t)}{\Delta t}
+        v\left(t\right)=\lim _{\Delta t \rightarrow 0} \frac{x\left(t+\Delta t\right)-x\left(t\right)}{\Delta t}
 \end{equation*}
-根据微积分学的知识，该极限就是轨迹函数x(t)对时间t的一阶
+根据微积分学的知识，该极限就是轨迹函数$x\left(t\right)$对时间t的一阶
 导数。即
 \begin{equation}
     \begin{aligned}
-        v(t) & =\lim _{\Delta t \rightarrow 0} \frac{x(t+\Delta t)-x(t)}{\Delta t}                            \\
+        v\left(t\right) & =\lim _{\Delta t \rightarrow 0} \frac{x\left(t+\Delta t\right)-x\left(t\right)}{\Delta t}                            \\
              & =\lim _{\Delta t \rightarrow 0} \frac{\Delta x}{\Delta t}=\frac{\dif x}{\dif t} \label{eqn:01.06.03}
     \end{aligned}
 \end{equation}
-其中，$\Delta x=x(t+\Delta t)-x(t)$，是在$t\rightarrow t+\Delta t$时间间隔中质点位置
+其中，$\Delta x=x\left(t+\Delta t\right)-x\left(t\right)$，是在$t\rightarrow t+\Delta t$时间间隔中质点位置
 坐标的增量。以后我们提到的速度，一般都指瞬时速度。
 
 我们看到，瞬时速度是利用数学上的微分概念来描写的。其
@@ -128,7 +128,7 @@ $\Delta t$为无限小，或者相当于$\Delta t \rightarrow 0$的
         \tkzInit[xmax=3.5,ymax=4]
         \tkzDrawX[label=$t$,noticks]
         \tkzDrawY[label=$x$,noticks]
-        \draw[domain=0:3.1]plot(\x,0.4*\x*\x) node[left]{$x(t)$};
+        \draw[domain=0:3.1]plot(\x,0.4*\x*\x) node[left]{$x\left(t\right)$};
         \tkzDefPoints{1/0.4/A, 2.5/2.5/B, 3/2/C}
         \tkzDrawLine[dashed,add = 0.2 and 0.5](A,B)
         \tkzLabelPoint[right](3.2,3.5){\small 割线}
@@ -139,7 +139,7 @@ $\Delta t$为无限小，或者相当于$\Delta t \rightarrow 0$的
         \tkzDrawSegment[dashed](B,(0,2.5))
         \tkzDrawSegment[dashed](B,(2.5,0))
     \end{tikzpicture}
-    \caption{直线运动的$x-t$图}
+    \caption{直线运动的$x \mathdash t$图}
     \label{fig:01.10}
 \end{wrapfigure}
 当质点作直线运动时，我们
@@ -148,13 +148,13 @@ $\Delta t$为无限小，或者相当于$\Delta t \rightarrow 0$的
 均速度在数值上等于各段割线的
 斜率，瞬时速度在数值上等于各
 点的切线的斜率。所以在求出位
-置时间曲线后，就可以从$x(t)$曲
+置时间曲线后，就可以从$x\left(t\right)$曲
 线上求出各点的速度。
 
 从平均速度的定义（\ref{eqn:01.06.01}）式可以知道，$\langle v\rangle$可以有正值，
-也可以有负值。当$x(t+\Delta t)<x(t)$时，$\langle v\rangle$为负。这种情况相当
+也可以有负值。当$x\left(t+\Delta t\right)<x\left(t\right)$时，$\langle v\rangle$为负。这种情况相当
 于质点在$t$到$t+\Delta t$间隔中，总的说来是向负$x$方向运动的。所
 以，$\langle v\rangle$的正负恰恰反映了运动的方向。通常称平均速度的绝对
-值$|\langle v\rangle|$为平均速率。类似地，瞬时速度的绝对值$|v(t)|$被称为
+值$|\langle v\rangle|$为平均速率。类似地，瞬时速度的绝对值$|v\left(t\right)|$被称为
 速率，而瞬时速度的正负，就表示质点在时刻$t$的运动方向。速
 度$v$不仅描述了运动的快慢，而且描述了运动方向。
