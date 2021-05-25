@@ -1,11 +1,11 @@
 \section{加速度}\label{sec:01.08}
 
 为了描写速度的变化，我们再引入一个物理量，即所谓加速
-度。对于直线运动，若当$t$时刻，质点速度为$v(t)$，当$t+\Delta t$时
-刻，为$v(t+\Delta t)$，则我们定义从$t$到$t+\Delta t$间隔中质点的平均加
+度。对于直线运动，若当$t$时刻，质点速度为$v\left(t\right)$，当$t+\Delta t$时
+刻，为$v\left(t+\Delta t\right)$，则我们定义从$t$到$t+\Delta t$间隔中质点的平均加
 速度为
 \vspace{-1em}\begin{equation}\label{eqn:01.08.01}
-    \langle a\rangle_{t\rightarrow t+\Delta t} = \frac{v(t+\Delta t)-v(t)}{\Delta t}
+    \langle a\rangle_{t\rightarrow t+\Delta t} = \frac{v\left(t+\Delta t\right)-v\left(t\right)}{\Delta t}
 \end{equation}
 它的定义是质点在单位时间中速度的平均变化，单位是$\text{米/秒}^2$。
 
@@ -13,7 +13,7 @@
 均加速度：
 \vspace{-0.5em}\begin{equation*}
     \begin{aligned}
-        \langle a\rangle_{t\rightarrow t+\Delta t} & = \frac{9.8(t+\Delta t)-9.8t}{\Delta t} \\
+        \langle a\rangle_{t\rightarrow t+\Delta t} & = \frac{9.8\left(t+\Delta t\right)-9.8t}{\Delta t} \\
                                                    & = 9.8\text{米/秒}^2
     \end{aligned}
 \end{equation*}
@@ -57,8 +57,8 @@
 动的瞬时性质的物理量。瞬时加速度定义为:
 \begin{equation*}
     \begin{aligned}
-        a(t) & =\lim _{\Delta t \rightarrow 0} \frac{v(t+\Delta t)-v(t)}{\Delta t} \\
-             & =\frac{\dif v(t)}{\dif t}=\frac{\dif^2 x(t)}{\dif t^2}
+        a\left(t\right) & =\lim _{\Delta t \rightarrow 0} \frac{v\left(t+\Delta t\right)-v\left(t\right)}{\Delta t} \\
+             & =\frac{\dif v\left(t\right)}{\dif t}=\frac{\dif^2 x\left(t\right)}{\dif t^2}
     \end{aligned}
 \end{equation*}
 它的意义是质点在时刻t的无限小时间间隔中的平均加速度。以
@@ -67,16 +67,16 @@
 对于一般的曲线运动，可以给出相应的平均加速度及瞬时加
 速度为：
 \begin{equation}\label{eqn:01.08.02}
-    \langle \vec{a} \rangle_{t \rightarrow t+\Delta t} = \frac{\vec{v}(t+\Delta t)-\vec{v}(t)}{\Delta t}
+    \langle \vec{a} \rangle_{t \rightarrow t+\Delta t} = \frac{\vec{v}\left(t+\Delta t\right)-\vec{v}\left(t\right)}{\Delta t}
 \end{equation}
 \begin{equation}\label{eqn:01.08.03}
     \begin{aligned}
-        \vec{a}(t) & =\lim _{\Delta t \rightarrow 0} \frac{\vec{v}(t+\Delta t)-\vec{v}(t)}{\Delta t} \\
+        \vec{a}\left(t\right) & =\lim _{\Delta t \rightarrow 0} \frac{\vec{v}\left(t+\Delta t\right)-\vec{v}\left(t\right)}{\Delta t} \\
                   & =\lim_{\Delta t \rightarrow 0}\frac{\Delta \vec{v}}{\Delta t}                  \\
-                  & =\frac{\dif\vec{v}(t)}{\dif t}=\frac{\dif^2 \vec{r}(t)}{\dif t^2}
+                  & =\frac{\dif\vec{v}\left(t\right)}{\dif t}=\frac{\dif^2 \vec{r}\left(t\right)}{\dif t^2}
     \end{aligned}
 \end{equation}
-在曲线运动情况下，速度方向是变化的。$v(t)$，$v(t+\Delta t)$及$\Delta v$，
+在曲线运动情况下，速度方向是变化的。$v\left(t\right)$，$v\left(t+\Delta t\right)$及$\Delta v$，
 \begin{wrapfigure}[6]{r}{13em}
     %\vspace{-6em}
     \centering
@@ -93,12 +93,12 @@
 
 利用式\eqref{eqn:01.07.03}，加速度矢量的分量可以表示为：
 \begin{equation}\label{eqn:01.08.04}
-    \vec{a}=\frac{\dif^2x(t)}{\dif t^2}\vec{i}+\frac{\dif^2y(t)}{\dif t^2}\vec{j}+\frac{\dif^2z(t)}{\dif t^2}\vec{k}
+    \vec{a}=\frac{\dif^2x\left(t\right)}{\dif t^2}\vec{i}+\frac{\dif^2y\left(t\right)}{\dif t^2}\vec{j}+\frac{\dif^2z\left(t\right)}{\dif t^2}\vec{k}
 \end{equation}
 加速度的三个坐标分量为：
 \begin{equation}\label{eqn:01.08.05}
-    a_x=\frac{\dif^2x(t)}{\dif t^2},~ a_y=\frac{\dif^2y(t)}{\dif t^2},~
-    a_z=\frac{\dif^2z(t)}{\dif t^2}
+    a_x=\frac{\dif^2x\left(t\right)}{\dif t^2},~ a_y=\frac{\dif^2y\left(t\right)}{\dif t^2},~
+    a_z=\frac{\dif^2z\left(t\right)}{\dif t^2}
 \end{equation}
 $\vec{r}$，$\vec{v}$，$\vec{a}$是描写运动的物理量。我们希望用数目比较少的物
 理量来描写运动。什么叫比较少？意思是这些物理量之间应是相
@@ -146,7 +146,7 @@ $Z$三个方向上的直线运动，这三个运动同时进行，我们可以�
 \solution 因为时间间隔都是1秒，即$\Delta t=1$秒。所以从数值上有
 \begin{align*}
     v & =\frac{\Delta s}{\Delta t}=\Delta s                         \\
-    a & =\frac{(v_2-v_1)}{\Delta t}=v_2-v_1=(\Delta s_2)-(\Delta s_1)
+    a & =\frac{\left(v_2-v_1\right)}{\Delta t}=v_2-v_1=\left(\Delta s_2\right)-\left(\Delta s_1\right)
 \end{align*}
 将结果列于表\ref{tab:01.08}中。
 \begin{tablex}[!h]
@@ -265,12 +265,12 @@ $v\approx\num{1.02e8}$厘米/秒作直线运动。
 中的坐标，可把运动分解为$ x $方向与$ y $方向，并分别处理。$ x $方向
 是惯性运动$ v_x=v_0\cos\theta $，所以有
 \begin{equation*}\label{xeqn:01.08.01}
-    x=(v_0\cos\theta)t \tag{1}
+    x=\left(v_0\cos\theta\right)t \tag{1}
 \end{equation*}
 $ y $方向就是上抛运动，初速度为$ v_0\sin\theta$。故有
 \begin{align*}
 \label{xeqn:01.08.02} &v_y=v_0\sin\theta-gt \tag{2} \\
-\label{xeqn:01.08.03} &y=(v_0\sin\theta)t-\frac{1}{2}gt^2 \tag{3}
+\label{xeqn:01.08.03} &y=\left(v_0\sin\theta\right)t-\frac{1}{2}gt^2 \tag{3}
 \end{align*}
 由\eqref{xeqn:01.08.01}，\eqref{xeqn:01.08.03}消去$ t $便得抛物线形的轨迹：
 \begin{equation*}\label{xeqn:01.08.04}
