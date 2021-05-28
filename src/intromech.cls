@@ -179,12 +179,6 @@
 % 数学常数
 \newcommand{\e}{\mathrm e}
 
-% 例、解、讨论
-\newcounter{example}[section]
-\newcommand{\example}{\refstepcounter{example}【例~\theexample】}
-\newcommand{\solution}{\heiti 解~\normalfont}
-\newcommand{\discussion}{\heiti 讨论~\normalfont}
-
 % 旧式正切余切函数名 tan cot tanh coth arctan arccot
 \newcommand{\tg}{\operatorname{tg}}
 \newcommand{\ctg}{\operatorname{ctg}}
@@ -194,6 +188,12 @@
 \newcommand{\arcctg}{\operatorname{arcctg}}
 % 求导符号
 \newcommand{\dif}{\mathop{}\!\symrm{d}}
+
+% 例、解、讨论
+\newcounter{example}[section]
+\newcommand{\example}{\refstepcounter{example}【例~\theexample】}
+\newcommand{\solution}{\heiti 解~\normalfont}
+\newcommand{\discussion}{\heiti 讨论~\normalfont}
 
 % 表格
 \RequirePackage{array}
