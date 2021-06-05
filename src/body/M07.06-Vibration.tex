@@ -1,12 +1,18 @@
 \section{简谐振动的合成}\label{sec:07.06}
 
 简谐振动只是振动或周期运动中的一种，许多实际的周期运
+\clearpage
 % 214.jpg
-动并不是简谐的。例如，各种乐器的振动大都不是简谐振动。所
+\noindent 动并不是简谐的。例如，各种乐器的振动大都不是简谐振动。所
 谓音色，就是决定于振动的形式。譬如，小提琴的振动有如图
-710所示的锯齿形。各种乐器都有自己的独特振动形式。
+\ref{fig:07.10}\;所示的锯齿形。各种乐器都有自己的独特振动形式。
 
-图7.10小提琴的振动
+\begin{figurex}
+    \centering
+    \includegraphics{figure/fig07.10}
+    \caption{小提琴的振动}
+    \label{fig:07.10}
+\end{figurex}
 
 这种情况，似乎要求我们把振动按其形式分为多种类型来建
 立理论。其实不然，因为各种周期振动都可以由简谐振动组成。
@@ -49,14 +55,14 @@ $ \dfrac { 1 } { 1 } : \dfrac { 1 } { 2 } : \dfrac { 1 } { 3 }
 利用三角公式，可以将上式改写成
 \begin{equation}\label{eqn:07.06.04}
 	\begin{aligned}
-		x =& \left( A _ { 1 } \cos \varphi _ { 1 } + A _ { 2 } \cos \varphi _ { 2 } \right) \cos \omega t \\
+		x =& \left( A _ { 1 } \cos \varphi _ { 1 } + A _ { 2 } \cos \varphi _ { 2 } \right) \cos \omega t \\[-0.5em]
 		&- \left( A _ { 1 } \sin \varphi _ { 1 } + A _ { 2 } \sin \varphi _ { 2 } \right) \sin \omega t
 	\end{aligned}
 \end{equation}
-令
+令\vspace{-1.56em}
 \begin{equation}\label{eqn:07.06.05}
 	\begin{aligned}
-		A _ { 1 } \cos \varphi _ { 1 } + A _ { 2 } \cos \varphi _ { 2 } &= A  \cos \varphi  \\
+		A _ { 1 } \cos \varphi _ { 1 } + A _ { 2 } \cos \varphi _ { 2 } &= A  \cos \varphi  \\[-0.5em]
 		A _ { 1 } \sin \varphi _ { 1 } + A _ { 2 }  \sin \varphi _ { 2 } &= A  \sin \varphi
 	\end{aligned}
 \end{equation}
@@ -72,16 +78,20 @@ $ \dfrac { 1 } { 1 } : \dfrac { 1 } { 2 } : \dfrac { 1 } { 3 }
     \end{split}
 \end{equation}
 式\eqref{eqn:07.06.06}表示，两个相同周期(或频率)的简谐振动合成的结果
+\begin{wrapfigure}[7]{r}{13em}
+    \vspace{-1em}
+    \centering
+    \includegraphics{figure/fig07.11}
+    \caption{振动的合成}
+    \label{fig:07.11}
+\end{wrapfigure}
 仍是一个简谐振动，并具有相同周期，只是振幅和位相
 应取式\eqref{eqn:07.06.07}给出的值。
 
 式\eqref{eqn:07.06.07}也很容易由几何方法得到。按\ref{sec:07.03}节的方法，每个简谐振动可用一
 矢量表示，则式\eqref{eqn:07.06.03}应由
-
-图7.11振动的合成
-
 % 216.jpg
-图7.11中的矢量$ \vec{OA_1} $及$ \vec{OA_2} $表示。由于$ \vec{ O A _ { 1 } } $，$ \vec{ O A _ { 2 } } $绕$ O $转动的角速
+图\ref{fig:07.11}\;中的矢量$ \vec{OA_1} $及$ \vec{OA_2} $表示。由于$ \vec{ O A _ { 1 } } $，$ \vec{ O A _ { 2 } } $绕$ O $转动的角速
 度(即$ \omega $)相同，所以二者相对位相不变，因此二者在$ OX $方向的
 投影之和，就等于矢量$\vec{OA}$的投影。$ \vec{OA} $为$\vec{OA_1}$及$\vec{OA_2}$的矢量和。
 由$  A _ { 1 }   $，$  A _ { 2 }  $ ，$\varphi_{ 1 }$，$\varphi_{ 2 }$可求出$ A $及$\varphi$，结果仍然是式\eqref{eqn:07.06.07}。
@@ -115,6 +125,7 @@ $ \dfrac { 1 } { 1 } : \dfrac { 1 } { 2 } : \dfrac { 1 } { 3 }
 力可以看成在$ X $，$ Y $两个方向上的简谐振动的合成，即匀速圆周
 运动可表示为
 % 217.jpg
+~\vspace{-0.56em}
 \begin{equation}\label{eqn:07.06.09}
     \begin{cases}
         x = r _ { 0 } \cos \left( \omega t + \varphi _ { 0 } \right) \\
@@ -139,7 +150,7 @@ $ \dfrac { 1 } { 1 } : \dfrac { 1 } { 2 } : \dfrac { 1 } { 3 }
 如果$   \varphi _ { 2 } - \varphi _ { 1 } = 0  $ ，则式\eqref{eqn:07.06.10}成为
 \begin{equation*}
     \begin{split}
-        x = r _ { 0 }  \cos \left( \omega t + \varphi _ { 1 } \right)  \\
+        x = r _ { 0 }  \cos \left( \omega t + \varphi _ { 1 } \right)  \\[-0.5em]
         y = r _ { 0 }  \cos \left( \omega t + \varphi _ { 1 } \right)
     \end{split}
 \end{equation*}
@@ -151,7 +162,7 @@ $ \dfrac { 1 } { 1 } : \dfrac { 1 } { 2 } : \dfrac { 1 } { 3 }
 \begin{equation*}
     r = \sqrt { x ^ { 2 } + y ^ { 2 } }
 \end{equation*}
-则
+则\vspace{-1.56em}
 \begin{equation*}
     r = \sqrt { 2 } r _ { 0 }  \cos \left( \omega t +  \varphi _ { 1 } \right)
 \end{equation*}
@@ -160,17 +171,17 @@ $ \dfrac { 1 } { 1 } : \dfrac { 1 } { 2 } : \dfrac { 1 } { 3 }
 为了讨论一般情况，我们可以从式\eqref{eqn:07.06.10}得出
 \begin{equation}\label{eqn:07.06.11}
     \begin{split}
-        x + y &= r _ { 0 }  \cos \left( \omega t + \varphi _ { 1 } \right) + r _ { 0 }  \cos \left( \omega t +  \varphi _ { 2 } \right)  \\
-        &= A _ { + }  \cos \left( \omega t + \varphi \right) \\
-        x - y &= r _ { 0 }  \cos \left( \omega t +  \varphi _ { 1 } \right) - r _ { 0 }  \cos \left( \omega t +  \varphi _ { 2 } \right)  \\
+        x + y &= r _ { 0 }  \cos \left( \omega t + \varphi _ { 1 } \right) + r _ { 0 }  \cos \left( \omega t +  \varphi _ { 2 } \right)  \\[-0.5em]
+        &= A _ { + }  \cos \left( \omega t + \varphi \right) \\[-0.5em]
+        x - y &= r _ { 0 }  \cos \left( \omega t +  \varphi _ { 1 } \right) - r _ { 0 }  \cos \left( \omega t +  \varphi _ { 2 } \right)  \\[-0.5em]
         &= A _ { - }  \sin \left( \omega t + \varphi \right)
     \end{split}
 \end{equation}
-其中
+其中\vspace{-1.56em}
 \begin{equation}\label{eqn:07.06.12}
     \begin{split}
-        A _ { + } &= \sqrt { 2 } r _ { 0 } \sqrt { 1 + \cos \left( \varphi _ { 1 } -  \varphi _ { 2 } \right) }  \\
-        A _ { - } &= \sqrt { 2 } r _ { 0 } \sqrt { 1 - \cos \left( \varphi _ { 1 } -  \varphi _ { 2 } \right) } \\
+        A _ { + } &= \sqrt { 2 } r _ { 0 } \sqrt { 1 + \cos \left( \varphi _ { 1 } -  \varphi _ { 2 } \right) }  \\[-0.5em]
+        A _ { - } &= \sqrt { 2 } r _ { 0 } \sqrt { 1 - \cos \left( \varphi _ { 1 } -  \varphi _ { 2 } \right) } \\[-0.5em]
         \tg \varphi &= \frac { \sin \varphi _ { 1 } + \sin \varphi _ { 2 } } { \cos \varphi _ { 1 } + \cos \varphi _ { 2 } }
     \end{split}
 \end{equation}
@@ -181,7 +192,10 @@ $ \dfrac { 1 } { 1 } : \dfrac { 1 } { 2 } : \dfrac { 1 } { 3 }
 \end{equation*}
 可见，式\eqref{eqn:07.06.10}表示的运动轨迹，一般情况是一个椭圆。椭圆
 的长轴或短轴沿着$ \pm 45 ^ { \circ } $线，两轴长分别为$ A _ { + } $及$ A _ { - } $。由此，不难
-从位相差$ \varphi_{ 2 } - \varphi_{ 1 } $给出一系列不同的运动形态(图7.12)。
-\clearpage
-图7.12二维振动的合成
-
+从位相差$ \varphi_{ 2 } - \varphi_{ 1 } $给出一系列不同的运动形态(图\ref{fig:07.12})。
+\begin{figurex}
+    \centering
+    \includegraphics{figure/fig07.12}
+    \caption{二维振动的合成}
+    \label{fig:07.12}
+\end{figurex}

@@ -23,7 +23,7 @@ $ \left( - \eta \dfrac { \dif x } { \dif t } \right) $
     m \frac { \dif ^ { 2 } x } { \dif t ^ { 2 } } = - k x - \eta \frac { \dif x } { \dif t } + F _ { 0 } \cos \omega t
 \end{equation*}
 % 211.jpg
-或
+或\vspace{-2em}
 \begin{equation*}
     \frac { \dif ^ { 2 } x } { \dif t ^ { 2 } } + \frac { \eta } { m } \cdot \frac { \dif x } { \dif t } + \frac { k } { m } x = \frac { F _ { 0 } } { m } \cos \omega t
   \end{equation*}
@@ -40,13 +40,13 @@ $ \left( - \eta \dfrac { \dif x } { \dif t } \right) $
 \begin{equation}\label{eqn:07.05.02}
     x = A \cos \left( \omega t + \varphi _ { 0 } \right)
 \end{equation}
-将式\ref{eqn:07.05.02}代入式\ref{eqn:07.05.01}，可以定出$ A $，$  \omega ' $，$ \varphi_{ 0 } $的值为
+将式\eqref{eqn:07.05.02}代入式\eqref{eqn:07.05.01}，可以定出$ A $，$  \omega ' $，$ \varphi_{ 0 } $的值为
 \begin{equation}\label{eqn:07.05.03}
     A = \frac { f _ { 0 } } { \sqrt { \left( \omega_{ 0 } ^ { 2 } - \omega ^ { 2 } \right) ^ { 2 } + 4 \beta ^ { 2 } \omega ^ { 2 } }}
-\end{equation}
+\end{equation}\vspace{-0.5em}
 \begin{equation}\label{eqn:07.05.04}
     \varphi _ { 0 } = \tg ^ { - 1 } \frac { 2 \beta \omega } { \omega_{ 0 } ^ { 2 } - \omega ^ { 2 } }
-\end{equation}
+\end{equation}\vspace{-1em}
 \begin{equation}\label{eqn:07.05.05}
     \omega ' = \omega
 \end{equation}
@@ -59,19 +59,23 @@ $ A $达到极大，这个$ \omega $称为共振频率。这就是说，当外�
 频率时，将引起最大的响应。由于$ \beta $一般很小，所以可近似地说，
 当$ \omega \approx \omega _ { 0 } $时达到共振。
 
-图7.9给出了$ A $作为$ \omega $的函数的曲线。这里所有曲线都有一个
-峰，这就是共振。可以明显看到，如果振动系统的阻力越小，即品质
+图\ref{fig:07.09}\;给出了$ A $作为$ \omega $的函数的曲线。这里所有曲线都有一个
+峰，这就是共振。可以明显看到，如果振动系统的阻力越小，
 % 212.jpg
-因数$ Q $越大，则曲线的振幅峰越明显。也就是说，
+\clearpage\noindent
+\begin{wrapfigure}[8]{r}{16.5em}
+    \centering
+    \includegraphics{figure/fig07.09}
+    \caption{共振曲线}
+    \label{fig:07.09}
+\end{wrapfigure}
+即品质因数$ Q $越大，则曲线的振幅峰越明显。也就是说，
 系统的$ Q $值越大，则其共振现象越显著。
 
 在极端情况，若阻力为零，即$ \beta = 0 $时，则
 $ A = \dfrac { f _ { 0 } } { \left| \omega_{ 0 } ^ { 2 } - \omega ^ { 2 } \right| } $。
 这时共振发生于$ \omega = \omega _ { 0 } $，而
 且振幅无限大。而在
-
-图79共振曲线
-
 $ \omega \ne \omega _ { 0 } $时，$ A $具有有限值。
 
 我们再从能量观点来分析一下受迫振动。在稳定振动时，质
@@ -100,28 +104,29 @@ $ \omega_{ 0 } $时，振子才能有效地吸收外力所提供的能量，而�
 称为共振吸收。
 
 如果阻力$ \beta $很小，$ \omega \approx \omega _ { 0 } $发生共振，由式\eqref{eqn:07.05.06}给出共振时
-的吸收功率为
+的吸收功率为\vspace{-0.5em}
 \begin{equation*}
     \frac { \eta f _ { 0 } ^ { 2 } } { 8 \beta ^ { 2 } } = \frac { m f _ { 0 } ^ { 2 } } { 4 \beta }
 \end{equation*}
 这里使用了$ \beta = \eta / 2 m $。当外力频率稍偏离$\omega_{ 0 }$时，吸收功率下降。
 现在来求：吸收功率为上述极大值的一半时，外力频率$ \omega $与振子
-的固有频率$ \omega_{ 0 } $差多少。即解方程
+的固有频率$ \omega_{ 0 } $差多少。即解方程\vspace{-0.2em}
 \begin{equation*}
     \frac { \eta f _ { 0 } ^ { 2 } } { 16 \beta ^ { 2 } }  = \frac { \eta f _ { 0 } ^ { 2 } \omega ^ { 2 } } { 2 \left[ \left( \omega_{ 0 } ^ { 2 } - \omega ^ { 2 } \right) ^ { 2 } + 4 \beta ^ { 2 } \omega ^ { 2 } \right] }
-\end{equation*}
+\end{equation*}\vspace{-0.3em}
 采用\erratanote{$ \omega \approx \omega _ { 0 } $}{$ \omega ^ { 2 } \approx \omega _ { 0 } $}，则
+\vspace{-0.5em}
 \begin{equation*}
     \begin{aligned}
     \left( \omega _ { 0 } ^ { 2 } - \omega ^ { 2 } \right) &= \left( \omega _ { 0 } + \omega \right) \left( \omega _ { 0 } - \omega \right) \\
     &\approx 2 \omega _ { 0 } \left( \omega _ { 0 } - \omega \right)
     \end{aligned}
 \end{equation*}
-上式成为
+上式成为\vspace{-1.56em}
 \begin{equation*}
     \frac { f _ { 0 } ^ { 2 } } { 16 \beta ^ { 2 } }  = \frac { f _ { 0 } ^ { 2 } } { 2 \left[ 4 \left( \omega_{ 0 } - \omega ) ^ { 2 } \right) ^ { 2 } + 4 \beta ^ { 2 } \right] }
 \end{equation*}
-解得
+解得\vspace{-1.56em}
 \begin{equation*}
     \left| \omega _ { 0 } - \omega \right| \approx \beta
 \end{equation*}
@@ -131,5 +136,5 @@ $ \omega_{ 0 } $时，振子才能有效地吸收外力所提供的能量，而�
 \end{equation}
 吸收功率就不小于最大吸收功率的一半，即吸收较强。所以式
 \eqref{eqn:07.05.07}是发生其振吸收的频带宽度，简称吸收带宽，或带宽。
-从式\eqref{eqn:07.05.06}可知，阻力越小，振子的带宽就越窄，即共振特征
+从式\eqref{eqn:07.05.06}可知，阻力越小，振子的带宽就越窄，共振特征
 越明显。

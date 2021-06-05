@@ -10,19 +10,25 @@
 
 能量或振幅随时间衰减的振动过程称为阻尼振动。
 
-图7.8给出了在阻尼振动过程中，位置$ x $和时间$ t $的典型关系。
+图\ref{fig:07.08}\;给出了在阻尼振动过程中，位置$ x $和时间$ t $的典型关系。
 在阻尼振动过程中，振幅由大变小，最后成为零，即振动停止。
 
 为了描写阻力的影响，我们需要引进新的物理量。
+
 由于阻力的存在，质点每完成一周期的振动，它的总能量$ E $
 % 207.jpg
-图7.8阻尼振动
+\begin{figurex}[t]
+    \centering
+    \includegraphics{figure/fig07.08}
 
+    \caption{阻尼振动}
+    \label{fig:07.08}
+\end{figurex}%
 中就有一部分消耗于克服阻力，用$ \left( \Delta E \right) _ { T } $表示示这个值。显然，
 如果每周期消耗的能量$ \left( \Delta E \right) _ { T } $在总能量$ E $中占的份额越小，则表
 示阻力越小，因而振动衰减越慢，越接近于理想简谐振动。这使
 我们看到，可以用总能量$ E $与耗损能量$ \left( \Delta E \right) _ { T } $之比值$ \dfrac { E } { \left( \Delta E \right) _ { T } } $来作
-为能量衰减的度量通常，我们把比值的$ 2 \uppi $倍定义为振
+为能量衰减的度量通常，我们把比值$ \dfrac { E } { \left( \Delta E \right) _ { T } } $的$ 2 \uppi $倍定义为振
 动系统的$ Q $值，也叫做品质因数，即
 \begin{equation}\label{eqn:07.04.01}
     Q = 2 \uppi \frac { E } { \left( \Delta E \right) _ { T } }
@@ -43,7 +49,7 @@ Q值与时间无关，是个常数。
 \begin{equation*}
     \left( \Delta E \right) _ { T } = - \frac { \dif E } { \dif t } T
 \end{equation*}
-将上式代入式\ref{eqn:07.04.01}中，整理后得
+将上式代入式\eqref{eqn:07.04.01}中，整理后得
 \begin{equation*}
     - \frac { \dif E } { \dif t } = \frac { 2 \uppi } { T } \cdot \frac { E } { Q }
 \end{equation*}
@@ -75,6 +81,8 @@ Q值与时间无关，是个常数。
 \end{equation}
 % 209.jpg
 这个功率就应当等于质点能量的减少率。
+
+\clearpage
 注意到式\eqref{eqn:07.02.07}，上式可以写成
 \begin{equation*}
     P = - \eta \omega ^ { 2 } A ^ { 2 } \sin ^ { 2 } \left( \omega t + \varphi _ { 0 } \right)
@@ -102,7 +110,7 @@ $ - \Delta A $就是在一个周期的时间里，振子损失的能量。即
 \begin{equation*}
     m \frac { \dif ^ { 2 } x } { \dif t ^ { 2 } } = - k x - \eta \frac { \dif x } { \dif t }
 \end{equation*}
-或
+或\vspace{-1.3em}
 \begin{equation*}
     \frac { \dif ^ { 2 } x } { \dif t ^ { 2 } } + \frac { \eta } { m } \cdot \frac { \dif x } { \dif t } + \frac { k } { m } x = 0
 \end{equation*}
