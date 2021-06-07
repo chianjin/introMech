@@ -131,3 +131,105 @@
 
 总之，在经典力学中，机械能守恒适用于保守力的情况，而
 动量守恒适用于牛顿第三定律成立的情况。
+
+\example 一炮弹以速度$ \vec { F } $飞行，突然分裂为两个质量相等的碎
+片向两旁飞去。已知其中一块碎片的速度大小仍为$ v $，但方向与原
+炮弹方向成$ 60 ^ { \circ } $角。试求另一碎片的速度$ \vec { v } _ { 2 } $，分裂前后的机械能守
+恒吗？
+
+\resolve 炮弹在炸裂的瞬间，由于炸药的化学能转变为炮弹的机
+械能，而且在这一瞬间内力的作用远大于外力(例如重力)的作用，
+故可以近似看成孤立系统，即炮弹分裂的前后，系统的动量保持
+% 230.jpg
+不变。在图8.2所示的坐标系中，在$ x $方向
+
+图82
+
+\begin{equation*}
+    \begin{split}
+        m v &= \frac { m } { 2 } \left( v _ { 1 } \cos 60 ^ { \circ } + v _ { 2 } \cos \theta \right)  \\
+            &= \frac { m } { 2 } \left( v \cos 60 ^ { \circ } + v _ { 2 } \cos \theta \right)
+    \end{split}
+\end{equation*}
+在$ y $方向
+\begin{equation*}
+    \begin{split}
+        0 &= \frac { m } { 2 } \left( v _ { 1 } \sin 60 ^ { \circ } - v _ { 2 } \sin \theta \right)  \\
+          &= \frac { m } { 2 } \left( v \sin 60 ^ { \circ } - v _ { 2 } \sin \theta \right)
+    \end{split}
+\end{equation*}
+由上两式可得
+\begin{equation*}
+    \begin{split}
+        v \left( 2 - \cos 60 ^ { \circ } \right) &= v _ { 2 } \cos \theta  \\
+        v \sin 60 ^ { \circ } &= v _ { 2 } \sin \theta
+\end{split}
+\end{equation*}
+因此可以求得
+\begin{equation*}
+    \tg \theta = \frac { \sin 60 ^ { \circ } } { 2 - \cos 60 ^ { \circ } } = \frac { 1 } { \sqrt { 3 } }
+\end{equation*}
+即
+\begin{equation*}
+    \theta = 30 ^ { \circ }
+\end{equation*}
+又
+\begin{equation*}
+    \begin{split}
+        v _ { 2 } &= \frac { \sin 60 ^ { \circ } } { \sin 3 0 ^ { \circ } } v \\
+    % 231.jpg
+            &= \sqrt { 3 } v = 1.73 v
+    \end{split}
+\end{equation*}
+故分裂前后动能之差为
+\begin{equation*}
+    \begin{split}
+        \Delta T &= \left( \frac { 1 } { 2 } + m _ { 1 } v _ { 1 } ^ { 2 } + \frac { 1 } { 2 } m _ { 2 } v ^ { 2 } \right) - \frac { 1 } { 2 } m v ^ { 2 }  \\
+            &= \frac { m } { 4 } \left( v ^ { 2 } + 3 v ^ { 2 } \right) - \frac { 1 } { 2 } m v ^ { 2 }  \\
+            &= \frac { 1 } { 2 } m v ^ { 2 }
+    \end{split}
+\end{equation*}
+动能增加了$ 1 $倍。这能量来源于化学能。
+
+\example 在测量子弹速度时，往往用冲击摆。将质量为$ m _ 1 $的
+重物(装砂的木箱)用$ 8 $根绳挂起，使它只能摆动，不能转动，绳
+长$ 1 $厘米(图8.3)。开始时重物静止，将质量为$ m _ 2 $的子弹沿重物能够摆动
+的方向水平地射入重物，$ m _ 1 $与$ m _ 2 $发生
+完全非弹性碰撞，即碰后重物和子弹一起运动，而偏离其平衡位置最大到$ \alpha $
+角。计算子弹在进入重物时的速度$ v $。
+
+\resolve 子弹与$ m _ { 1 } $相碰时，在水平
+
+图83
+
+方向没有外力作用，故以地球为参考系，以$ m _ 1 $，$ m _ 2 $为系统，在
+水平方向系统的动量守恒。此后，子弹与$ m _ 1 $一起以速度$ u $运
+动。由于$ \left( m _ { 1 } + m _ { 2 } \right) $上有重力$ \left( m _ { 1 } + m _ { 2 } \right) g $ 和张力$ T $作用，而张力始
+终与位移方向垂直，不作功，故$ \left( m _ { 1 } + m _ { 2 } \right) $系统的机械能守恒
+应用这两个守恒定律，可列出方程
+\begin{equation*}
+    \begin{split}
+        &m _ { 2 } v = \left( m _ { 1 } + m _ { 2 } \right) u  \\
+        &\frac { 1 } { 2 } \left( m _ { 1 } + m _ { 2 } \right) u ^ { 2 } = \left( m _ { 1 } + m _ { 2 } \right) g h
+    \end{split}
+\end{equation*}
+解得
+\begin{equation*}
+    \begin{split}
+        &u = \sqrt { 2 g h }  \\
+        &v = \left( \frac { m _ { 1 } + m _ { 2 } } { m _ { 2 } } \right) \sqrt { 2 g h }
+    \end{split}
+\end{equation*}
+% 232.jpg
+由几何关系知
+\begin{equation*}
+    \begin{split}
+        h &= l \left( 1 - \cos \alpha \right) \\
+        &= 2 l \sin ^ { 2 } \frac { \alpha } { 2 }
+    \end{split}
+\end{equation*}
+所以得
+\begin{equation*}
+    v = \frac { 2 \left( m _ { 1 } + m _ { 2 } \right) } { m _ { 2 } } \sqrt { g l } \sin \frac { \alpha } { 2 }
+\end{equation*}
+其中$ m _ 1 $，$ m _ 2 $，$ g $，$ l $都是已知数，通过测量$ \alpha $可算出$ v $。

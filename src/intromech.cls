@@ -193,6 +193,7 @@
 \newcounter{example}[section]
 \newcommand{\example}{\refstepcounter{example}【例~\theexample】}
 \newcommand{\solution}{\heiti 解~\normalfont}
+\newcommand{\resolve}{\solution}
 \newcommand{\discussion}{\heiti 讨论~\normalfont}
 
 % 表格

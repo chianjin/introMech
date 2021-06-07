@@ -1,61 +1,3 @@
-【例1】一炮弹以速度v飞行，突然分裂为两个质量相等的碎
-片向两旁飞去。已知其中一块碎片的速度大小仍为v，但方向与原
-炮弹方向成60°角。试求另一碎片的速度 v _ { 2 }  ，分裂前后的机械能守
-恒吗？
-解炮弹在炸裂的瞬间，由于炸药的化学能转变为炮弹的机
-械能，而且在这一瞬间内力的作用远大于外力(例如重力)的作用，
-故可以近似看成孤立系统，即炮弹分裂的前后，系统的动量保持
-% 230.jpg
-不变。在图8.2所示的坐标系中，在x方向
-图82
-m v = \frac { m } { 2 } \cdot \left( v _ { 1 } c o s 6 0 ^ { \circ } + v _ { 2 } c o s \theta \right)  
-= \frac { \pi } { 2 } - \left( v c o s 6 0 ^ { \circ } + v _ { 2 } c o s \theta \right)  
-在y方向
-0 = \frac { m } { 2 } - \left( v _ { 1 } s i n 6 0 ^ { \circ } - v _ { 2 } s i n \theta \right)  
-= \frac { m } { 2 } \cdot \left( v s i n 6 0 ^ { \circ } - v _ { 2 } s i n \theta \right)  
-由上两式可得
-v \left( 2 - c o s 6 0 ^ { \circ } \right) = v _ { 2 } c o s \theta  
-\zeta ^ { \prime } s i n 6 0 ^ { \circ } = v _ { 2 } s i n \theta  
-因此可以求得
-g \theta = - \frac { s i n 6 0 ^ { \circ } } { 2 - c o s 6 0 ^ { \circ } } = \frac { 1 } { \sqrt { 3 } }  
-\theta = 3 0 ^ { \circ }  
-即又
-v _ { 2 } = - \frac { s i n 6 0 } { s i n 3 0 } ^ { \circ } - v 
-% 231.jpg
-= \sqrt { 3 v } = 1 . 7 3 v  
-故分裂前后动能之差为
-\triangle T = \left( \frac { 1 } { 2 } + n _ { 1 } v _ { 1 } ^ { 2 } + \frac { 1 } { 2 } 7 m _ { 2 } v ^ { 2 } \right) - \frac { 1 } { 2 } - m v ^ { 2 }  
-= \frac { m } { 4 } \left( v ^ { 2 } + 3 v ^ { 2 } \right) - \frac { 1 } { 2 } i n v ^ { 2 }  
-m
-= - \frac { 1 } { 2 } \cdot m v ^ { 2 }  
-动能增加了1倍。这能量来源于化学能。
-【例2】在测量子弹速度时，往往用冲击摆。将质量为m1的
-重物(装砂的木箱)用8根绳挂起，使它只能摆动，不能转动，绳
-长1厘米(图8.3)。开始时重物静止，
-将质量为m2的子弹沿重物能够摆动
-的方向水平地射入重物，m1与m2发生
-完全非弹性碰撞，即碰后重物和子弹
-一起运动，而偏离其平衡位置最大到a
-角.计算子弹在进入重物时的速度v。
-解子弹与 m _ { 1 }  相碰时，在水平
-图83
-方向没有外力作用，故以地球为参考系，以m1，m2为系统，在
-水平方向系统的动量守恒。此后，子弹与m1一起以速度运
-动。由于 \left( m _ { 1 } + m _ { 2 } \right)  上有重力 \left( m _ { 1 } + \pi _ { 2 } \right) g  和张力T作用，而张力始
-终与位移方向垂直，不作功，故 \left( m _ { 1 } + m _ { 2 } \right)  系统的机械能守恒
-应用这两个守恒定律，可列出方程
-m _ { 2 } v = \left( m _ { 1 } + m _ { 2 } \right) V  
-\frac { 1 } { 2 } \left( m _ { 1 } \div m _ { 2 } \right) U ^ { / } = \left( m _ { 1 } + m _ { 2 } \right) g h  
-解得
-\triangle = \sqrt { 2 } \overrightarrow { g b }  
-v = \left( - \frac { m _ { 1 } } { m } \frac { m _ { 2 } } { m _ { 2 } } \right) \times \sqrt { 2 g h } 
-% 232.jpg
-由几何关系知
-h = \phi \left( 1 - c o s \alpha \right)  
-= 2 l s i n ^ { 2 } \frac { \alpha } { 2 }  
-所以得
-v = - \frac { 2 \left( s i n _ { 1 } + \delta _ { 2 } \right) } { u _ { 2 } } \cdot \sqrt { u g l } s i n \frac { \alpha } { 2 }  
-其中m1，m2，g，都是已知数，通过测量a可算出v
 8.2冲量
 体系能量的变化用外力作的功来描写，体系的动量的变化用
 什么来描写？这就是本节将要讨论的问题。
@@ -125,7 +67,7 @@ v2-v1=-7
 如果开始时，飞船速度 z _ { 1 } = 0  ，质量 M _ { 1 } = M _ { g } = M U + M  燃料
 燃料燃烧完时，飞船达到的速度为 v _ { t } = v  ，质量为 M _ { 2 } = M \}  ，则
 v = v l n \frac { M M \rightarrow } { M W }  
-= v l n \left( \frac { M } { \pi } \frac { \triangle U + M U \% } { M M R } \right)  
+= v l n \left( \frac { M } { \uppi } \frac { \triangle U + M U \% } { M M R } \right)  
 = \varphi 1 n \left( 1 + \frac { M U } { M W } \right) 
 (8-25
 % 235.jpg
@@ -260,7 +202,7 @@ P = m _ { 1 } v _ { 1 } + v _ { 2 } v _ { 2 }
 =不变量
 \left( 8 \cdot 4 \cdot 1 \right)  
 其中，我们用了一个新的物理量 f _ { c }  ，定义为
-r _ { c } = \frac { m n _ { 1 } r _ { 1 } + \pi _ { 2 } r } { m _ { 1 } + m _ { 2 } }  
+r _ { c } = \frac { m n _ { 1 } r _ { 1 } + \uppi _ { 2 } r } { m _ { 1 } + m _ { 2 } }  
 \left( 8 \cdot 4 \cdot 2 \right)  
 它表示一个位置，即图8.7中的C点，称为体系的质心位置。
 对式 \left( 8 \cdot 4 \cdot 1 \right)  再次求导，得
@@ -411,7 +353,7 @@ a，0)
 为地球半径的60倍，取地球半径为6400公里。试问月-地系统的质
 % 245.jpg
 心离地球中心多远？
-8. m _ { 1 } = 1 2  公斤和 \pi _ { 2 } = 2 0  公斤的两个半径相同的、无相互作
+8. m _ { 1 } = 1 2  公斤和 \uppi _ { 2 } = 2 0  公斤的两个半径相同的、无相互作
 用的金属球，均静止地放在水平光滑的桌面上，两球中心相距为
 I = 0  .4米。今沿二球心联线方向在 n _ { 2 } \pm m f = 6 4  公斤力，使m2远
 离m1，试求：
@@ -647,8 +589,8 @@ c
 距离S；
 (2)当倾角日很小(但θ
 角一定要大于摩擦角φ，即
-n g s i n \theta > u m g c o s \theta ， \theta > t g - 1 |  
-=)时，取 c o s \theta \approx 1 ， s i n \theta \notin 
+n g \sin \theta > u m g \cos \theta ， \theta > t g - 1 |  
+=)时，取 \cos \theta \approx 1 ， \sin \theta \notin 
 0，将这结果与第六章习题
 图 8 \cdot 2 3 
 11的结果进行比较。
@@ -797,7 +739,7 @@ l = t \times P = r \times v M =  常量
 在近地点及远地点时， r \bot v \left( R 9 \cdot 3 \right)  ，故由角动量守恒得
 l = m r _ { 1 } v _ { 1 }  
 卫星
-= \pi r _ { 2 } v _ { 2 }  
+= \uppi r _ { 2 } v _ { 2 }  
 所以
 v _ { 2 } = \frac { v _ { 1 } } { r _ { 2 } } v _ { 1 }  
 近地点
@@ -827,15 +769,15 @@ r与v既不平行也不反平行，故总可决定一个平面)。如果行星不
 根据定义，角动量的大
 小为
 l = | r \times P |  
-= r P s i n \theta  
+= r P \sin \theta  
 图9.4面积速度
-= v \psi v s i n \theta  
+= v \psi v \sin \theta  
 v = \frac { \Delta s } { \Delta t }  
 中日是r与P的夹角。再注意，其中△S是在△t时间
 内行星走过的弧长(图94)。则上式成为
-I = m \frac { \Delta s \cdot r s i n \theta } { \Delta t }  
+I = m \frac { \Delta s \cdot r \sin \theta } { \Delta t }  
 由图9.4知，
-\Delta s \cdot r s i n \theta \approx 2 \triangle A  
+\Delta s \cdot r \sin \theta \approx 2 \triangle A  
 其中 \triangle A  是行星在△时间内扫过的面积。所以
 T \approx 2 m \frac { \triangle . A } { \Delta t }  
 取△t→0的极限，得
@@ -984,11 +926,11 @@ a \cdot \left( b \times c \right) = b \cdot \left( c \times a \right)
 = r \cdot \left( B + \frac { G M m } { r } r \right)  
 (9312)
 由于B是不变的矢量，故可以选为一坐标轴方向，这样就有
-r \cdot B = r B c o s \varphi  
+r \cdot B = r B \cos \varphi  
 其中甲为r与B之间的夹角。用这个表达式，则式(9312)可变成
-\frac { 1 } { m } l ^ { 2 } = r B c o s \varphi + G M m r  
+\frac { 1 } { m } l ^ { 2 } = r B \cos \varphi + G M m r  
 或者
-r = \frac { 1 } { 1 } + \frac { v _ { 9 } m _ { B } } { g R _ { m } + c o s \varphi }  
+r = \frac { 1 } { 1 } + \frac { v _ { 9 } m _ { B } } { g R _ { m } + \cos \varphi }  
 \left( 9 \cdot 3 \cdot 1 3 \right)  
 这就是行星运动的轨
 迹。
@@ -1003,10 +945,10 @@ r = \frac { 1 } { 1 } + \frac { v _ { 9 } m _ { B } } { g R _ { m } + c o s \var
 0为焦点的圆锥曲线的
 标准形式是
 图9.7圆锥曲线的基本性质
-r = \frac { A } { 1 + c o s \varphi } 
+r = \frac { A } { 1 + \cos \varphi } 
 \left( 9 \cdot 3 \cdot 1 4 \right)  
 % 266.jpg
-其中A为 \varphi = \frac { \pi } { 2 }  时的值，称为截距；ε称为偏心率。依照偏心
+其中A为 \varphi = \frac { \uppi } { 2 }  时的值，称为截距；ε称为偏心率。依照偏心
 率的不同，曲线(9314)可分成以下几种形式：
 当 \epsilon < 1  时，为椭圆
 当 c > 1  时，为双曲线；
@@ -1091,19 +1033,19 @@ A ^ { \prime } = \frac { l ^ { n } } { m C }
 = \frac { m ^ { 2 } v _ 0 ^ { 1 } g _ 0 ^ { 1 } } { m m v _ 0 ^ { 2 } R _ { g } }  
 = R _ { o }  
 故得新的轨道方程
-r = \frac { R _ { q } } { 1 + c ^ { \prime } c o s \varphi }  
-- \frac { - \frac { \varphi } { v } } { v _ { 0 } } c o s \varphi  
+r = \frac { R _ { q } } { 1 + c ^ { \prime } \cos \varphi }  
+- \frac { - \frac { \varphi } { v } } { v _ { 0 } } \cos \varphi  
 v _ { r } = \frac { 1 } { 2 } v _ { 0 }  
 当时，轨道方程为
 新的椭圆轨道
-| \varphi = \frac { \pi } { 2 }  
+| \varphi = \frac { \uppi } { 2 }  
 老的圆轨道
-f = \frac { 3 \pi } { 2 } 
+f = \frac { 3 \uppi } { 2 } 
 图98
 % 270.jpg
-= \frac { R _ { 1 } } { 1 + \frac { 1 } { 2 } c o s \varphi }  
+= \frac { R _ { 1 } } { 1 + \frac { 1 } { 2 } \cos \varphi }  
 此时轨道的草图如图9.8所示。
-(3)长轴 2 a = r \left( \varphi = 0 \right) + r \left( \varphi = \pi \right) 
+(3)长轴 2 a = r \left( \varphi = 0 \right) + r \left( \varphi = \uppi \right) 
 2 a = \frac { R _ { 0 } } { 1 + r ^ { \prime } } + \frac { R _ { 0 } } { 1 - e ^ { \prime } }  
 = \frac { 2 R _ { 0 } } { 1 - e ^ { \prime } ^ { \prime } }  
 = \left[ 1 - \frac { v _ { 0 } } { 1 - \left( \frac { v _ { 2 } } { v _ { 2 } } \right) }  
@@ -1155,7 +1097,7 @@ E ^ { \prime } = - \frac { C ^ { 2 } } { 4 R _ { 0 } }
 = - \frac { 1 } { 4 } m v _ { 0 }  
 由E的定义，在A点有
 E ^ { \prime } = \frac { 1 } { 2 } m v _ A ^ { 2 } - \frac { C } { R _ { 0 } }  
-= - \frac { 1 } { 2 } s i n v _ A ^ { 2 } - m v _ 0 ^ { 2 }  
+= - \frac { 1 } { 2 } \sin v _ A ^ { 2 } - m v _ 0 ^ { 2 }  
 由此得飞船在A点的速率增加为
 v _ { A } = \sqrt { \frac { 3 } { 2 } } v _ { g }  
 (2)利用开普勒定律〔式(9.25有
@@ -1164,28 +1106,28 @@ v _ { A } = \sqrt { \frac { 3 } { 2 } } v _ { g }
 周期之比为
 \frac { T _ { 2 } } { T _ { 1 } } = \left( \frac { A _ A ^ { 2 } } { A _ { 1 } } \right) \left( - \frac { U _ { 1 } } { i _ { 2 } } \right) \left( \frac { m } { m } \right)  
 已知
-T _ { 1 } = \frac { 2 \pi R _ { 0 } } { v _ { 0 } }  
-A _ 1 ^ { \prime } = \pi R _ 0 ^ { 2 }  
-A _ A ^ { 2 } = \pi a b  
+T _ { 1 } = \frac { 2 \uppi R _ { 0 } } { v _ { 0 } }  
+A _ 1 ^ { \prime } = \uppi R _ 0 ^ { 2 }  
+A _ A ^ { 2 } = \uppi a b  
 x _ { 2 } B C _ { 0 } = \frac { \frac { 1 } { 2 } R _ { 2 } } { \sqrt { 1 - \left( - \frac { 1 } { 2 } \right) ^ { 2 } } }  
-= 2 \pi \sqrt { 3 } R _ 0 ^ { 2 }  
-T _ { x } = \frac { 2 \pi R _ { U } } { v _ { 0 } } \left( \frac { 2 \pi _ { 3 } R _ { 1 } \right) R _ { 1 } ^ { 2 } } { \pi R _ { 0 } ^ { 2 } } \right) \left( \frac { \sqrt { \frac { 1 } { 3 } } { \frac { 3 } { 2 } } R _ { 0 } } \right)  
-= \frac { 4 \sqrt { 2 } \pi R _ { 0 } } { v _ { 0 } }  
+= 2 \uppi \sqrt { 3 } R _ 0 ^ { 2 }  
+T _ { x } = \frac { 2 \uppi R _ { U } } { v _ { 0 } } \left( \frac { 2 \uppi _ { 3 } R _ { 1 } \right) R _ { 1 } ^ { 2 } } { \uppi R _ { 0 } ^ { 2 } } \right) \left( \frac { \sqrt { \frac { 1 } { 3 } } { \frac { 3 } { 2 } } R _ { 0 } } \right)  
+= \frac { 4 \sqrt { 2 } \uppi R _ { 0 } } { v _ { 0 } }  
 故从A到B的时间为
 T = \frac { 1 } { 2 } T _ { 2 }  
-= - \frac { 2 \sqrt { 2 } \pi R _ { 0 } } { v _ { 0 } }  
+= - \frac { 2 \sqrt { 2 } \uppi R _ { 0 } } { v _ { 0 } }  
 (3)爆发之后，在A点有
 E ^ { \prime } = - \frac { 1 } { 4 } - m v _ 0 ^ { 0 }  
 I ^ { \prime } = I _ { 2 }  
 = m v _ { A } R _ { 0 }  
 = m \sqrt { - \frac { 3 } { 2 } } v _ { 0 } R _ { 0 } 
 % 274.jpg
-E'和l是不变的，在C点， \theta = \frac { \pi } { 2 } ， r = \frac { 3 } { 2 } R _ { 0 }  ，故
+E'和l是不变的，在C点， \theta = \frac { \uppi } { 2 } ， r = \frac { 3 } { 2 } R _ { 0 }  ，故
 I ^ { \prime } = m \sqrt { \frac { 3 } { 2 } } v _ { 0 } R _ { 0 }  
 = m v _ { L } \left( \frac { 3 } { 2 } R _ { 0 } \right)  
 E ^ { \prime } = - \frac { 1 } { 4 } m v _ 0 ^ { 2 }  
 = \frac { 1 } { 2 } m v ^ { 2 } + \frac { 1 } { 2 } m v _ 1 ^ { \prime } - \frac { C } { \frac { 3 } { 3 } R R _ { \Omega } }  
-= \frac { 1 } { 2 } m v t ^ { 2 } + \frac { 1 } { 2 } m P A ^ { \prime } = \frac { \frac { \pi } { 3 } \sqrt { 3 } } { \frac { 3 } { 2 } R _ { 1 } }  
+= \frac { 1 } { 2 } m v t ^ { 2 } + \frac { 1 } { 2 } m P A ^ { \prime } = \frac { \frac { \uppi } { 3 } \sqrt { 3 } } { \frac { 3 } { 2 } R _ { 1 } }  
 解上两式得
 v _ { n } = \sqrt { \frac { 2 } { 3 } } v _ { 0 }  
 i = \sqrt { \frac { 1 } { 6 } } v _ { A }  
@@ -1205,14 +1147,14 @@ i = \sqrt { \frac { 1 } { 6 } } v _ { A }
 半径为y的圆周运动，则有 l = m v  ，
 或者 l = v v ^ { 2 } \omega  ，这里 \omega = v / r  为角速率。
 这样，式 \left( 9 \cdot 4 \cdot 2 \right)  可化为
-\frac { d } { d t } - \left( \pi r ^ { 2 } \omega \right) = M  
+\frac { d } { d t } - \left( \uppi r ^ { 2 } \omega \right) = M  
 由于m，都是常数，所以
 图9.10平面运动中的r及p
 m r ^ { 2 } \frac { d \omega } { d _ { d } } = M  
 \left( 9 \cdot 4 \cdot 3 \right)  
 式 \left( 0 4 \cdot 3 \right)  是圆周运动的基本方程，它与一维运动中的质点的动
 m \frac { d v } { d t } = F 
-力学基本方程很相似。这里，M与F的地位相当 \pi r 
+力学基本方程很相似。这里，M与F的地位相当 \uppi r 
 与m的地位相当。我们知道质量
 m是惯性的度量，在同样力F的
 作用下，质量m越大，越不易于
@@ -1286,25 +1228,25 @@ I \frac { d _ { q } } { d t } = M
 转轴的转动惯量。
 为计算方便，假定地球的质量密度是均匀的，其值为p我们
 采用球极坐标(图9.13)，则位于 \left( r ， \theta ， \varphi \right)  的体积元为
-d \gamma = r ^ { 2 } s i n \theta d t  
+d \gamma = r ^ { 2 } \sin \theta d t  
 这个体积元中的质量为
 % 278.jpg
 图913求地球的转动惯量
 d m = \rho d V  
-= \rho v ^ { 2 } s i n \theta d \theta d \varphi  
-这个体积元到转轴的距离为 r s i n \theta  ，根据定义，它对自转轴的转动
-惯量为 d I = r ^ { 2 } s i n ^ { 2 } \theta d m  ，所以整个地球对自转轴的转动惯量可由下
+= \rho v ^ { 2 } \sin \theta d \theta d \varphi  
+这个体积元到转轴的距离为 r \sin \theta  ，根据定义，它对自转轴的转动
+惯量为 d I = r ^ { 2 } \sin ^ { 2 } \theta d m  ，所以整个地球对自转轴的转动惯量可由下
 列积分求出：
-I = \int _ r ^ { 2 } s i n ^ { 2 } \theta d w  
-= \int _ 0 ^ { \phi } { \int _ 0 ^ { 2 } r _ n ^ { 4 } } { s i n ^ { 3 } \theta d t } d g t g d t  
-= \frac { 8 \pi } { 1 5 } \rho R ^ { \circ }  
+I = \int _ r ^ { 2 } \sin ^ { 2 } \theta d w  
+= \int _ 0 ^ { \phi } { \int _ 0 ^ { 2 } r _ n ^ { 4 } } { \sin ^ { 3 } \theta d t } d g t g d t  
+= \frac { 8 \uppi } { 1 5 } \rho R ^ { \circ }  
 = \frac { 2 } { 5 } M _ { E } R ^ { 1 }  
-M _ { E } = \frac { 4 \pi } { 3 } R ^ { \circ } \rho 
+M _ { E } = \frac { 4 \uppi } { 3 } R ^ { \circ } \rho 
 其中R为地球半径；是地球的质量.将 M _ { E } \Leftrightarrow 
 % 279.jpg
 6 \times 1 0 ^ { 2 7 }  克， R \approx 6 \times 1 0 ^ { 2 }  公里代入，即求得
 I \Leftrightarrow = 8 \times 1 0 ^ { 4 }  克米2
-= 8 \times 1 0 ^ { 9 \pi }  公斤米2
+= 8 \times 1 0 ^ { 9 \uppi }  公斤米2
 9.5转动动能
 一个质点绕固定轴的平面运动，遵从方程式(9.4.2)，即
 \frac { d U } { d t } = M  
@@ -1356,7 +1298,7 @@ O \frac { d } { d t } \left( I O \right) = M \omega
 3.设某体系受一有心力，是否对任意选定的原点，此体系的
 角动量都是守恒量？
 4.我们对圆锥曲线的描写，采用式(9314)。若改用下式
-r = \frac { A } { 1 - e c o s \varphi } 
+r = \frac { A } { 1 - e \cos \varphi } 
 有什么差别？使用时要注意什么？
 习题
 1.分别对质心C及对任一固定点O写出下述两个体系的角动
@@ -1409,7 +1351,7 @@ h _ { O } = L _ { c } + r _ { c } \times p _ { C }
 轨道是椭圆，总能为负；当 \beta > \sqrt { 2 }  时，轨道为双曲线，总能为
 正。
 (2)在轨道为双曲线时，求出角度a的表达式(用B表示sina或
-c o s \alpha \right)  ，a为火箭点火时飞船速度方向与飞船逃逸时速度方向之间
+\cos \alpha \right)  ，a为火箭点火时飞船速度方向与飞船逃逸时速度方向之间
 的夹角；求出 \beta = \sqrt { 3 }  时的a值。(提示：飞船逃逸时速度方向是
 指飞船离行星为无穷远时的速度方向。)
 8.一个梦星在抛物线轨道上运行，此抛物线与地球的公转
@@ -1418,7 +1360,7 @@ c o s \alpha \right)  ，a为火箭点火时飞船速度方向与飞船逃逸时速度方向之间
 (1)若地球公转轨道的半径为Ro，地球公转速率为 v _ { 0 }  ，写出梦
 星的轨道方程。证明它的最大速率为 2 v _ { O } 
 (2)用开普勒第二定律证明彗星在地球轨道内的时间为
-\frac { 2 } { 3 } \pi 
+\frac { 2 } { 3 } \uppi 
 年。
 9.已知地球半径 R = 8 . 4 \times 1 0 ^ { t }  公里，密度为 \rho = 5 . 5  克/厘米，
 若地球为规则的球形，求地球自转的角动量。
@@ -1465,7 +1407,7 @@ R _ { 1 } \right)  的圆周等速率地走动时，若他相对于圆盘的速度为v，问圆盘
 由运动的条件。
 例如，由两个质点m1， m _ { 2 }  构成的体系(图102)，一般要用
 % 286.jpg
-6个坐标 \left( \pi _ { 1 } ， y _ { 1 } ， z _ { 1 } \right)  ，(x2，y2，2)如果两质点之间的距离是固
+6个坐标 \left( \uppi _ { 1 } ， y _ { 1 } ， z _ { 1 } \right)  ，(x2，y2，2)如果两质点之间的距离是固
 定的，其长度为r，则上述6个坐标之间有一个代数关系：
 \left( x _ { 1 } - x _ { 2 } \right) ^ { 2 } + \left( y _ { 1 } - y _ { 2 } \right) ^ { 2 } + \left( z _ { 1 } - z _ { 2 } \right) ^ { 2 } = r ^ { n }  
 \left( 1 0 \cdot 1 \cdot 1 \right)  
@@ -1561,7 +1503,7 @@ O转动角，则刚体就完全移到了终点位置A2
 不难断定，在滚动中只有车轮中心O的运动轨迹是直线，其他各
 点的轨迹都是曲线，即所谓旋转轮线。我们选O作为基点，如果
 车轮在△时间内位移为△x，则O点的速度为
-v _ { g } = \frac { \Delta \pi } { l i m } + \frac { \Delta x } { \Delta t }  
+v _ { g } = \frac { \Delta \uppi } { l i m } + \frac { \Delta x } { \Delta t }  
 = r _ { 0 } 1 i m \frac { \triangle Q } { \triangle t }  
 这就是车轮的平动速度。现在，车轮的运动分解为以O点为基点
 的平动，其速度为 v _ { 0 }  以及绕O的转动，其角速度为0。车轮上任
@@ -1660,7 +1602,7 @@ T = \int _ a ^ { 1 } { \frac { 1 } { 2 } m } ， v _ d ^ { r }
 v _ { t } = v _ { c } + v _ { i } ^ { \prime }  
 所以，式 \left( 1 0 \cdot 3 \cdot 1 \right)  可以改写为
 T = e ^ { \frac { 1 } { 2 } - \frac { 1 } { 2 } } \cdot m _ { 1 } \left( v _ { c } + v _ ^ { p } \right) ^ { r }  
-{ { ， } } \frac { 1 } { 2 } - s i n ， \left( v _ { c } ^ { 2 } + v ， \epsilon ^ { \prime } + 2 v _ { c } \cdot v _ { p } ^ { \prime } \right)  
+{ { ， } } \frac { 1 } { 2 } - \sin ， \left( v _ { c } ^ { 2 } + v ， \epsilon ^ { \prime } + 2 v _ { c } \cdot v _ { p } ^ { \prime } \right)  
 = \frac { 1 } { i m } \frac { 1 } { m } v _ t ^ { 2 } + \left[ \frac { 1 } { m } ， v _ t ^ { 2 } + \frac { 1 } { m } ， v _ n ^ { r } \right] ^ { \prime } \cdot v _ { s }  
 (103.2)
 因为
@@ -1678,14 +1620,14 @@ T = \frac { 1 } { 2 } \left( \phi _ { m } _ { m } \right) v _ { c } ^ { 2 } + \f
 \frac { 1 } { 2 } - m v _ c ^ { 2 }  
 成两部分的和，即以质心为基点的平动动能及相对于质心
 的转动能
-T \ne \frac { 1 } { 2 } \pm \frac { \pi } { 1 } m v ^ { \prime }  
+T \ne \frac { 1 } { 2 } \pm \frac { \uppi } { 1 } m v ^ { \prime }  
 \left( 1 0 \cdot 3 \cdot 4 \right)  
 如果转动角速度为a，则
 v ^ { \prime } = \gamma ， \omega  
 \left( 1 0 \cdot 3 \cdot 5 \right)  
 其中r是第讠个质点与转动轴的距离。将式(10-3.5)代入式(10
 3.4)，得到
-T \ne \frac { 1 } { 2 } \left( \sqrt { \frac { x } { 2 } } m / s i n ^ { 2 } \right) \omega ^ { 2 }  
+T \ne \frac { 1 } { 2 } \left( \sqrt { \frac { x } { 2 } } m / \sin ^ { 2 } \right) \omega ^ { 2 }  
 = \frac { 1 } { 2 } l _ { c } \omega ^ { \prime }  
 \left( 1 0 \cdot 3 \cdot 6 \right)  
 其中
@@ -1707,9 +1649,9 @@ k ， v _ { A } + \psi _ { ^ { 2 } }
 式中v，是质点m相对于基点A的速度；VA是基点A相对于地面的速
 度。上节已证明车轮与地面接触处相对地面的速度为零，即 v _ { A } = 
 0，所以
-T = \pm \frac { 1 } { t _ { - 1 } } - \frac { 1 } { 2 } m / s i n ^ { 2 }  
+T = \pm \frac { 1 } { t _ { - 1 } } - \frac { 1 } { 2 } m / \sin ^ { 2 }  
 = \pm \sqrt { \frac { 5 } { - 1 } } \frac { 1 } { \frac { 1 } { 2 } - s i u } \left( \frac { 1 } { r } \right) ^ { 2 }  
-= \int _ n ^ { \frac { 1 } { s i n } } \frac { 1 } { \frac { 1 } { 2 } } \frac { 1 } { m } v _ { n } v _ t ^ { 2 }  
+= \int _ n ^ { \frac { 1 } { \sin } } \frac { 1 } { \frac { 1 } { 2 } } \frac { 1 } { m } v _ { n } v _ t ^ { 2 }  
 = \sqrt { \frac { 1 } { 2 } } \frac { 1 } { 2 } m o g _ { a } r ^ { \prime } A _ { 1 } O _ A ^ { 2 }  
 = \frac { 1 } { 2 } \left( \frac { \alpha } { \sqrt { 1 } } m / r A _ 1 ^ { 2 } \right) q A ^ { 2 }  
 = \frac { 1 } { 2 } I ^ { \prime } O A ^ { 2 } 
@@ -1765,7 +1707,7 @@ M = \sqrt { \frac { 1 } { e } } m _ { p }
 图1012刚体绕固定轴的转动
 刚体的角动量L，我们把刚体看成是由许多小块物质构成的。图
 10.12中第讠小块对O点的角动量为
-l _ { n } = \pi ， R ， \times \infty ，  
+l _ { n } = \uppi ， R ， \times \infty ，  
 由于刚体只能绕OZ轴转动，所以，我们只对1在OZ轴方向上的
 分量有兴趣。这分量的大小是
 U _ { r } ， v _ { t } = m _ { i } r _ 0 ^ { 2 } \alpha  
@@ -1796,10 +1738,10 @@ I _ { 1 } \omega _ { 1 } = I _ { 2 } \omega _ { 2 }  2
 度
 S _ { n } = \frac { 4 m _ { B } } { \frac { 4 } { 3 } r _ 0 ^ { k } } = \frac { 1 . 6 7 \times 1 0 ^ { - 2 x _ { 1 } } } { 4 \left( 1 . 5 \times 1 0 ^ { - 1 } + R \right) ^ { n } } = 1 .  
 \sqrt { 0 } = 1 . 1 8 \times 1 0 ^ { 1 }  7公斤/米。已
-知太阳质量 M _ { B } = 1 . 9 8 9 \times 1 0 ^ { 8 6 }  公斤，太阳半 \pi R g = 6 . 9 5 9 9 \times 1 0 ^ { \circ } 
+知太阳质量 M _ { B } = 1 . 9 8 9 \times 1 0 ^ { 8 6 }  公斤，太阳半 \uppi R g = 6 . 9 5 9 9 \times 1 0 ^ { \circ } 
 米，太阳若坍缩成中子星，则半径将变为R。它满足下面的关
 系
-R ^ { \prime } = \frac { M _ { n } } { \frac { 4 \pi } { 3 } } R _ { n } = 4 . 0 2 4 \times 1 0 ^ { 1 0 } / / k 
+R ^ { \prime } = \frac { M _ { n } } { \frac { 4 \uppi } { 3 } } R _ { n } = 4 . 0 2 4 \times 1 0 ^ { 1 0 } / / k 
 所以
 R ^ { \prime } = 1 . 5 9 \times 1 0 ^ { 4 }  米
 根据式(10.49)，得
@@ -1886,7 +1828,7 @@ A = 0
 图 1 0 \cdot 1 4 
 图10-15
 现有一半径为r，质量为m的小球在粗糙的半圆形碗底作纯滚
-动，此时小球质心受到切向外力，其大小为 | f _ { f } | = m g s i n \theta ， f  总
+动，此时小球质心受到切向外力，其大小为 | f _ { f } | = m g \sin \theta ， f  总
 是指向平衡位置O，如图1016所示。根据前面的判断方法，f总是
 与F，反向，并总是背向平衡点O3在小球位于平衡点时， f = 0 
 mgsin
@@ -1904,7 +1846,7 @@ Psin30
 f及外加力F=150公斤作用下作加速运动，f的方向根据上面的讨
 论可以确定如图10.17所示。整个圆柱又在力矩fR作用下绕通过
 质心的轴作加速转动，故有方程
-F - P s i n 3 0 ^ { \circ } - f = \frac { P } { g } a _ { g }  
+F - P \sin 3 0 ^ { \circ } - f = \frac { P } { g } a _ { g }  
 f R = I \beta  
 = \frac { 1 } { 2 } \cdot \frac { P } { g } R ^ { 2 } \beta  
 另有约束条件
@@ -1924,7 +1866,7 @@ f = 1 6 . 7  公斤力
 解设O点没有摩擦力，则绕质
 心的转动公式为
 F d = I \beta  
-I = \frac { 2 } { 5 } s i n r ^ { 2 }  
+I = \frac { 2 } { 5 } \sin r ^ { 2 }  
 质心的运动方程为
 图 1 0 1 8 
 a _ { c } = \frac { F } { m }  
@@ -1946,29 +1888,29 @@ R，质量为m的线轴，以力F拉线，拉线处距轴中心距为r，如图
 动
 解先判定f的方向。设若f不存在，则得方程
 % 305.jpg
-F c o s \theta = \gamma _ { \triangle }  
+F \cos \theta = \gamma _ { \triangle }  
 F _ { v } = - I _ { B } \beta  
 (在此，顺钟向为正方向。)O
 点的切向加速度为
 a _ { 0 } = a _ { c } + \beta R  
-= F \left( \frac { c o s \theta } { m } + R \frac { r } { I _ { p } } \right)  
+= F \left( \frac { \cos \theta } { m } + R \frac { r } { I _ { p } } \right)  
 在<90°情况F，a恒大于零，
 图1019
 即与F同方向。所以f与F反向，如图10.19所示
 进一步列出线轴纯滚动方程：
-f c o s \theta - f = m a _ { c }  
+f \cos \theta - f = m a _ { c }  
 f R - F r r = I _ { \epsilon } \beta  
 a _ { c } = R \beta  
 解此联立方程，得
-a _ { c } = \frac { R F \left( R c o s \theta - r \right) } { T _ { c } + m R ^ { 2 } }  
+a _ { c } = \frac { R F \left( R \cos \theta - r \right) } { T _ { c } + m R ^ { 2 } }  
 从上式可以得出：
-\theta < c o s ^ { - 1 } \left( \frac { r } { R } \right)  
+\theta < \cos ^ { - 1 } \left( \frac { r } { R } \right)  
 时， a _ { a } > 0  ，轴向前滚动
-\theta > c o s ^ { - 1 } \left( \frac { f } { R } \right)  
+\theta > \cos ^ { - 1 } \left( \frac { f } { R } \right)  
 时， a _ { b } < 0  ，轴向后滚动
-\theta = c o s ^ { - 1 } \left( \frac { r } { R } \right)  
+\theta = \cos ^ { - 1 } \left( \frac { r } { R } \right)  
 时， a _ { c } = 0  ，轴不动。
-\theta _ { O } = c o s ^ { - 1 } \left( \frac { r } { R } \right) 
+\theta _ { O } = \cos ^ { - 1 } \left( \frac { r } { R } \right) 
 是一个临界值，当=0时，F的作用线恰好通过
 接触点O，F对O点的力矩为零；当0<时，F对O点的力矩
 的方向使线轴向前作纯滚动；当 \theta > \theta _ { 0 }  时，F对O点的力矩的方向
@@ -2012,7 +1954,7 @@ C点的切向加速度，方向向左，
 持陀螺固定在O点，当然也有力在O点作用于陀螺，但这种力对O
 点的力矩显然为。取一质量元m，其重力矩为 r _ { i } \times m _ { i } g  ，故总
 的重力矩为
-M = \frac { \pi } { 2 } \left( r ， \times m _ { i } \theta \right)  
+M = \frac { \uppi } { 2 } \left( r ， \times m _ { i } \theta \right)  
 = \left( e ^ { \alpha } ， m ， r _ { 1 } \right) \times g  
 = \left( \frac { g _ { 1 } t _ { 2 } \cdot t _ { 1 } } { m } \right) \times n \theta  
 = t _ { c } \times k \sigma  
@@ -2046,12 +1988,12 @@ Z轴，因此，角动量L的顶端就只能是绕一水平圆周的运动。这
 由图1022可求得进动角速率进。用该图中的符号，即有
 \rho \ne \frac { \Delta \varphi } { \Delta i }  
 以及
-\delta \varphi = \frac { \triangle L } { L s i n \theta }  
-= \frac { M \Delta t } { L s i n \theta }  
+\delta \varphi = \frac { \triangle L } { L \sin \theta }  
+= \frac { M \Delta t } { L \sin \theta }  
 又因
-M = v _ { 2 } m g s i n \theta  
+M = v _ { 2 } m g \sin \theta  
 故
-\Delta \varphi = - \frac { f _ { s i r } s i n u g s i n \theta \Delta t } { L s i n \theta }  
+\Delta \varphi = - \frac { f _ { s i r } \sin u g \sin \theta \Delta t } { L \sin \theta }  
 = \frac { t _ { t } m g \Delta t } { L }  
 最终得到
 \ne = \frac { \triangle \varphi } { \Delta t }  
@@ -2479,7 +2421,7 @@ x ^ { \prime } + y ^ { \prime } + t ^ { \prime } - c ^ { \prime } t ^ { \prime }
 这样，只要要求 \left( x ， y ， z ， t \right)  与 \left( x ^ { \prime } ，  y'，z，)之间的变换关系
 满足下式
 x ^ { x } + y ^ { x } + z ^ { x } - c ^ { 2 } t ^ { x }  
-= \pi ^ { \prime } + y ^ \prime ^ { 2 } + z ^ { \prime } - c ^ { \prime } t ^ { \prime }  
+= \uppi ^ { \prime } + y ^ \prime ^ { 2 } + z ^ { \prime } - c ^ { \prime } t ^ { \prime }  
 (11.41)
 就可以与光速不变原理相适应。
 现在我们来求满足式(11.41)的坐标变换关系。首先我们注
@@ -2489,7 +2431,7 @@ y ^ { \prime } = y   z ^ { \prime } = z
 (114.2)
 另外，还应要求坐标变换是线性的，这个要求来源于空间的均匀
 性，即空间中各点的性质都是一样的，没有任何具有特别性质的
-点。这样，x，t与 \pi ^ { \prime }  ，t之间的关系应有下列的一般形式：
+点。这样，x，t与 \uppi ^ { \prime }  ，t之间的关系应有下列的一般形式：
 x ^ { \prime } = a x + \gamma t  
 t ^ { \prime } = \theta x + n t  
 \left( 1 1 \cdot 4 \cdot 3 \right)  
@@ -2498,19 +2440,19 @@ x ^ { 1 } - c ^ { 2 } t ^ { 2 } = x ^ { \prime } - c ^ { 2 } e ^ { 2 }
 \left( 1 1 \cdot 4 \cdot 4 \right)  
 式 \left( 1 1 \cdot 4 \cdot 3 \right)  应具有下列形式：
 x ^ { \prime } = x c h \theta - c t s h \theta  
-c t ^ { \prime } = - s i n \theta + c t c n \theta  
+c t ^ { \prime } = - \sin \theta + c t c n \theta  
 (11.45)
 其中为常量。容易验证式 \left( 1 1 \cdot 4 \cdot 5 \right)  符合式(11.4.4)：
 x ^ \prime ^ { 2 } - c ^ { 2 } t ^ { 2 }  
-= \left( x c h \theta - c t s \theta \theta \right) ^ { 2 } - \left( - x s i n \theta + c t c o s \theta \right) ^ { \circ }  
+= \left( x c h \theta - c t s \theta \theta \right) ^ { 2 } - \left( - x \sin \theta + c t \cos \theta \right) ^ { \circ }  
 = x ^ { k } \left( c h ^ { 2 } \theta - s h ^ { 2 } \theta \right) - c ^ { 2 } t ^ { 2 } \left( c h ^ { 2 } \theta - s h ^ { 2 } \theta \right)  
 = x ^ { 2 } - c ^ { 2 } t ^ { 2 }  
 引入新参数
 \beta = t g \delta \theta  
 % 326.jpg
 亦即
-s i n \theta = \frac { \beta } { \sqrt { 1 - \beta ^ { 2 } } }  
-s i n \theta = \frac { 1 } { \sqrt { 1 - 8 ^ { x } } }  
+\sin \theta = \frac { \beta } { \sqrt { 1 - \beta ^ { 2 } } }  
+\sin \theta = \frac { 1 } { \sqrt { 1 - 8 ^ { x } } }  
 式 \left( 1 1 \cdot 4 \cdot 5 \right)  还可以改写成
 v ^ { \prime } = \frac { x - \beta c t } { \sqrt { 1 - \beta ^ { 2 } } }  
 f ^ { \prime } = \frac { t - \beta } { \sqrt { 1 } - \frac { c } { B ^ { 2 } } }  
@@ -2676,7 +2618,7 @@ s = s ^ { \prime }
 d s = \sqrt { c ^ { 2 } d t ^ { 2 } - d x ^ { 2 } - d y ^ { 2 } - d z ^ { 1 } }  
 \left( 1 1 \cdot 5 \cdot 5 \right)  
 还常常利用如下定义的量
-\pi = \frac { 1 } { c } s  
+\uppi = \frac { 1 } { c } s  
 或
 d t = \frac { 1 } { c } d s 
 (11.5.6)
@@ -2690,7 +2632,7 @@ d t = \frac { 1 } { c } \sqrt { c ^ { 2 } d t ^ { 2 } - d x ^ { 2 } - d y ^ { 2 
 (11.5.7)
 其中是质点相对于K的速度大小。d的绝对性表明，若质点相
 对于K的速度为'，就将有
-d \pi = d t / / L - \frac { u ^ { - } } { c ^ { 2 } } }  
+d \uppi = d t / / L - \frac { u ^ { - } } { c ^ { 2 } } }  
 = d d ^ { \prime } \cdot \sqrt { 1 - \frac { b ^ { 1 } } { c ^ { 2 } } }  
 6.速度合成律
 为了求得相对论的速度合成公式，我们首先把洛伦兹变换
@@ -2812,12 +2754,12 @@ v = \frac { 3 } { 5 } c
 (1)取火车为参考系K，隧道为参考系K'，隧道以
 v = - \frac { 3 } { 5 } c  
 向负x方向运动，根据式(11.4.9)，二者的变换为
-= \frac { x + t i n t } { 1 - \frac { \pi } { \frac { x } { t } } d t } = \frac { t + } { \sqrt { 1 } }  
+= \frac { x + t i n t } { 1 - \frac { \uppi } { \frac { x } { t } } d t } = \frac { t + } { \sqrt { 1 } }  
 x
 轴是
-\pi ^ { \prime } = 0  
+\uppi ^ { \prime } = 0  
 即
-\pi + v t = 0  
+\uppi + v t = 0  
 \frac { \Delta x } { \Delta t } = - \frac { 3 } { 5 } 
 为过原点、斜率为的直线。同理可求得x轴是过原
 点，斜率为 - \frac { 5 } { 3 }  的直线。如图11.3所示， g \theta = - \frac { 3 } { 5 } 
@@ -2864,7 +2806,7 @@ E火车前端撞上铁门
 号来的方向与飞船的轴成θ角。
 根据洛伦兹变换，在飞船为静止
 参考系K中，讯号来的方向角
-\theta ^ { \prime } < \frac { \pi } { 2 }  
+\theta ^ { \prime } < \frac { \uppi } { 2 }  
 为8，所有的恒星，在观
 察室里都可以看见(图11.5)
 根据式(11.45)，取 c = 1  ，
@@ -2875,25 +2817,25 @@ y ^ { \prime } = y - 2  =z
 \varphi ^ { \prime } = t c n \varphi - x s h \varphi  
 其中有
 t h ^ { - 1 } v = \phi  
-设恒星距离为l，则在 x = I c o s \theta  ， y = l s i n \theta  ， t = - U  发的光，
+设恒星距离为l，则在 x = I \cos \theta  ， y = l \sin \theta  ， t = - U  发的光，
 在 x = 0  ， y = 0 ， t = 0  被接收到.所以，在 x ^ { \prime } = 0  ， y ^ { \prime } = 0 ， t   t ^ { \prime } = 0  接
 收到的光，是在
-\pi ^ { \prime } = \left( l c o s \theta t c n \varphi - \left( - 1 \right) s i n \varphi  
-y ^ { \prime } = \left( b s i n \theta \right)  
-t ^ { \prime } = \left( - 1 \right) c o g \varphi - \left( l c o s \theta \right) s i n \varphi  
+\uppi ^ { \prime } = \left( l \cos \theta t c n \varphi - \left( - 1 \right) \sin \varphi  
+y ^ { \prime } = \left( b \sin \theta \right)  
+t ^ { \prime } = \left( - 1 \right) c o g \varphi - \left( l \cos \theta \right) \sin \varphi  
 发射的。
 由此求得
 t g \theta ^ { \prime } = \frac { \triangle y ^ { \prime } } { \Delta x ^ { \prime } }  
-= \frac { l s i n \theta } { l c o s \theta c o s \varphi + l s i n \varphi } 
+= \frac { l \sin \theta } { l \cos \theta \cos \varphi + l \sin \varphi } 
 所有 \theta ^ { \prime } < \frac { x } { 2 }  的恒星，都观察得到，此即要求
-c o s \theta ^ { \prime } < \infty  
+\cos \theta ^ { \prime } < \infty  
 % 341.jpg
 或即
-c o s \theta c h \varphi + \lambda s h \varphi > 0  
-c o s \theta > - t h g  
+\cos \theta c h \varphi + \lambda s h \varphi > 0  
+\cos \theta > - t h g  
 当 v = 1 \left( p u v = c \right)  时， t h \varphi = 1  ，
 上式变成
-c o s \theta > - 1  
+\cos \theta > - 1  
 即
 \theta < 1 8 0 ^ { \circ }  
 此时全部星空都可以在飞船观察室里看见。
@@ -2980,7 +2922,7 @@ P ^ { \prime } = - M ^ { \prime } v
 m _ 1 ^ { \prime } \left[ \int _ 0 ^ { \prime } + v _ 2 ^ { \prime } \right] ^ { \prime } = - \left( r _ 1 ^ { \prime } - m _ 2 ^ { \prime } \right) v  
 \left( 1 1 \cdot 6 \cdot 8 \right)  
 即
-\frac { m _ { 0 } } { m _ 2 ^ { 2 } } = - \frac { s i n \left( 1 ^ { 2 } + v \right) } { \left( N _ 1 ^ { 2 } + v \right) }  
+\frac { m _ { 0 } } { m _ 2 ^ { 2 } } = - \frac { \sin \left( 1 ^ { 2 } + v \right) } { \left( N _ 1 ^ { 2 } + v \right) }  
 \left( 1 1 \cdot 6 \cdot 9 \right)  
 再由相对论速度合成公式 \left( 1 1 \cdot 5 \cdot 9 \right)  ，有
 u _ { 1 } = 1 + \frac { k _ { 1 } + \sqrt { k _ { 2 } } { k _ { 2 } } }  
@@ -2990,11 +2932,11 @@ u _ { 1 } = 1 + \frac { k _ { 1 } + \sqrt { k _ { 2 } } { k _ { 2 } } }
 再用式(11.6.7)
 \frac { v _ { 0 } } { \frac { 1 } { 2 } } = \frac { 1 + \frac { 1 } { \frac { 1 } { 2 } } { \frac { 1 } { 2 } } { \frac { 1 + \sqrt { 3 } } { 1 0 } } } = \sqrt { m \frac { 1 } { 1 } }  
 即
-v _ n _ { 2 } \frac { s i n _ { 1 } } { s i n _ { 2 } } = \frac { I _ { 1 } + v _ n ^ { 2 } + v _ 0 ^ { 2 } } { v _ 1 ^ { 2 } } \sqrt { c ^ { 2 } }  
+v _ n _ { 2 } \frac { \sin _ { 1 } } { \sin _ { 2 } } = \frac { I _ { 1 } + v _ n ^ { 2 } + v _ 0 ^ { 2 } } { v _ 1 ^ { 2 } } \sqrt { c ^ { 2 } }  
 116.10)
 注意下列公式
 \sqrt { \sqrt { 1 - \frac { 1 } { 2 } ^ { 2 } } } = \sqrt { 1 } - \sqrt { \frac { k _ { 1 } + _ w ^ { 2 } } { c _ { 1 } + k _ { 1 } k _ { 1 } S _ { 2 } ] { { c } ^ { 2 } } \right) ^ { 2 } - }  
-= \frac { \sqrt { 1 - v ^ { 2 } + \sqrt { c ^ { 2 } } \cdot \sqrt { b ^ { 2 } } } \cdot \frac { \sqrt { 1 } + \sqrt { 1 \times 1 } ^ { 2 } } \cdot \sqrt { 1 \times 1 ^ { 2 } } } { 1 + s i n 4 0 ^ { 2 } } c ^ { 2 } } 
+= \frac { \sqrt { 1 - v ^ { 2 } + \sqrt { c ^ { 2 } } \cdot \sqrt { b ^ { 2 } } } \cdot \frac { \sqrt { 1 } + \sqrt { 1 \times 1 } ^ { 2 } } \cdot \sqrt { 1 \times 1 ^ { 2 } } } { 1 + \sin 4 0 ^ { 2 } } c ^ { 2 } } 
 % 345.jpg
 即
 1 + \sqrt { 1 + \frac { v _ 0 ^ { 2 } } } { c _ c ^ { 1 } } = \frac { \sqrt { \left( 1 - 1 \right) ^ { 2 } b c ^ { 2 } } } { \sqrt { 1 - k _ 1 ^ { 1 } c ^ { 2 } } \cdot \cdot \cdot \sqrt { 1 - \frac { v ^ { 2 } } { c ^ { 2 } } }  
@@ -3039,7 +2981,7 @@ F = \frac { d } { d t } \left( m u \right)
 U ^ { 2 } = c ^ { 2 } \left( 1 - \frac { m _ { 0 } } { m ^ { 2 } } - t  
 \left( 1 1 \cdot 7 \cdot 3 \right)  
 故
-\frac { a _ 4 ^ { 2 } } { s i n } = \frac { 2 } { \frac { m } { m } \frac { c ^ { 2 } } { 3 } } 
+\frac { a _ 4 ^ { 2 } } { \sin } = \frac { 2 } { \frac { m } { m } \frac { c ^ { 2 } } { 3 } } 
 (11-74)
 将式(11.73)、(11.7.4)代入式(11.72)，得到
 % 347.jpg
@@ -3058,7 +3000,7 @@ E = k c ^ { 2 }
 E = \frac { m \sqrt { a c ^ { 2 } } } { \sqrt { 1 - g ^ { 2 } b c ^ { 2 } } }  
 (11.77)
 如果展开成的幂级数，则
-E = \pi _ { 0 } c ^ { 2 } \int _ n ^ { 2 } + \frac { 1 } { 2 } \cdot \frac { b _ 4 ^ { 2 } } { c ^ { 2 } } + \frac { 3 } { 8 } \cdot \frac { 1 4 ^ { 4 } } { c ^ { 4 } } + \cdots \}  
+E = \uppi _ { 0 } c ^ { 2 } \int _ n ^ { 2 } + \frac { 1 } { 2 } \cdot \frac { b _ 4 ^ { 2 } } { c ^ { 2 } } + \frac { 3 } { 8 } \cdot \frac { 1 4 ^ { 4 } } { c ^ { 4 } } + \cdots \}  
 (11.78)
 当小时，忽略掉所有较高级项，只保留前两项，得到
 E \notin m _ { 0 } c ^ { 2 } + \frac { 1 } { 2 } m _ { 0 } t _ n ^ { 2 } 
@@ -3090,23 +3032,23 @@ E = v _ { o } c ^ { 2 }
 正确？为什么？
 习题
 1.宇宙射线中的子，以速率 v = 0 . 9 9 c  向地面射来。若μ子在
-它为静止的参考系中，寿命 \pi _ { 0 } = 2 . 2 2 \times 1 0 ^ { - 6 }  秒。试问：地面上的
+它为静止的参考系中，寿命 \uppi _ { 0 } = 2 . 2 2 \times 1 0 ^ { - 6 }  秒。试问：地面上的
 观察者测得μ子的平均寿命τ为多少？
-2.在某一惯性参考系K看来，物体A以匀速率 v _ { A } = 0 . 8 c s i n x 
+2.在某一惯性参考系K看来，物体A以匀速率 v _ { A } = 0 . 8 c \sin x 
 轴正向运动，物体B以匀速率 v _ { B } = 0 . 6 c V  x轴的负方向运动。在A
 看来，B的速度是多少？
 3.一直尺，相对于K为静止，长为1，并且直尺放在与x
 % 349.jpg
 轴夹角为8的方向上。试证明：对于K中的观察者，直尺的长度
 及与x轴的夹角分别为
-x = \int _ 0 ^ { \prime } \int _ \left( L ^ { 1 } - \frac { v ^ { 2 } } { c ^ { 2 } } } c o s \theta ^ { \prime } \left( t ^ { \prime } \right) ^ { 3 } + s i n ^ { 2 } \theta ^ { \prime } \right] ^ { \prime }  
-t g \theta = - \frac { t c o s \theta ^ { \prime } } { \sqrt { 1 - v ^ { 2 } g e ^ { x } } }  
+x = \int _ 0 ^ { \prime } \int _ \left( L ^ { 1 } - \frac { v ^ { 2 } } { c ^ { 2 } } } \cos \theta ^ { \prime } \left( t ^ { \prime } \right) ^ { 3 } + \sin ^ { 2 } \theta ^ { \prime } \right] ^ { \prime }  
+t g \theta = - \frac { t \cos \theta ^ { \prime } } { \sqrt { 1 - v ^ { 2 } g e ^ { x } } }  
 K系与K系的定义与图11.1同
 如果质点在K系的xy平面中运动，其速度矢量与x的
 夹角为8。试证明：对于K，质点的速度矢量与x轴的夹角日为
-c o s \theta = \frac { \sqrt { 1 - v ^ { 2 } s p ^ { 2 } } s i n \theta ^ { \prime } } { v + u ^ { \prime } c c o s \theta ^ { \prime } } 
+\cos \theta = \frac { \sqrt { 1 - v ^ { 2 } s p ^ { 2 } } \sin \theta ^ { \prime } } { v + u ^ { \prime } c \cos \theta ^ { \prime } } 
 K系与K系的定义与图11.1同3上式中为质点对K系的速度，
-u _ x ^ { \prime } = v ^ { \prime } c o s \theta ^ { \prime }  ， w ^ { \prime } = \phi ^ { \prime } s i n \theta ^ { \prime }  。
+u _ x ^ { \prime } = v ^ { \prime } \cos \theta ^ { \prime }  ， w ^ { \prime } = \phi ^ { \prime } \sin \theta ^ { \prime }  。
 6.设有一车，以匀速率 v _ { 0 } = 1 0 0  公里/秒作直线运动。
 (1)在车上以速率 v _ { 1 } = 6 0  公里/秒向前投一球，按伽利略变
 换计算，站在路边的观察者看来，球的速度是多少？
@@ -3230,7 +3172,7 @@ N - R x _ { 1 } g \cdot y z _ { 1 } z = 0
 可解得
 N = \frac { 3 } { 2 } m _ { 1 } g  
 = 1 4 . 7 \times 1 0 ^ { \circ }  4达因
-a ^ { \prime } = \frac { - \frac { 3 } { 3 } + n _ { 2 } g } { \left( m n _ { 1 } - s i n _ { 2 } \right) }  
+a ^ { \prime } = \frac { - \frac { 3 } { 3 } + n _ { 2 } g } { \left( m n _ { 1 } - \sin _ { 2 } \right) }  
 A = 9 . 8  米/秒2
 T = m _ { 1 } a ^ { \prime }  
 = 9 . 8 \times 1 0 ^ { 4 }  达因
@@ -3329,12 +3271,12 @@ b
 根据图12.5(c)，有
 a _ { p } = 1 i m i n \frac { v _ { 0 } + v _ { 0 } ^ { 2 } - v _ { N } ^ { \prime } } { \triangle t } 
 % 358.jpg
-\frac { - s i m - v _ 0 ^ { \prime } s i n t \triangle Q + v ^ { \prime } c o s \theta + \varphi - 0 - v } { \Delta t }  
+\frac { - s i m - v _ 0 ^ { \prime } \sin t \triangle Q + v ^ { \prime } \cos \theta + \varphi - 0 - v } { \Delta t }  
 = l i m - \frac { - \omega \left( v + \varphi \right) + \varphi + v - v } { \Delta t }  
 = - \omega ^ { 2 } f  
 (122.4)
 a _ { m } = \frac { l i m } { l i m } = \frac { v _ n ^ { 2 } + v _ t ^ { 2 } - v _ { n } } { \Delta t } = \frac { v _ { t } - v _ { A } } { \Delta t }  
-= 1 l i v _ { 0 } ^ { c o t \triangle Q + v ^ { \prime } s i n L } + \varphi - v _ { t } - 0 } { t }  
+= 1 l i v _ { 0 } ^ { c o t \triangle Q + v ^ { \prime } \sin L } + \varphi - v _ { t } - 0 } { t }  
 = 1 i m \frac { U \left( t + v _ { \right) } } { \triangle t } + \frac { U - U } { \triangle t } 
 = + 2 v \omega  
 (12·25)
@@ -3424,21 +3366,21 @@ F指向地心，而F并不指向地心，且这种偏离在不同纬度上有不
 中，m静止不动。用两种观点可解出同样的结果。下面分别求解
 (1)惯性系解法。取坐标如图12.9(a)，它是一个圆锥摆。
 故有
-T _ { r } = T c o s \theta = m g  
-T _ { 1 } = T s i n \theta = v v ^ { 2 } / R  
-R = g s i n \theta  
+T _ { r } = T \cos \theta = m g  
+T _ { 1 } = T \sin \theta = v v ^ { 2 } / R  
+R = g \sin \theta  
 % 362.jpg
 将上三式联立求解，得
-v = \sqrt { R c o s \theta }  
+v = \sqrt { R \cos \theta }  
 周期则为
-T = \frac { 2 \pi R } { v }  
-= 2 \pi \cdot \frac { I c o s \theta } { g }  
+T = \frac { 2 \uppi R } { v }  
+= 2 \uppi \cdot \frac { I \cos \theta } { g }  
 (2)非惯性系解法。此时处理的是一个静力平衡的问题，坐
 标原点取在m上，x与R重合，oy是竖直方向，如图 1 2 \cdot 9 \left( b \right)  所
 示。张力、重力mg及惯性力m2三力平衡即为
-T c o s \theta = m g  
-T s i n \theta = m v ^ { 2 } / R  
-R = l s i n \theta 
+T \cos \theta = m g  
+T \sin \theta = m v ^ { 2 } / R  
+R = l \sin \theta 
 结果与上面相同。
 【例3】使长为1的细绳一端固定在以匀速转动的水平光
 滑圆盘在中心O点上，绳的另一
@@ -3451,13 +3393,13 @@ R = l s i n \theta
 产生向心加速度，此为相对于地
 图1210
 面的绝对加速度a绝对
-T _ { T } = s i n x  绝对
+T _ { T } = \sin x  绝对
 a \otimes x = \frac { v ^ { 2 } \Delta x } { I }  
 因为
 % 363.jpg
 V绝对V相对+牵连
 所以
-w \pi = v - I \omega  
+w \uppi = v - I \omega  
 \Delta v t = \frac { \left( v - 1 0 \right) ^ { 2 } } { l }  
 = \frac { v ^ { 2 } } { l } + l o g ^ { 2 } - 2 v \omega  
 T = m \frac { v ^ { 2 } } { I } + m l o g ^ { 2 } - 2 m v  
@@ -3804,7 +3746,7 @@ u ^ { \prime } = f _ { w }
 驾驶员在地面上重为P公斤。试求：
 (1)驾驶员作用在座位上的力为多少？
 (2)当 \theta = 0  时，情况如何？
-\theta = \frac { \pi } { 2 } 
+\theta = \frac { \uppi } { 2 } 
 (3)当时，情况如何？
 (4)当 \theta = x  ， a = g  时，情况如何？
 (5)当 a = 0  时，情况如何？
@@ -3905,8 +3847,8 @@ ose
 2 5 R _ { m i n } = 2 2 8  米
 2 6 \cdot \left( 1 \right) \omega = 2 0  弧度/秒
 (2)A点轨迹的参数方程是如下的摆线
-x = v \left( q t - s i n \omega t \right)  
-y = r \left( 1 - c o s \omega t \right)  
+x = v \left( q t - \sin \omega t \right)  
+y = r \left( 1 - \cos \omega t \right)  
 v = 0 . 5  米
 \omega = 2 0 5 ^ { 2 }  弧度/秒
 27(1)球心速度v与球滚动的角速度a的关系为
@@ -3928,18 +3870,18 @@ y = - \frac { g x ^ { 2 } } { 2 v ^ { 5 } }
 8 \cdot \left( 1 \right) \varphi _ { 1 } = g ^ { - 1 } \frac { v _ { 0 } } { v _ { 1 } }  
 (2)
 \varphi _ { A } = t g ^ { - 1 } \frac { v _ { 0 } } { t _ { 1 } + t _ { 0 } }  
-(3) v ^ { \prime } = \sqrt [ \right] { y _ { 1 } ^ { 2 } - v _ { 0 } }  ， \phi ^ \prime ^ { \prime } = \sqrt { \left( \pi _ { 1 } + t _ { 2 } \right) ^ { / } + v _ { 2 } } 
+(3) v ^ { \prime } = \sqrt [ \right] { y _ { 1 } ^ { 2 } - v _ { 0 } }  ， \phi ^ \prime ^ { \prime } = \sqrt { \left( \uppi _ { 1 } + t _ { 2 } \right) ^ { / } + v _ { 2 } } 
 7 \left( 1 \right) | v | = \sqrt [ \right] { U ^ { 2 } + e ^ { v } } = 2 0 4  公里/时
 a = t g ^ { - 1 } \frac { \phi } { v } ， = 1 1 \cdot 2 0 ^ { \prime }  
 (2) | v | = \sqrt { v ^ { 2 } - w ^ { 2 } } = 1 9 5 . 9 6 \approx 1  96公里/时
-\theta = s i n ^ { - 1 } \frac { u } { v } = 1 1 ^ { \circ } 3 0 ^ { \prime }  
+\theta = \sin ^ { - 1 } \frac { u } { v } = 1 1 ^ { \circ } 3 0 ^ { \prime }  
 答案图22
 . t _ { 0 } = \frac { 2 L } { g } 
 % 381.jpg
 \left( 1 \right) t _ { 1 } = \frac { t _ { 0 } } { 1 - v _ 0 ^ { 2 } R _ { 3 } ^ { 3 } }  
 \left( 2 \right) t _ { L } = \frac { t _ { 0 } } { \sqrt { 1 - k ^ { 2 } / / u ^ { 1 } } }  
 (
-t _ { 2 } = \sqrt { 1 - \frac { { { k } ^ { 0 } } { k ^ { 2 } } } \frac { \sqrt { k ^ { 2 } } - e ^ { \frac { k ^ { 2 } } } { \left( 1 - \frac { { { k } ^ { 2 } } } { 1 - g t ^ { 2 } } \right) s i n ^ { 6 } } }  
+t _ { 2 } = \sqrt { 1 - \frac { { { k } ^ { 0 } } { k ^ { 2 } } } \frac { \sqrt { k ^ { 2 } } - e ^ { \frac { k ^ { 2 } } } { \left( 1 - \frac { { { k } ^ { 2 } } } { 1 - g t ^ { 2 } } \right) \sin ^ { 6 } } }  
 \theta . t = 0 . 3 7 ；  秒，与参考系的选取无关
 1 0 . \theta = t g ^ { - 1 } \frac { A \times 2 g H } { v }  
 1 1 . 6 \times 1 0  年
@@ -3952,11 +3894,11 @@ t _ { 2 } = \sqrt { 1 - \frac { { { k } ^ { 0 } } { k ^ { 2 } } } \frac { \sqrt 
 13.(1)0.87
 \left( 2 \right) 1 . 1 5 \% f  
 1 4 \cdot v = 0 . 9 9 9 8 c  
-1 5 ， \Delta \pi \Leftrightarrow \phi = 1 . 8 8 4 3 \times 1 0 ^ { s } V = 2 . 1 8 0 9  天= 5 . 9 7 5 0 \times 1 0 ^ { - 2 } \approx 
-1 \triangle \triangle \pi B \ne b = 1 . 2 \times 1 0 ^ { 5 }  秒=10.55天=2.89×10-2年
-7 . \triangle \pi R \% = 7 . 7 5 \times 1 0 ^ { 8 }  秒=8.979天=24.6年
-1 8 \cdot t = \sqrt { \frac { \pi } { 1 - v ^ { 2 } / c ^ { 2 } } } 
-1 9 . \pi = 1 0 \pi _ { 0 } = 2 2  微秒
+1 5 ， \Delta \uppi \Leftrightarrow \phi = 1 . 8 8 4 3 \times 1 0 ^ { s } V = 2 . 1 8 0 9  天= 5 . 9 7 5 0 \times 1 0 ^ { - 2 } \approx 
+1 \triangle \triangle \uppi B \ne b = 1 . 2 \times 1 0 ^ { 5 }  秒=10.55天=2.89×10-2年
+7 . \triangle \uppi R \% = 7 . 7 5 \times 1 0 ^ { 8 }  秒=8.979天=24.6年
+1 8 \cdot t = \sqrt { \frac { \uppi } { 1 - v ^ { 2 } / c ^ { 2 } } } 
+1 9 . \uppi = 1 0 \uppi _ { 0 } = 2 2  微秒
 第三章
 1 . F _ { m n } < 1 4 4  公斤力
 2.15吨。
@@ -3974,7 +3916,7 @@ t _ { 2 } = \sqrt { 1 - \frac { { { k } ^ { 0 } } { k ^ { 2 } } } \frac { \sqrt 
 u = \frac { \eta _ { B } \left( g - a \right) \right) - m _ { A a } } { m _ { A G } }  
 0.
 10.
-F _ { P _ { 1 } } = \frac { 1 } { c o s \alpha - u s i n \alpha }  
+F _ { P _ { 1 } } = \frac { 1 } { \cos \alpha - u \sin \alpha }  
 11.(1)4.0吨力≈39.2×10牛顿
 (2)4.0吨力≈39.2×10牛顿
 (3)4.0吨力≈39.2×108牛顿
@@ -3988,13 +3930,13 @@ T _ { 1 } = m _ { 1 } \left( \alpha + u g \right)
 T _ { n } = \left( m _ { 1 } + m _ { t } \right) \left( a + u g \right)  
 T _ { 8 } = m \left( g - a \right)  
 1 4 \cdot a = \frac { m _ { 1 } } { m _ { 1 } } - \frac { n } { m a } \cdot \frac { m n } { m + m _ { n } } - g 
-T _ { 1 } = m _ { 1 } \left( g s i n \alpha - a \right)  
+T _ { 1 } = m _ { 1 } \left( g \sin \alpha - a \right)  
 T _ { 3 } = m _ { 1 } a  
 取x轴向右，y轴向上，则得A点承受之支持力为
 N = i N _ { x } + j N _ { t }  
 % 383.jpg
-N _ { x } = T _ { 1 } c o s \alpha  
-N _ { v } = T _ { 1 } s i n \alpha + T _ { 1 }  
+N _ { x } = T _ { 1 } \cos \alpha  
+N _ { v } = T _ { 1 } \sin \alpha + T _ { 1 }  
 B点拉滑轮的绳d承受的张力 T = \sqrt { 2 } T _ { e } 
 5 u _ { 0 } = 0 . 5 7 7 \cdot u = 0 . 5 3 0  
 1 6 . \left( 1 \right) F = \left( M + m \right) g t g \alpha  
@@ -4004,14 +3946,14 @@ m g - \beta z = m e
 (2)
 v \left( t _ { 0 } \right) = \frac { m } { \beta } g  
 (4)略
-1 8 . \left( 1 \right) g s i n \theta  ，沿斜面向下
-(2) g s i n \theta  ，沿斜面向下
-(3) \left( g - a \right) s i n \theta  ，当 g > a  时沿斜面向下
+1 8 . \left( 1 \right) g \sin \theta  ，沿斜面向下
+(2) g \sin \theta  ，沿斜面向下
+(3) \left( g - a \right) \sin \theta  ，当 g > a  时沿斜面向下
 当 g < a  时沿斜面往上
 当 g = a  时物与斜面相对静止
-(4) \left( g + a \right) s i n \theta  ，沿斜面向下
+(4) \left( g + a \right) \sin \theta  ，沿斜面向下
 (5)0
-(6) m \left( g - a \right) c o s \theta 
+(6) m \left( g - a \right) \cos \theta 
 0 \cdot a _ { 1 } = \frac { 8 } { 7 } g  
 2，向下
 a _ { n } = \frac { 1 } { 7 } g  ，向上
@@ -4022,41 +3964,41 @@ T _ { 2 } = - 4 . 4 6  牛顿
 2 1 . a _ { 8 } = 9 7 .  4米/秒
 2 2 \cdot u _ { m i n } = 0 . 3 9 4  
 .张力
-T = \frac { M g } { 2 \pi } \cdot c t g \frac { a } { 2 } 
+T = \frac { M g } { 2 \uppi } \cdot c t g \frac { a } { 2 } 
 % 384.jpg
 2 4 . \left( 1 \right) v _ { O } = \sqrt { 5 } \sqrt { g } = 1 9 8  厘米/秒
 \left( 2 \right) T = 3 m g = 2 . 9 4 ^ { 2 }  牛顿
-2 5 \cdot \left( 1 \right) v = s i n \theta / \frac { g } { c o s \theta } = g _ { g } g c o g _ { \theta s i n \theta }  
+2 5 \cdot \left( 1 \right) v = \sin \theta / \frac { g } { \cos \theta } = g _ { g } g c o g _ { \theta \sin \theta }  
 F = m g t g \theta  
 2 6 \cdot h = R - q _ q ^ { - }  
 ，或在碗底不动
 2 7 . \left( 1 \right) v = \sqrt { g h }  
 (2)
-\sqrt { g h h \frac { 1 - u } { 1 + i c o t \theta } \frac { \theta } { 0 } 2 } \leqslant v \leqslant \sqrt { g h h \frac { 1 + u t g } { 1 - u c o s \theta } \theta _ { \circ } }  
+\sqrt { g h h \frac { 1 - u } { 1 + i c o t \theta } \frac { \theta } { 0 } 2 } \leqslant v \leqslant \sqrt { g h h \frac { 1 + u t g } { 1 - u \cos \theta } \theta _ { \circ } }  
 2
-\frac { \sqrt [ R ^ { s i n } R _ { s } } { R _ { g } \frac { s i n \alpha - u c o s \alpha } { s \alpha + u s i n \alpha } \leqslant v \leqslant v \ne \frac { c o g _ { s i n \alpha } u _ { s i n } } { s i n \alpha }  
-v < \sqrt { R g } \frac { s i n \alpha - u c o s \alpha } { c o s \alpha + u s i n \alpha }  
+\frac { \sqrt [ R ^ { \sin } R _ { s } } { R _ { g } \frac { \sin \alpha - u \cos \alpha } { s \alpha + u \sin \alpha } \leqslant v \leqslant v \ne \frac { c o g _ { \sin \alpha } u _ { \sin } } { \sin \alpha }  
+v < \sqrt { R g } \frac { \sin \alpha - u \cos \alpha } { \cos \alpha + u \sin \alpha }  
 则车往里倒或下滑
 若
-v > \sqrt { R g g \frac { s i n \alpha } { c o s \alpha - u s i n \alpha } }  
+v > \sqrt { R g g \frac { \sin \alpha } { \cos \alpha - u \sin \alpha } }  
 则车往外倒或往外跑
-若=1且 \theta = \pi / 4  ，则任何速率都可安全行驶
-2 9 \cdot \left( 1 \right) \frac { W } { 2 c o s \theta }  
+若=1且 \theta = \uppi / 4  ，则任何速率都可安全行驶
+2 9 \cdot \left( 1 \right) \frac { W } { 2 \cos \theta }  
 2)
 \frac { W } { 2 } t g \theta 
-3 0 . \left( 1 \right) T \left( \theta \right) = \lambda R g s i n \theta  
-(2 N \left( \theta \right) \triangle \theta = 2 R g s i n \alpha \cdot \triangle \theta 
+3 0 . \left( 1 \right) T \left( \theta \right) = \lambda R g \sin \theta  
+(2 N \left( \theta \right) \triangle \theta = 2 R g \sin \alpha \cdot \triangle \theta 
 T(+4)
 N(0)△
 T(
 答案图31
 % 385.jpg
-N U = \int _ 0 ^ { \frac { \pi } { 2 } } N \left( \theta \right) c o s \theta d \theta = A P g = F ^ { \prime } \left( \frac { \pi } { 2 } \right) = T _ { A }  
+N U = \int _ 0 ^ { \frac { \uppi } { 2 } } N \left( \theta \right) \cos \theta d \theta = A P g = F ^ { \prime } \left( \frac { \uppi } { 2 } \right) = T _ { A }  
 这是绳的平衡条件
 3 1 \cdot \left( 1 \right) a = y _ { g }  
 (2)
 y \left( t \right) = y _ { 0 } c h + \frac { S _ { g } } { L } t  
-3 2 . T = M q ^ { \circ } / / \left( 2 \pi \right) ^ { n }  
+3 2 . T = M q ^ { \circ } / / \left( 2 \uppi \right) ^ { n }  
 33.(1)
 45°
 °mg
@@ -4067,17 +4009,17 @@ T _ { 1 } = \frac { 1 } { 2 } - \left( m \omega ^ { 2 } 0 \times \sqrt { 2 } m g
 9 4 . T _ { A } / T _ { B } = e ^ { - 6 }  
 35.(1)图略
 (2)
-\left\{ \begin{aligned} & m = s i n \\ & s i n \frac { \pi } { 2 } + t _ { 2 } \geqslant m - s i n \frac { \pi } { 2 } + t _ { 2 } = x _ { 0 } \\ \end{aligned} \right.  
-T = \frac { m _ { 1 } m _ { 2 } g \left( 1 + s i n \theta \right) } { m _ { 1 + m _ { 2 } } } }  
-a = \frac { \left( m _ { 2 } s i n \theta - m _ { 1 } \right) g } { m _ { 1 } + m _ { g } }  
+\left\{ \begin{aligned} & m = \sin \\ & \sin \frac { \uppi } { 2 } + t _ { 2 } \geqslant m - \sin \frac { \uppi } { 2 } + t _ { 2 } = x _ { 0 } \\ \end{aligned} \right.  
+T = \frac { m _ { 1 } m _ { 2 } g \left( 1 + \sin \theta \right) } { m _ { 1 + m _ { 2 } } } }  
+a = \frac { \left( m _ { 2 } \sin \theta - m _ { 1 } \right) g } { m _ { 1 } + m _ { g } }  
 (3)
-\sum _ { m i n } = \frac { s i n 2 ^ { s i n } \int _ 0 ^ { s i n } m _ { s i n } \left( \theta - m _ { 1 } } { m _ { 2 } \right) } + \left( \frac { m _ { 1 } \right) } } { n _ { 3 } + c o s ^ { 2 } \theta } 
+\sum _ { m i n } = \frac { \sin 2 ^ { \sin } \int _ 0 ^ { \sin } m _ { \sin } \left( \theta - m _ { 1 } } { m _ { 2 } \right) } + \left( \frac { m _ { 1 } \right) } } { n _ { 3 } + \cos ^ { 2 } \theta } 
 % 386.jpg
 3
-\cdot \left( \frac { s i n \theta \theta u \frac { c o s \theta } } { s i n \theta + c o s \theta } \right) g \leqslant a \leqslant \left( \frac { s i n \theta \theta u c o s \theta } { c o s \theta - u s i n \theta } \right) g  
+\cdot \left( \frac { \sin \theta \theta u \frac { \cos \theta } } { \sin \theta + \cos \theta } \right) g \leqslant a \leqslant \left( \frac { \sin \theta \theta u \cos \theta } { \cos \theta - u \sin \theta } \right) g  
 37.拱形、桥受压力
-N = m g c o s \theta - m \frac { v ^ { 3 } } { R }  
-凹形，桥受压力 N = m g c o s \theta + m \frac { v ^ { \prime } } { R } 
+N = m g \cos \theta - m \frac { v ^ { 3 } } { R }  
+凹形，桥受压力 N = m g \cos \theta + m \frac { v ^ { \prime } } { R } 
 第四章
 1 . \left( 1 \right) G = \frac { k 6 r ^ { 2 } } { M m }  
 (2) 6 . 6 3 \times 1 0 ^ { - 1 1 }  牛顿米/公斤
@@ -4103,7 +4045,7 @@ R8
 9 . \left( 1 \right) \rho _ { m } / \rho _ { e } = 0 . 7 3  
 (2)g火星=3.7米/秒
 1 0 . M _ { e } \approx 5 . 9 8 \times 1 0 ^ { 4 } 2 ；  斤
-1 . M B = \frac { 4 \pi ^ { 2 } r } { r T _ { 2 } } = 1 \cdot 9 7 \times 1 0 ^ { 8 } ；   1 0 ^ { 8 8 } \div = 1 . 9 7 \times 1 0 ^ { 0 0 }  公
+1 . M B = \frac { 4 \uppi ^ { 2 } r } { r T _ { 2 } } = 1 \cdot 9 7 \times 1 0 ^ { 8 } ；   1 0 ^ { 8 8 } \div = 1 . 9 7 \times 1 0 ^ { 0 0 }  公
 11.M日=
 42y3
 % 387.jpg
@@ -4125,7 +4067,7 @@ R8
 (2)64.6天
 2 4 . 5 . 3 6 \times 1 0  公里
 第五素
-\therefore 1 + \left[ \frac { R \left( t \right) } { R _ { 0 } } \right] ^ { \prime } - 2 \int { R _ { P } \left( t \right) } + \frac { 3 } { \frac { 3 } { 2 } } = 6 \pi \Omega \rho _ { 0 } \left( t - t _ { 0 } \right)  
+\therefore 1 + \left[ \frac { R \left( t \right) } { R _ { 0 } } \right] ^ { \prime } - 2 \int { R _ { P } \left( t \right) } + \frac { 3 } { \frac { 3 } { 2 } } = 6 \uppi \Omega \rho _ { 0 } \left( t - t _ { 0 } \right)  
 1.1+
 式中 t _ { 6 }  表示现在的时刻，po及R分别是 t _ { 0 }  时刻的平均密度及宇宙尺
 度因子
@@ -4155,21 +4097,21 @@ v = \int _ g ^ { \phi } \left( \overline { L - a ^ { 2 } } \right)
 v _ { m a x } = \frac { m _ { 2 g } } { \sqrt { m _ { 1 } } k }  
 1 7 . \overline { F } = 1 2 2 0 0  牛顿≈1.2×104牛顿
 18(1) E _ { u 0 } = 1 8 .  6焦耳， p _ { r } = 9 . 8  焦耳
-(2) f _ { u } = m g s i n 3 0 ^ { \circ } = 0 . 4 9  牛顿
+(2) f _ { u } = m g \sin 3 0 ^ { \circ } = 0 . 4 9  牛顿
 (3)不会再往回滑，所以=∞
-19.(1) - \infty g r \left( 1 - c o s \theta \right) 
-\left( 2 \right) m g v \left( 1 - c o s \theta \right)  
-(3)径向为 2 g \left( 1 - c o s \theta \right)  ，切向为 g s i n \theta 
-\left( 4 \right) \theta = c o s ^ { - 1 } \left( 2 / 3 \right)  
+19.(1) - \infty g r \left( 1 - \cos \theta \right) 
+\left( 2 \right) m g v \left( 1 - \cos \theta \right)  
+(3)径向为 2 g \left( 1 - \cos \theta \right)  ，切向为 g \sin \theta 
+\left( 4 \right) \theta = \cos ^ { - 1 } \left( 2 / 3 \right)  
 v _ { m } _ { x } = \sqrt { 5 g R }  
 20.(1).
-(2 \right) \theta = 1 9 ^ { \circ } 3 0 ^ { \prime }  或 \theta = s i n ^ { - 1 } \left( 1 / 3 \right) 
+(2 \right) \theta = 1 9 ^ { \circ } 3 0 ^ { \prime }  或 \theta = \sin ^ { - 1 } \left( 1 / 3 \right) 
 F _ { B } = \frac { 2 m g g \left( h - R \right) }  
 21.(1) v _ { B } = \sqrt { 2 g \left( h - R \right) ^ { - } }  ，，
 N _ { B } = \frac { 2 m g L } { k } - 3 m g 
 % 389.jpg
 \left( 2 \right) b \geqslant 1 . 5 R  
-2 . 8 = c o s ^ { - x } \left( \frac { 1 } { 9 } + \gamma \sqrt { \frac { 1 } { 8 } - \frac { M } { 6 m } } \right)  
+2 . 8 = \cos ^ { - x } \left( \frac { 1 } { 9 } + \gamma \sqrt { \frac { 1 } { 8 } - \frac { M } { 6 m } } \right)  
 23.(1)绳渐伸长。在弹性限度内，升降机的动能转化为绳的弹性势能
 及升降机的势能变化
 上是力T
@@ -4202,15 +4144,15 @@ n t + k v - \frac { G M m } { r ^ { 4 } } = 0
 2在竖直方向
 3.相同
 4 . \phi _ { 0 } = 0  
-5 \cdot \left( 1 \right) y = A l c o s \alpha + 2 \omega c o s 2 \alpha o t \alpha 
-y = - A \omega ^ { 2 } s i n \omega t - 4 0 ^ { s i n 1 } c o t  
+5 \cdot \left( 1 \right) y = A l \cos \alpha + 2 \omega \cos 2 \alpha o t \alpha 
+y = - A \omega ^ { 2 } \sin \omega t - 4 0 ^ { \sin 1 } c o t  
 (2)不是
 8 . \left( 1 \right) \gamma = 1 .  5赫兹
 \left( 2 \right) A = 2 . 2 |  厘米
 (3 \right) \phi _ { 0 } = 2 4 \cdot 3 7 ^ { \prime } = 0 . 4 3 x \in Z \Leftrightarrow 
-(4) x = \sqrt { 8 } c o s \left( 7 \times \sqrt { 2 } \varphi + 0 . 4 3 \right) 
+(4) x = \sqrt { 8 } \cos \left( 7 \times \sqrt { 2 } \varphi + 0 . 4 3 \right) 
 9 . T = 2 . 2 1  秒
-1 0 \cdot t = \pm \frac { \pi } { 4 \omega } - \frac { \varphi _ { 0 } } { \omega } + \frac { n \pi } { q }  
+1 0 \cdot t = \pm \frac { \uppi } { 4 \omega } - \frac { \varphi _ { 0 } } { \omega } + \frac { n \uppi } { q }  
 n = 0  ±1土2，
 1 1 . T = 0 . 7 7 \%  
 1 2 . 6 = 1 .  6公斤
@@ -4221,15 +4163,15 @@ n = 0  ±1土2，
 16.(1)14牛顿/米
 \left( 2 \right) M = 7 9  克
 1 7 \cdot k _ { 1 } = \frac { n + 1 } { n } k ， k _ { n } = \left( n + 1 \right) k  
-1 8 \cdot \gamma = \frac { 1 } { 2 \pi } \sqrt { \frac { k _ { 1 } + k _ { i } } { m } 
+1 8 \cdot \gamma = \frac { 1 } { 2 \uppi } \sqrt { \frac { k _ { 1 } + k _ { i } } { m } 
 19.C点为质心，不动，图7.17中有 n _ { n } I _ { n } = m _ { 1 } l _ { 1 } 
 % 391.jpg
 m对质心作简谐振动，振动方程为
-\pi _ { S } = l _ { L } + \left( l _ { 1 } ^ { \prime } - l _ { 4 } \right) c o s \omega _ { 8 } t ， \omega _ { 2 } = \int _ m ^ { k \left( m _ { 1 } + m _ { n } \right) } { m _ { m } _ { n } }  
+\uppi _ { S } = l _ { L } + \left( l _ { 1 } ^ { \prime } - l _ { 4 } \right) \cos \omega _ { 8 } t ， \omega _ { 2 } = \int _ m ^ { k \left( m _ { 1 } + m _ { n } \right) } { m _ { m } _ { n } }  
 m1对质心作简谐振动，振动方程为
-x _ { 1 } = - \lambda _ { 1 } - \left( l _ { 1 } ^ { \prime } - l _ { 1 } \right) c o s \omega _ { 1 } t  ， \omega _ { 1 } = U _ { 3 } 
+x _ { 1 } = - \lambda _ { 1 } - \left( l _ { 1 } ^ { \prime } - l _ { 1 } \right) \cos \omega _ { 1 } t  ， \omega _ { 1 } = U _ { 3 } 
 20.C点作自由落体运动， m _ { 1 }  ，m3相对C的运动同上题
-1 \cdot \left( 1 \right) R T = 2 m i n ^ { \pi } \frac { l _ { 1 } l _ { 1 } } { \left( l _ { 1 } - I _ { 1 } l _ { 0 } g } = 1 . 7 b ；  
+1 \cdot \left( 1 \right) R T = 2 m i n ^ { \uppi } \frac { l _ { 1 } l _ { 1 } } { \left( l _ { 1 } - I _ { 1 } l _ { 0 } g } = 1 . 7 b ；  
 \left( 2 \right) l _ { 0 } = 7 5  厘米
 23.75公里/时
 2 4 . Q \approx 7 ， 0 0  0
@@ -4239,7 +4181,7 @@ x _ { 1 } = - \lambda _ { 1 } - \left( l _ { 1 } ^ { \prime } - l _ { 1 } \right
 2 \cdot x _ { c } = - 0 . 1  米， y _ { c } = 0 \cdot 1  米
 3.取x轴在二圆心联线且从圆盘中心指向孔中心的方向，取盘中心为原
 点，y轴过原点与x轴垂直，则得 x _ { c } = - 5 . \theta  厘米， y _ { c } = 0 
-. x _ { c } = 0 ， y _ { c } = - \frac { 2 a } { 8 \pi }  
+. x _ { c } = 0 ， y _ { c } = - \frac { 2 a } { 8 \uppi }  
 5.(1)气球向下运动，速率为
 \frac { m v } { M + m } 
 (2)气球静止
@@ -4288,20 +4230,20 @@ U _ { 8 } = i \left( - 1 . 5 / / / / { \circ } |  2)
 转变成砂子的动能，其余由于滑动摩擦，变成热能消耗
 (3)没有改变
 3 0 \cdot N = \left( M + m \right) g + m g J _ { 1 + \frac { 2 R g } { g \left( M + m \right) } }  
-1 \cdot \left( 1 \right) v _ { A } = \sqrt { \frac { 8 U ^ { 2 } \rightarrow } { O A } + \frac { \sqrt { 8 k ^ { 2 } h c o s ^ { 2 } \theta } { m } \right) \left( N + m s i n ^ { \circ } \theta \right) }  
-V _ { A } = \frac { 2 m ^ { 2 } g h c o s ^ { 2 } \theta } { \left( M + m \right) \left( M + m s i n ^ { 2 } \theta \right) }  
+1 \cdot \left( 1 \right) v _ { A } = \sqrt { \frac { 8 U ^ { 2 } \rightarrow } { O A } + \frac { \sqrt { 8 k ^ { 2 } h \cos ^ { 2 } \theta } { m } \right) \left( N + m \sin ^ { \circ } \theta \right) }  
+V _ { A } = \frac { 2 m ^ { 2 } g h \cos ^ { 2 } \theta } { \left( M + m \right) \left( M + m \sin ^ { 2 } \theta \right) }  
 v _ { B } = \sqrt { \frac { 2 M } { 2 } M Q _ { Q H } } { M + m }  
 V _ { B } = U ^ { \frac { 2 n U ^ { 2 } g } { M \left( m + M \right) } }  
-\exists \phi _ { A } = n l g h \left( 1 - \frac { M c o s ^ { 2 } \theta } { M + m s i n ^ { 2 } \theta } \right)  
+\exists \phi _ { A } = n l g h \left( 1 - \frac { M \cos ^ { 2 } \theta } { M + m \sin ^ { 2 } \theta } \right)  
 这部分能量是m与桌面在竖
 直方向发生完全非弹性碰擅损失的
 \triangle E _ { B } = 0  
 9 2 . \left( 1 \right) v _ { e } = \sqrt { 2 g H }  ，方向沿AC方向
-(2 \right) v _ { r } = U _ { c } c o s \theta  ，方向沿水平即CD方向
-(3) \triangle P = m v _ { n } = m \sqrt { 2 g H } s i n \theta = m v _ { c } s i n \theta .  ，方向竖直向下
-\triangle H = \frac { 1 } { 2 } m e ^ { C } - \frac { 1 } { 2 } - m v _ { 2 } ^ { c } = m g H H s i n ^ { \circ } \theta ，  这是由于在竖直方向和地
+(2 \right) v _ { r } = U _ { c } \cos \theta  ，方向沿水平即CD方向
+(3) \triangle P = m v _ { n } = m \sqrt { 2 g H } \sin \theta = m v _ { c } \sin \theta .  ，方向竖直向下
+\triangle H = \frac { 1 } { 2 } m e ^ { C } - \frac { 1 } { 2 } - m v _ { 2 } ^ { c } = m g H H \sin ^ { \circ } \theta ，  这是由于在竖直方向和地
 面的完全非弹性碰撞而损失的能量
-3 . \left( 1 \right) s = \frac { n } { u } \left( 1 - u c o s \theta \right) \left( 1 - s i n \theta - 2 u s i n \theta c o s \theta + u ^ { \circ } s i n ^ { 2 } 
+3 . \left( 1 \right) s = \frac { n } { u } \left( 1 - u \cos \theta \right) \left( 1 - \sin \theta - 2 u \sin \theta \cos \theta + u ^ { \circ } \sin ^ { 2 } 
 30
 (2)当8很小时
 % 394.jpg
@@ -4316,7 +4258,7 @@ s + s _ { O } \ne \frac { h } { u } - h c t t \theta \theta + h c t g \theta = \
 与第六章相同
 3 4 \cdot \left( 1 \right) v = \int _ { 2 } { 8 } g x  
 (2) 2 / 3 
-35.(1) y = \pi e \left( 1 - e ^ { - \frac { \pi } { y } } \right) 
+35.(1) y = \uppi e \left( 1 - e ^ { - \frac { \uppi } { y } } \right) 
 () \eta = 2 \left( \frac { u } { v } \right) \left( 1 - \frac { v } { k } \right) ， v = \frac { \phi _ { 8 } } { 2 }  时，最大， \eta _ { m i x } = \frac { 1 } { 2 }  式中n
 v都是数值
 第九章
@@ -4335,14 +4277,14 @@ F = m - \frac { O _ 0 ^ { 2 } r _ 0 ^ { 4 } } { \left( r _ { 0 } - v t \right) }
 d = \frac { 3 v } { 2 ^ { i } } 
 % 395.jpg
 6 . 4 . 7 3 \times 1 0  公里
-7 \cdot \left( 1 \right) r = \frac { 8 ^ { n } K _ { 0 } } { 1 + \left( 8 ^ { n } - 1 \right) c o s \varphi }  
+7 \cdot \left( 1 \right) r = \frac { 8 ^ { n } K _ { 0 } } { 1 + \left( 8 ^ { n } - 1 \right) \cos \varphi }  
 原点为原有的圆心，火箭爆发点相应于
 \varphi = 0  
 \left( 2 \right) k w  点火时，即火箭爆发，相应 \varphi = 0  ，所以速度方向为/2
-r \rightarrow  为逃逸，相应于 c o s \varphi = - \frac { 1 } { \beta ^ { 3 } - 1 } ， - a = \varphi - \frac { \pi } { 2 } 
-所以 s i n \alpha = - c o s \varphi _ { g } = \frac { 1 } { 8 ^ { 8 } - 1 } 
+r \rightarrow  为逃逸，相应于 \cos \varphi = - \frac { 1 } { \beta ^ { 3 } - 1 } ， - a = \varphi - \frac { \uppi } { 2 } 
+所以 \sin \alpha = - \cos \varphi _ { g } = \frac { 1 } { 8 ^ { 8 } - 1 } 
 当 \beta = \sqrt { 8 }  时， \alpha = 3 0 
-8 . \left( 1 \right) r = \frac { R _ { 0 } } { 1 + c o s \varphi }  
+8 . \left( 1 \right) r = \frac { R _ { 0 } } { 1 + \cos \varphi }  
 9.地球自转角动量为5.23×10公斤米/秒
 1 0 \cdot \Omega = \frac { 1 } { \frac { 1 } { 2 } } M R _ { 1 } ^ { \prime } + m R _ { 2 } ^ { \circ }  
 11.角速度变化
@@ -4358,7 +4300,7 @@ q _ { 1 } = \frac { 6 + m _ n ^ { 2 } } { \left( m _ { 1 } m _ { 3 } n _ { n } \
 第十章
 5. I = \frac { 1 } { 1 2 } m \left( a * + b ^ { 2 } - \frac { 2 c ^ { 4 } } { a b } \right) 
 6.
-I = \frac { 7 m } { 1 2 a b } \left( a ^ { 8 } b + \omega ^ { 5 } a - 6 \pi r ^ { 4 } \right) 
+I = \frac { 7 m } { 1 2 a b } \left( a ^ { 8 } b + \omega ^ { 5 } a - 6 \uppi r ^ { 4 } \right) 
 % 396.jpg
 7.(1)1 6 \times 1 0 ^ { 4 }  克厘米
 (2) 1 . 2 \times 1 0 ^ { 4 }  克厘米
@@ -4368,7 +4310,7 @@ I = \frac { 7 m } { 1 2 a b } \left( a ^ { 8 } b + \omega ^ { 5 } a - 6 \pi r ^ 
 0. I = \frac { m } { 1 } \frac { m } { 2 } h + \frac { 1 } { 4 } n U R ^ { \prime } 
 1 . 8 = 3 . 2 8  弧度/秒
 12.
-a _ { c } = \frac { 5 } { 7 } g s i n a  
+a _ { c } = \frac { 5 } { 7 } g \sin a  
 13 \beta = - 2 .  1弧度/秒2， n = 7 0 . 8  转，再经40秒停止
 1 4 \cdot v = 2 ； \sqrt { \frac { - \sqrt { 2 } g } { m + M } }  
 1 5 \cdot T = \frac { m i _ { 1 } u + m } { m _ { 1 } + \frac { m _ { 1 } + M N } { s _ { 2 } + M } } g  
@@ -4385,20 +4327,20 @@ a = \frac { 4 \left( 2 M - m \right) } { 8 M + 7 m } g ， T _ { 1 } = \frac { r 
 2 1 . \left( 1 \right) a = 2 . 3 3  米/秒2
 (2) E _ { 1 } = 3 5  牛顿， I ^ { / } = 3 7 . 3 2  顿
 22.
-\Leftrightarrow f - \frac { 1 } { 2 \pi } \in \sqrt { \frac { 3 h } { a } } \ne 
+\Leftrightarrow f - \frac { 1 } { 2 \uppi } \in \sqrt { \frac { 3 h } { a } } \ne 
 % 397.jpg
 2 3 . M = - 0 . 0 g  牛顿米，其中负号表示与原转动角动量反方向
 2 4 . \left( 1 \right) z ^ { \prime } = 1 2 .  1米/秒
 (2) y _ { E } = 3 . 3 3 ；  米
 25.球先到下端， v _ { \epsilon } u g > v _ { \epsilon } \phi > v _ { \epsilon } \phi 
 26.
-\left( 1 \right) a _ { 2 1 } = \frac { 6 } { 7 } c o s i n ， v _ { 2 1 } = \sqrt { \frac { 1 0 } { \pi } g h } ， \omega _ { 1 } = 2 0 \sqrt { \frac { 1 0 } { 7 } } i  
+\left( 1 \right) a _ { 2 1 } = \frac { 6 } { 7 } \cos i n ， v _ { 2 1 } = \sqrt { \frac { 1 0 } { \uppi } g h } ， \omega _ { 1 } = 2 0 \sqrt { \frac { 1 0 } { 7 } } i  
 v _ { c } = \sqrt { \frac { 1 0 } { 7 } } g h  
-a _ { c } = \frac { 6 } { 7 } g s i n \alpha ，  ，
+a _ { c } = \frac { 6 } { 7 } g \sin \alpha ，  ，
 O _ { 2 } = 1 0 J \sqrt { \frac { 1 } { 1 0 } } { 7 } g h  
-= \frac { 8 } { 5 } g s i n \alpha ， v _ { s } = \cdot \frac { 6 } { 5 } g h ， \omega _ { \Omega } = 2 o g _ { 5 } - \epsilon   = \frac { 8 } { 5 } g s i n \alpha ， v _ { s } = \cdot \frac { 6 } { 5 } g h ， \omega _ { \Omega } = 2 o g _ { 5 } - \epsilon   \omega _ { 2 } = 2 0 \sqrt { \frac { 8 } { 5 } g g } 
+= \frac { 8 } { 5 } g \sin \alpha ， v _ { s } = \cdot \frac { 6 } { 5 } g h ， \omega _ { \Omega } = 2 o g _ { 5 } - \epsilon   = \frac { 8 } { 5 } g \sin \alpha ， v _ { s } = \cdot \frac { 6 } { 5 } g h ， \omega _ { \Omega } = 2 o g _ { 5 } - \epsilon   \omega _ { 2 } = 2 0 \sqrt { \frac { 8 } { 5 } g g } 
 a=gsina，vcs=vgh
-a _ { c A } = \frac { 8 } { 5 } g s i n \alpha ， v _ { s 4 } = \sqrt { \frac { 8 g } { 5 } g h } ， \omega _ { 4 } = 1 0 \sqrt { \frac { 8 } { 5 } \cdot g h }  
+a _ { c A } = \frac { 8 } { 5 } g \sin \alpha ， v _ { s 4 } = \sqrt { \frac { 8 g } { 5 } g h } ， \omega _ { 4 } = 1 0 \sqrt { \frac { 8 } { 5 } \cdot g h }  
 (2)同样结构的球(实或空)a与m，r无关，
 B \cap \varphi \approx \frac { 1 } { r }  
 同样的材料、同样尺寸，则
@@ -4407,20 +4349,20 @@ a _ { c } ， + \infty \subset \frac { 1 } { T }
 2 8 \cdot \omega _ { O } > \frac { 5 } { z } \cdot \frac { v _ { v } } { R }  时成为“来去”， \omega _ { 0 } = \frac { 2 } { 5 } \cdot \frac { v _ { g } } { R }  ，则同时停转又停止
 2 9 \cdot u \geqslant \frac { 1 } { 3 } - t g \alpha  
 第十一章
-1 \cdot \pi = 1 . 5 7 \times 1 0 ^ { - }  秒
+1 \cdot \uppi = 1 . 5 7 \times 1 0 ^ { - }  秒
 2 \cdot v _ B ^ { \prime } = - 0 . 9 5 c  
 5.(1)160公里/秒
 (2)40公里/秒
 (3)V前投=159.9999893公里/秒，V后投=40.00000266公里/秒
 6.车上乘客认为”先开枪，过了10毫微秒A才动手
 7 \cdot \left( 1 \right) E \% = 5 . 8 1 \times 1 0 - 1 s  焦耳
-(2 s i n \left( \zeta \right) = 4 . 0 2 \times 1 0 ^ { - 1 } \cdot  焦耳，Ex(相)=4.99×10-13焦耳，
+(2 \sin \left( \zeta \right) = 4 . 0 2 \times 1 0 ^ { - 1 } \cdot  焦耳，Ex(相)=4.99×10-13焦耳，
 E _ { x } \left( \zeta \right) / E _ { n } \left( z \right) \cup 0 . 0 8  
 % 398.jpg
 8.少算 \forall \triangle E _ { r } 2 . 7 \times 1  0焦耳，用它可将飞船从地面上升高0.34米
 9. p = 7 . 4 7 \times 1 0 ^ { - 1 }  8公斤米/秒
 E = 2 . 5 3 \times 1 0 ^ { - 8 }  焦耳
-m _ { 0 } = 1 . 3 1 \times 1 0 ^ { - } x ^ { 2 } \pi \approx 8  个质量数
+m _ { 0 } = 1 . 3 1 \times 1 0 ^ { - } x ^ { 2 } \uppi \approx 8  个质量数
 1 0 . 4 . 2 5 8 \times 1 0 ^ { - 1 } x \notin K = 2 . 6 5 \times 1 0 ^ { 1 }  电子伏特
 1 1 . \left( 1 \right) 4 . 8 \times 1 0 ^ { - } x ^ { 4 }  焦耳
 \left( 2 \right) v = 3 \times 1 0 ^ { 7 }  7米/秒
@@ -4434,13 +4376,13 @@ E相牛≈15
 (2) \alpha = 0  ， T = m g 
 \left( 3 \right) \alpha = t g ^ { - 1 } \frac { a } { g }  
 ， T = m \sqrt { a ^ { x } + g ^ { / } } 
-\left( 4 \right) \alpha = \theta  ， T = m g c o s \theta 
-\left( 5 \right) \alpha = t g ^ { - 1 } \frac { b c o s \theta } { g + b s i n \theta }  
-T = \sqrt { m } \sqrt { g ^ { 3 } + b ^ { 3 } + 2 g s i n \theta }  
-\left( 6 \right) a = t e ^ { - 1 } \frac { b c o s \theta } { g - b s i n \theta }  
-T = m \cdot \overrightarrow { g } ^ { / } + b ^ { / } - 2 b g s i n \theta ^ { - } }  
+\left( 4 \right) \alpha = \theta  ， T = m g \cos \theta 
+\left( 5 \right) \alpha = t g ^ { - 1 } \frac { b \cos \theta } { g + b \sin \theta }  
+T = \sqrt { m } \sqrt { g ^ { 3 } + b ^ { 3 } + 2 g \sin \theta }  
+\left( 6 \right) a = t e ^ { - 1 } \frac { b \cos \theta } { g - b \sin \theta }  
+T = m \cdot \overrightarrow { g } ^ { / } + b ^ { / } - 2 b g \sin \theta ^ { - } }  
 式中a为小球处于平衡位置时悬线与指向地面铅垂线之间的夹角
-4.(1) U = m g J \left( 1 - c o s \alpha \right)  ，设摆锤在最低点时位能为零
+4.(1) U = m g J \left( 1 - \cos \alpha \right)  ，设摆锤在最低点时位能为零
 (2)
 A = \int _ 0 ^ { + \infty } { 2 }  
 (3)
@@ -4453,9 +4395,9 @@ a _ { m a x } = 2 t g ^ { - 1 } \frac { a } { g }
 5.见第三章例7
 6.设g为地球海平面的重力加速度，g为飞机所在处的重力加速度
 F为驾驶员作用于座位上的力，F与向下的竖直方向夹角为
-\left( 1 \right) F = \frac { K } { g _ { 0 } } \times \sqrt { a ^ { / } } + g ^ { / } } { 2 a g c o s \theta }  
+\left( 1 \right) F = \frac { K } { g _ { 0 } } \times \sqrt { a ^ { / } } + g ^ { / } } { 2 a g \cos \theta }  
 ，
-\varphi = t g ^ { - 1 } \frac { a s i n \theta } { g + a c o s \theta }  
+\varphi = t g ^ { - 1 } \frac { a \sin \theta } { g + a \cos \theta }  
 \left( 2 \right) F = U \frac { g + a } { g _ { 0 } } ， \varphi = 0  
 (3)
 = \frac { P } { g _ { 0 } } \sqrt { a ^ { 8 } + \phi _ { e } } ， \varphi = t g ^ { - }  
@@ -4471,5 +4413,5 @@ F = P \frac { g } { g _ { 0 } }
 1 . \left( 1 \right) A B = \omega \frac { R ^ { \prime } } { v } \left( 2 \right) A B = 4 \omega - \frac { R ^ { 3 } } { v } 
 1 3 . f = \left( - 0 . 0 5 j + 0 . 0 6 k \right)  牛顿
 向南向上，抵消一部分重力
-1 4 . a = g 8 ， \theta = 1 . 5 6 \times 1 0 ^ { - 1 1 } \pi \notin Z ， \forall v \geqslant U ^ { \circ }   \exists a = 1 . 5 3 \times 1 0 ^ { - 1 0 } \}  /秒，方向沿
+1 4 . a = g 8 ， \theta = 1 . 5 6 \times 1 0 ^ { - 1 1 } \uppi \notin Z ， \forall v \geqslant U ^ { \circ }   \exists a = 1 . 5 3 \times 1 0 ^ { - 1 0 } \}  /秒，方向沿
 着地面二者之联线
